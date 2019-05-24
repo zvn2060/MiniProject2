@@ -1,0 +1,3 @@
+D:/Documents/I2P 2/Mini2/cmake-build-debug/CMakeFiles/edit_cache.dir
+D:/Documents/I2P 2/Mini2/cmake-build-debug/CMakeFiles/Mini2.dir
+D:/Documents/I2P 2/Mini2/cmake-build-debug/CMakeFiles/rebuild_cache.dir

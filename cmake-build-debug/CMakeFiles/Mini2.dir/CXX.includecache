@@ -1,0 +1,1168 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../allegro5/include/allegro5/alcompat.h
+
+../allegro5/include/allegro5/allegro.h
+allegro5/base.h
+../allegro5/include/allegro5/allegro5/base.h
+allegro5/altime.h
+../allegro5/include/allegro5/allegro5/altime.h
+allegro5/bitmap.h
+../allegro5/include/allegro5/allegro5/bitmap.h
+allegro5/bitmap_draw.h
+../allegro5/include/allegro5/allegro5/bitmap_draw.h
+allegro5/bitmap_io.h
+../allegro5/include/allegro5/allegro5/bitmap_io.h
+allegro5/bitmap_lock.h
+../allegro5/include/allegro5/allegro5/bitmap_lock.h
+allegro5/blender.h
+../allegro5/include/allegro5/allegro5/blender.h
+allegro5/clipboard.h
+../allegro5/include/allegro5/allegro5/clipboard.h
+allegro5/color.h
+../allegro5/include/allegro5/allegro5/color.h
+allegro5/config.h
+../allegro5/include/allegro5/allegro5/config.h
+allegro5/cpu.h
+../allegro5/include/allegro5/allegro5/cpu.h
+allegro5/debug.h
+../allegro5/include/allegro5/allegro5/debug.h
+allegro5/display.h
+../allegro5/include/allegro5/allegro5/display.h
+allegro5/drawing.h
+../allegro5/include/allegro5/allegro5/drawing.h
+allegro5/error.h
+../allegro5/include/allegro5/allegro5/error.h
+allegro5/events.h
+../allegro5/include/allegro5/allegro5/events.h
+allegro5/file.h
+../allegro5/include/allegro5/allegro5/file.h
+allegro5/fixed.h
+../allegro5/include/allegro5/allegro5/fixed.h
+allegro5/fmaths.h
+../allegro5/include/allegro5/allegro5/fmaths.h
+allegro5/fshook.h
+../allegro5/include/allegro5/allegro5/fshook.h
+allegro5/fullscreen_mode.h
+../allegro5/include/allegro5/allegro5/fullscreen_mode.h
+allegro5/haptic.h
+../allegro5/include/allegro5/allegro5/haptic.h
+allegro5/joystick.h
+../allegro5/include/allegro5/allegro5/joystick.h
+allegro5/keyboard.h
+../allegro5/include/allegro5/allegro5/keyboard.h
+allegro5/memory.h
+../allegro5/include/allegro5/allegro5/memory.h
+allegro5/monitor.h
+../allegro5/include/allegro5/allegro5/monitor.h
+allegro5/mouse.h
+../allegro5/include/allegro5/allegro5/mouse.h
+allegro5/mouse_cursor.h
+../allegro5/include/allegro5/allegro5/mouse_cursor.h
+allegro5/path.h
+../allegro5/include/allegro5/allegro5/path.h
+allegro5/render_state.h
+../allegro5/include/allegro5/allegro5/render_state.h
+allegro5/shader.h
+../allegro5/include/allegro5/allegro5/shader.h
+allegro5/system.h
+../allegro5/include/allegro5/allegro5/system.h
+allegro5/threads.h
+../allegro5/include/allegro5/allegro5/threads.h
+allegro5/timer.h
+../allegro5/include/allegro5/allegro5/timer.h
+allegro5/tls.h
+../allegro5/include/allegro5/allegro5/tls.h
+allegro5/touch_input.h
+../allegro5/include/allegro5/allegro5/touch_input.h
+allegro5/transformations.h
+../allegro5/include/allegro5/allegro5/transformations.h
+allegro5/utf8.h
+../allegro5/include/allegro5/allegro5/utf8.h
+allegro5/alcompat.h
+../allegro5/include/allegro5/allegro5/alcompat.h
+
+../allegro5/include/allegro5/allegro_acodec.h
+allegro5/allegro.h
+../allegro5/include/allegro5/allegro5/allegro.h
+allegro5/allegro_audio.h
+../allegro5/include/allegro5/allegro5/allegro_audio.h
+
+../allegro5/include/allegro5/allegro_audio.h
+allegro5/allegro.h
+../allegro5/include/allegro5/allegro5/allegro.h
+
+../allegro5/include/allegro5/allegro_font.h
+allegro5/allegro.h
+../allegro5/include/allegro5/allegro5/allegro.h
+
+../allegro5/include/allegro5/allegro_image.h
+allegro5/base.h
+../allegro5/include/allegro5/allegro5/base.h
+
+../allegro5/include/allegro5/allegro_primitives.h
+allegro5/allegro.h
+-
+
+../allegro5/include/allegro5/allegro_ttf.h
+allegro5/allegro.h
+../allegro5/include/allegro5/allegro5/allegro.h
+allegro5/allegro_font.h
+../allegro5/include/allegro5/allegro5/allegro_font.h
+
+../allegro5/include/allegro5/altime.h
+allegro5/base.h
+../allegro5/include/allegro5/allegro5/base.h
+
+../allegro5/include/allegro5/base.h
+errno.h
+-
+limits.h
+-
+limits.h
+-
+stdarg.h
+-
+stddef.h
+-
+stdlib.h
+-
+time.h
+-
+string.h
+-
+sys/types.h
+-
+fortify/fortify.h
+-
+dmalloc.h
+-
+allegro5/internal/alconfig.h
+../allegro5/include/allegro5/allegro5/internal/alconfig.h
+
+../allegro5/include/allegro5/bitmap.h
+allegro5/color.h
+../allegro5/include/allegro5/allegro5/color.h
+
+../allegro5/include/allegro5/bitmap_draw.h
+allegro5/bitmap.h
+../allegro5/include/allegro5/allegro5/bitmap.h
+
+../allegro5/include/allegro5/bitmap_io.h
+allegro5/bitmap.h
+../allegro5/include/allegro5/allegro5/bitmap.h
+allegro5/file.h
+../allegro5/include/allegro5/allegro5/file.h
+
+../allegro5/include/allegro5/bitmap_lock.h
+allegro5/bitmap.h
+../allegro5/include/allegro5/allegro5/bitmap.h
+
+../allegro5/include/allegro5/blender.h
+allegro5/base.h
+../allegro5/include/allegro5/allegro5/base.h
+allegro5/color.h
+../allegro5/include/allegro5/allegro5/color.h
+
+../allegro5/include/allegro5/clipboard.h
+allegro5/base.h
+../allegro5/include/allegro5/allegro5/base.h
+allegro5/display.h
+../allegro5/include/allegro5/allegro5/display.h
+allegro5/utf8.h
+../allegro5/include/allegro5/allegro5/utf8.h
+
+../allegro5/include/allegro5/color.h
+allegro5/base.h
+../allegro5/include/allegro5/allegro5/base.h
+
+../allegro5/include/allegro5/config.h
+allegro5/file.h
+../allegro5/include/allegro5/allegro5/file.h
+
+../allegro5/include/allegro5/cpu.h
+allegro5/base.h
+../allegro5/include/allegro5/allegro5/base.h
+
+../allegro5/include/allegro5/debug.h
+assert.h
+-
+allegro5/base.h
+../allegro5/include/allegro5/allegro5/base.h
+
+../allegro5/include/allegro5/display.h
+allegro5/bitmap.h
+../allegro5/include/allegro5/allegro5/bitmap.h
+allegro5/color.h
+../allegro5/include/allegro5/allegro5/color.h
+allegro5/events.h
+../allegro5/include/allegro5/allegro5/events.h
+
+../allegro5/include/allegro5/drawing.h
+allegro5/color.h
+../allegro5/include/allegro5/allegro5/color.h
+
+../allegro5/include/allegro5/error.h
+allegro5/base.h
+../allegro5/include/allegro5/allegro5/base.h
+
+../allegro5/include/allegro5/events.h
+allegro5/altime.h
+../allegro5/include/allegro5/allegro5/altime.h
+
+../allegro5/include/allegro5/file.h
+allegro5/base.h
+../allegro5/include/allegro5/allegro5/base.h
+allegro5/path.h
+../allegro5/include/allegro5/allegro5/path.h
+allegro5/utf8.h
+../allegro5/include/allegro5/allegro5/utf8.h
+
+../allegro5/include/allegro5/fixed.h
+allegro5/base.h
+../allegro5/include/allegro5/allegro5/base.h
+
+../allegro5/include/allegro5/fmaths.h
+allegro5/base.h
+../allegro5/include/allegro5/allegro5/base.h
+allegro5/fixed.h
+../allegro5/include/allegro5/allegro5/fixed.h
+allegro5/inline/fmaths.inl
+../allegro5/include/allegro5/allegro5/inline/fmaths.inl
+
+../allegro5/include/allegro5/fshook.h
+allegro5/base.h
+../allegro5/include/allegro5/allegro5/base.h
+allegro5/file.h
+../allegro5/include/allegro5/allegro5/file.h
+allegro5/path.h
+../allegro5/include/allegro5/allegro5/path.h
+sys/types.h
+-
+
+../allegro5/include/allegro5/fullscreen_mode.h
+allegro5/base.h
+../allegro5/include/allegro5/allegro5/base.h
+
+../allegro5/include/allegro5/haptic.h
+allegro5/base.h
+../allegro5/include/allegro5/allegro5/base.h
+allegro5/display.h
+../allegro5/include/allegro5/allegro5/display.h
+allegro5/events.h
+../allegro5/include/allegro5/allegro5/events.h
+allegro5/joystick.h
+../allegro5/include/allegro5/allegro5/joystick.h
+allegro5/keyboard.h
+../allegro5/include/allegro5/allegro5/keyboard.h
+allegro5/mouse.h
+../allegro5/include/allegro5/allegro5/mouse.h
+allegro5/touch_input.h
+../allegro5/include/allegro5/allegro5/touch_input.h
+
+../allegro5/include/allegro5/inline/fmaths.inl
+allegro5/error.h
+../allegro5/include/allegro5/inline/allegro5/error.h
+
+../allegro5/include/allegro5/internal/alconfig.h
+allegro5/platform/alplatf.h
+../allegro5/include/allegro5/internal/allegro5/platform/alplatf.h
+allegro5/platform/alwatcom.h
+../allegro5/include/allegro5/internal/allegro5/platform/alwatcom.h
+allegro5/platform/almngw32.h
+../allegro5/include/allegro5/internal/allegro5/platform/almngw32.h
+allegro5/platform/albcc32.h
+../allegro5/include/allegro5/internal/allegro5/platform/albcc32.h
+allegro5/platform/almsvc.h
+../allegro5/include/allegro5/internal/allegro5/platform/almsvc.h
+allegro5/platform/aliphonecfg.h
+../allegro5/include/allegro5/internal/allegro5/platform/aliphonecfg.h
+allegro5/platform/alosxcfg.h
+../allegro5/include/allegro5/internal/allegro5/platform/alosxcfg.h
+allegro5/platform/alandroidcfg.h
+../allegro5/include/allegro5/internal/allegro5/platform/alandroidcfg.h
+allegro5/platform/alraspberrypicfg.h
+../allegro5/include/allegro5/internal/allegro5/platform/alraspberrypicfg.h
+allegro5/platform/alucfg.h
+../allegro5/include/allegro5/internal/allegro5/platform/alucfg.h
+allegro5/platform/allegro_sdl_config.h
+../allegro5/include/allegro5/internal/allegro5/platform/allegro_sdl_config.h
+allegro5/platform/astdint.h
+../allegro5/include/allegro5/internal/allegro5/platform/astdint.h
+allegro5/platform/astdbool.h
+../allegro5/include/allegro5/internal/allegro5/platform/astdbool.h
+
+../allegro5/include/allegro5/joystick.h
+allegro5/base.h
+../allegro5/include/allegro5/allegro5/base.h
+allegro5/events.h
+../allegro5/include/allegro5/allegro5/events.h
+
+../allegro5/include/allegro5/keyboard.h
+allegro5/base.h
+../allegro5/include/allegro5/allegro5/base.h
+allegro5/events.h
+../allegro5/include/allegro5/allegro5/events.h
+allegro5/keycodes.h
+../allegro5/include/allegro5/allegro5/keycodes.h
+
+../allegro5/include/allegro5/keycodes.h
+
+../allegro5/include/allegro5/memory.h
+allegro5/base.h
+../allegro5/include/allegro5/allegro5/base.h
+
+../allegro5/include/allegro5/monitor.h
+allegro5/base.h
+../allegro5/include/allegro5/allegro5/base.h
+
+../allegro5/include/allegro5/mouse.h
+allegro5/base.h
+../allegro5/include/allegro5/allegro5/base.h
+allegro5/events.h
+../allegro5/include/allegro5/allegro5/events.h
+
+../allegro5/include/allegro5/mouse_cursor.h
+allegro5/base.h
+../allegro5/include/allegro5/allegro5/base.h
+
+../allegro5/include/allegro5/path.h
+allegro5/base.h
+../allegro5/include/allegro5/allegro5/base.h
+
+../allegro5/include/allegro5/platform/alandroidcfg.h
+
+../allegro5/include/allegro5/platform/albcc32.h
+io.h
+-
+fcntl.h
+-
+direct.h
+-
+malloc.h
+-
+
+../allegro5/include/allegro5/platform/aliphonecfg.h
+fcntl.h
+-
+unistd.h
+-
+
+../allegro5/include/allegro5/platform/allegro_sdl_config.h
+fcntl.h
+-
+unistd.h
+-
+
+../allegro5/include/allegro5/platform/almngw32.h
+io.h
+-
+fcntl.h
+-
+direct.h
+-
+malloc.h
+-
+allegro5/platform/alplatf.h
+../allegro5/include/allegro5/platform/allegro5/platform/alplatf.h
+
+../allegro5/include/allegro5/platform/almsvc.h
+io.h
+-
+fcntl.h
+-
+direct.h
+-
+malloc.h
+-
+allegro5/platform/alplatf.h
+../allegro5/include/allegro5/platform/allegro5/platform/alplatf.h
+
+../allegro5/include/allegro5/platform/alosxcfg.h
+allegro5/platform/alplatf.h
+../allegro5/include/allegro5/platform/allegro5/platform/alplatf.h
+
+../allegro5/include/allegro5/platform/alplatf.h
+
+../allegro5/include/allegro5/platform/alraspberrypicfg.h
+fcntl.h
+-
+unistd.h
+-
+sys/types.h
+-
+
+../allegro5/include/allegro5/platform/alucfg.h
+fcntl.h
+-
+unistd.h
+-
+alunix.h
+../allegro5/include/allegro5/platform/alunix.h
+allegro5/platform/alplatf.h
+../allegro5/include/allegro5/platform/allegro5/platform/alplatf.h
+
+../allegro5/include/allegro5/platform/alunix.h
+
+../allegro5/include/allegro5/platform/alwatcom.h
+io.h
+-
+i86.h
+-
+conio.h
+-
+fcntl.h
+-
+direct.h
+-
+malloc.h
+-
+
+../allegro5/include/allegro5/platform/astdbool.h
+stdbool.h
+-
+
+../allegro5/include/allegro5/platform/astdint.h
+inttypes.h
+-
+stdint.h
+-
+
+../allegro5/include/allegro5/render_state.h
+allegro5/base.h
+../allegro5/include/allegro5/allegro5/base.h
+
+../allegro5/include/allegro5/shader.h
+allegro5/base.h
+../allegro5/include/allegro5/allegro5/base.h
+allegro5/transformations.h
+../allegro5/include/allegro5/allegro5/transformations.h
+
+../allegro5/include/allegro5/system.h
+allegro5/config.h
+../allegro5/include/allegro5/allegro5/config.h
+allegro5/path.h
+../allegro5/include/allegro5/allegro5/path.h
+
+../allegro5/include/allegro5/threads.h
+allegro5/altime.h
+../allegro5/include/allegro5/allegro5/altime.h
+
+../allegro5/include/allegro5/timer.h
+allegro5/base.h
+../allegro5/include/allegro5/allegro5/base.h
+allegro5/events.h
+../allegro5/include/allegro5/allegro5/events.h
+
+../allegro5/include/allegro5/tls.h
+allegro5/base.h
+../allegro5/include/allegro5/allegro5/base.h
+
+../allegro5/include/allegro5/touch_input.h
+allegro5/base.h
+../allegro5/include/allegro5/allegro5/base.h
+allegro5/events.h
+../allegro5/include/allegro5/allegro5/events.h
+
+../allegro5/include/allegro5/transformations.h
+allegro5/display.h
+../allegro5/include/allegro5/allegro5/display.h
+
+../allegro5/include/allegro5/utf8.h
+allegro5/base.h
+../allegro5/include/allegro5/allegro5/base.h
+
+../include/Allegro5Exception.hpp
+string
+-
+stdexcept
+-
+
+../include/AudioHelper.hpp
+allegro5/allegro_acodec.h
+../include/allegro5/allegro_acodec.h
+
+../include/Bullet.hpp
+Sprite.hpp
+../include/Sprite.hpp
+Collider.hpp
+../include/Collider.hpp
+Enemy.hpp
+../include/Enemy.hpp
+Turret.hpp
+../include/Turret.hpp
+random
+-
+
+../include/Collider.hpp
+memory
+-
+allegro5/bitmap.h
+-
+Point.hpp
+../include/Point.hpp
+
+../include/DirtyEffect.hpp
+Sprite.hpp
+../include/Sprite.hpp
+
+../include/Enemy.hpp
+GameEngine.hpp
+../include/GameEngine.hpp
+Scenes/PlayScene.hpp
+../include/Scenes/PlayScene.hpp
+Point.hpp
+../include/Point.hpp
+Sprite.hpp
+../include/Sprite.hpp
+Turret.hpp
+../include/Turret.hpp
+
+../include/ExplosionEffect.hpp
+Sprite.hpp
+../include/Sprite.hpp
+Scenes/PlayScene.hpp
+../include/Scenes/PlayScene.hpp
+
+../include/FireBullet.hpp
+Bullet.hpp
+../include/Bullet.hpp
+
+../include/GameEngine.hpp
+unordered_map
+-
+allegro5/allegro.h
+-
+IScene.hpp
+../include/IScene.hpp
+Point.hpp
+../include/Point.hpp
+
+../include/Group.hpp
+list
+-
+IObject.hpp
+../include/IObject.hpp
+IControl.hpp
+../include/IControl.hpp
+
+../include/IControl.hpp
+list
+-
+
+../include/IObject.hpp
+list
+-
+Point.hpp
+../include/Point.hpp
+
+../include/IScene.hpp
+list
+-
+Group.hpp
+../include/Group.hpp
+
+../include/Image.hpp
+string
+-
+memory
+-
+allegro5/allegro.h
+-
+IObject.hpp
+../include/IObject.hpp
+
+../include/ImageButton.hpp
+memory
+-
+functional
+-
+allegro5/allegro.h
+-
+IControl.hpp
+../include/IControl.hpp
+Image.hpp
+../include/Image.hpp
+Collider.hpp
+../include/Collider.hpp
+GameEngine.hpp
+../include/GameEngine.hpp
+Resources.hpp
+../include/Resources.hpp
+
+../include/LOG.hpp
+iostream
+-
+fstream
+-
+
+../include/Label.hpp
+string
+-
+memory
+-
+allegro5/allegro.h
+-
+allegro5/allegro_font.h
+-
+IObject.hpp
+../include/IObject.hpp
+Point.hpp
+../include/Point.hpp
+Resources.hpp
+../include/Resources.hpp
+
+../include/LaserBullet.hpp
+Bullet.hpp
+../include/Bullet.hpp
+
+../include/LaserTurret.hpp
+Scenes/PlayScene.hpp
+../include/Scenes/PlayScene.hpp
+Bullet.hpp
+../include/Bullet.hpp
+Turret.hpp
+../include/Turret.hpp
+
+../include/MachineGunTurret.hpp
+Scenes/PlayScene.hpp
+../include/Scenes/PlayScene.hpp
+Bullet.hpp
+../include/Bullet.hpp
+Turret.hpp
+../include/Turret.hpp
+
+../include/MissileBullet.hpp
+Bullet.hpp
+../include/Bullet.hpp
+
+../include/MissileTurret.hpp
+Scenes/PlayScene.hpp
+../include/Scenes/PlayScene.hpp
+Bullet.hpp
+../include/Bullet.hpp
+Turret.hpp
+../include/Turret.hpp
+
+../include/Plane.hpp
+Sprite.hpp
+../include/Sprite.hpp
+Scenes/PlayScene.hpp
+../include/Scenes/PlayScene.hpp
+
+../include/PlaneEnemy.hpp
+Enemy.hpp
+../include/Enemy.hpp
+
+../include/Point.hpp
+
+../include/Resources.hpp
+memory
+-
+unordered_map
+-
+allegro5/allegro_font.h
+-
+allegro5/allegro_acodec.h
+-
+
+../include/Scenes/LoseScene.hpp
+IScene.hpp
+../include/Scenes/IScene.hpp
+GameEngine.hpp
+../include/Scenes/GameEngine.hpp
+ImageButton.hpp
+../include/Scenes/ImageButton.hpp
+
+../include/Scenes/PlayScene.hpp
+vector
+-
+IScene.hpp
+../include/Scenes/IScene.hpp
+Sprite.hpp
+../include/Scenes/Sprite.hpp
+Label.hpp
+../include/Scenes/Label.hpp
+Turret.hpp
+../include/Scenes/Turret.hpp
+
+../include/Scenes/StageSelectScene.hpp
+IScene.hpp
+../include/Scenes/IScene.hpp
+GameEngine.hpp
+../include/Scenes/GameEngine.hpp
+ImageButton.hpp
+../include/Scenes/ImageButton.hpp
+
+../include/Scenes/WinScene.hpp
+IScene.hpp
+../include/Scenes/IScene.hpp
+GameEngine.hpp
+../include/Scenes/GameEngine.hpp
+ImageButton.hpp
+../include/Scenes/ImageButton.hpp
+
+../include/Slider.hpp
+ImageButton.hpp
+../include/ImageButton.hpp
+
+../include/SoldierEnemy.hpp
+Enemy.hpp
+../include/Enemy.hpp
+
+../include/Sprite.hpp
+string
+-
+allegro5/allegro.h
+-
+Point.hpp
+../include/Point.hpp
+Image.hpp
+../include/Image.hpp
+
+../include/TankEnemy.hpp
+Enemy.hpp
+../include/Enemy.hpp
+
+../include/Turret.hpp
+Sprite.hpp
+../include/Sprite.hpp
+Scenes/PlayScene.hpp
+../include/Scenes/PlayScene.hpp
+Enemy.hpp
+../include/Enemy.hpp
+Bullet.hpp
+../include/Bullet.hpp
+
+../include/TurretButton.hpp
+ImageButton.hpp
+../include/ImageButton.hpp
+Sprite.hpp
+../include/Sprite.hpp
+Scenes/PlayScene.hpp
+../include/Scenes/PlayScene.hpp
+
+D:/Documents/I2P 2/Mini2/src/Allegro5Exception.cpp
+string
+-
+stdexcept
+-
+Allegro5Exception.hpp
+D:/Documents/I2P 2/Mini2/src/Allegro5Exception.hpp
+
+D:/Documents/I2P 2/Mini2/src/AudioHelper.cpp
+LOG.hpp
+D:/Documents/I2P 2/Mini2/src/LOG.hpp
+AudioHelper.hpp
+D:/Documents/I2P 2/Mini2/src/AudioHelper.hpp
+Resources.hpp
+D:/Documents/I2P 2/Mini2/src/Resources.hpp
+
+D:/Documents/I2P 2/Mini2/src/Bullet.cpp
+Sprite.hpp
+D:/Documents/I2P 2/Mini2/src/Sprite.hpp
+Collider.hpp
+D:/Documents/I2P 2/Mini2/src/Collider.hpp
+Enemy.hpp
+D:/Documents/I2P 2/Mini2/src/Enemy.hpp
+Turret.hpp
+D:/Documents/I2P 2/Mini2/src/Turret.hpp
+Bullet.hpp
+D:/Documents/I2P 2/Mini2/src/Bullet.hpp
+LOG.hpp
+D:/Documents/I2P 2/Mini2/src/LOG.hpp
+DirtyEffect.hpp
+D:/Documents/I2P 2/Mini2/src/DirtyEffect.hpp
+
+D:/Documents/I2P 2/Mini2/src/Collider.cpp
+memory
+-
+allegro5/bitmap.h
+-
+Point.hpp
+D:/Documents/I2P 2/Mini2/src/Point.hpp
+Collider.hpp
+D:/Documents/I2P 2/Mini2/src/Collider.hpp
+
+D:/Documents/I2P 2/Mini2/src/DirtyEffect.cpp
+GameEngine.hpp
+D:/Documents/I2P 2/Mini2/src/GameEngine.hpp
+Scenes/PlayScene.hpp
+D:/Documents/I2P 2/Mini2/src/Scenes/PlayScene.hpp
+DirtyEffect.hpp
+D:/Documents/I2P 2/Mini2/src/DirtyEffect.hpp
+random
+-
+
+D:/Documents/I2P 2/Mini2/src/Enemy.cpp
+random
+-
+allegro5/allegro_primitives.h
+-
+Scenes/PlayScene.hpp
+D:/Documents/I2P 2/Mini2/src/Scenes/PlayScene.hpp
+Label.hpp
+D:/Documents/I2P 2/Mini2/src/Label.hpp
+Enemy.hpp
+D:/Documents/I2P 2/Mini2/src/Enemy.hpp
+ExplosionEffect.hpp
+D:/Documents/I2P 2/Mini2/src/ExplosionEffect.hpp
+DirtyEffect.hpp
+D:/Documents/I2P 2/Mini2/src/DirtyEffect.hpp
+MachineGunTurret.hpp
+D:/Documents/I2P 2/Mini2/src/MachineGunTurret.hpp
+AudioHelper.hpp
+D:/Documents/I2P 2/Mini2/src/AudioHelper.hpp
+
+D:/Documents/I2P 2/Mini2/src/ExplosionEffect.cpp
+GameEngine.hpp
+D:/Documents/I2P 2/Mini2/src/GameEngine.hpp
+Scenes/PlayScene.hpp
+D:/Documents/I2P 2/Mini2/src/Scenes/PlayScene.hpp
+ExplosionEffect.hpp
+D:/Documents/I2P 2/Mini2/src/ExplosionEffect.hpp
+AudioHelper.hpp
+D:/Documents/I2P 2/Mini2/src/AudioHelper.hpp
+
+D:/Documents/I2P 2/Mini2/src/FireBullet.cpp
+FireBullet.hpp
+D:/Documents/I2P 2/Mini2/src/FireBullet.hpp
+DirtyEffect.hpp
+D:/Documents/I2P 2/Mini2/src/DirtyEffect.hpp
+
+D:/Documents/I2P 2/Mini2/src/GameEngine.cpp
+string
+-
+memory
+-
+chrono
+-
+allegro5/allegro.h
+-
+allegro5/allegro_image.h
+-
+allegro5/allegro_primitives.h
+-
+allegro5/allegro_ttf.h
+-
+GameEngine.hpp
+D:/Documents/I2P 2/Mini2/src/GameEngine.hpp
+Resources.hpp
+D:/Documents/I2P 2/Mini2/src/Resources.hpp
+LOG.hpp
+D:/Documents/I2P 2/Mini2/src/LOG.hpp
+Allegro5Exception.hpp
+D:/Documents/I2P 2/Mini2/src/Allegro5Exception.hpp
+Point.hpp
+D:/Documents/I2P 2/Mini2/src/Point.hpp
+IScene.hpp
+D:/Documents/I2P 2/Mini2/src/IScene.hpp
+
+D:/Documents/I2P 2/Mini2/src/Group.cpp
+stdexcept
+-
+allegro5/allegro.h
+-
+IObject.hpp
+D:/Documents/I2P 2/Mini2/src/IObject.hpp
+IControl.hpp
+D:/Documents/I2P 2/Mini2/src/IControl.hpp
+Group.hpp
+D:/Documents/I2P 2/Mini2/src/Group.hpp
+
+D:/Documents/I2P 2/Mini2/src/IControl.cpp
+IControl.hpp
+D:/Documents/I2P 2/Mini2/src/IControl.hpp
+
+D:/Documents/I2P 2/Mini2/src/IObject.cpp
+Point.hpp
+D:/Documents/I2P 2/Mini2/src/Point.hpp
+IObject.hpp
+D:/Documents/I2P 2/Mini2/src/IObject.hpp
+
+D:/Documents/I2P 2/Mini2/src/IScene.cpp
+allegro5/allegro.h
+-
+IObject.hpp
+D:/Documents/I2P 2/Mini2/src/IObject.hpp
+IControl.hpp
+D:/Documents/I2P 2/Mini2/src/IControl.hpp
+IScene.hpp
+D:/Documents/I2P 2/Mini2/src/IScene.hpp
+
+D:/Documents/I2P 2/Mini2/src/Image.cpp
+string
+-
+memory
+-
+allegro5/allegro.h
+-
+IObject.hpp
+D:/Documents/I2P 2/Mini2/src/IObject.hpp
+Resources.hpp
+D:/Documents/I2P 2/Mini2/src/Resources.hpp
+Image.hpp
+D:/Documents/I2P 2/Mini2/src/Image.hpp
+
+D:/Documents/I2P 2/Mini2/src/ImageButton.cpp
+memory
+-
+functional
+-
+allegro5/allegro.h
+-
+IControl.hpp
+D:/Documents/I2P 2/Mini2/src/IControl.hpp
+Image.hpp
+D:/Documents/I2P 2/Mini2/src/Image.hpp
+Collider.hpp
+D:/Documents/I2P 2/Mini2/src/Collider.hpp
+GameEngine.hpp
+D:/Documents/I2P 2/Mini2/src/GameEngine.hpp
+Resources.hpp
+D:/Documents/I2P 2/Mini2/src/Resources.hpp
+ImageButton.hpp
+D:/Documents/I2P 2/Mini2/src/ImageButton.hpp
+allegro5/allegro_primitives.h
+-
+
+D:/Documents/I2P 2/Mini2/src/LOG.cpp
+iostream
+-
+fstream
+-
+LOG.hpp
+D:/Documents/I2P 2/Mini2/src/LOG.hpp
+
+D:/Documents/I2P 2/Mini2/src/Label.cpp
+string
+-
+memory
+-
+allegro5/allegro.h
+-
+allegro5/allegro_font.h
+-
+IObject.hpp
+D:/Documents/I2P 2/Mini2/src/IObject.hpp
+Point.hpp
+D:/Documents/I2P 2/Mini2/src/Point.hpp
+Resources.hpp
+D:/Documents/I2P 2/Mini2/src/Resources.hpp
+Label.hpp
+D:/Documents/I2P 2/Mini2/src/Label.hpp
+
+D:/Documents/I2P 2/Mini2/src/LaserBullet.cpp
+LaserBullet.hpp
+D:/Documents/I2P 2/Mini2/src/LaserBullet.hpp
+DirtyEffect.hpp
+D:/Documents/I2P 2/Mini2/src/DirtyEffect.hpp
+
+D:/Documents/I2P 2/Mini2/src/LaserTurret.cpp
+Scenes/PlayScene.hpp
+D:/Documents/I2P 2/Mini2/src/Scenes/PlayScene.hpp
+LaserBullet.hpp
+D:/Documents/I2P 2/Mini2/src/LaserBullet.hpp
+LaserTurret.hpp
+D:/Documents/I2P 2/Mini2/src/LaserTurret.hpp
+AudioHelper.hpp
+D:/Documents/I2P 2/Mini2/src/AudioHelper.hpp
+
+D:/Documents/I2P 2/Mini2/src/MachineGunTurret.cpp
+Scenes/PlayScene.hpp
+D:/Documents/I2P 2/Mini2/src/Scenes/PlayScene.hpp
+MachineGunTurret.hpp
+D:/Documents/I2P 2/Mini2/src/MachineGunTurret.hpp
+FireBullet.hpp
+D:/Documents/I2P 2/Mini2/src/FireBullet.hpp
+AudioHelper.hpp
+D:/Documents/I2P 2/Mini2/src/AudioHelper.hpp
+
+D:/Documents/I2P 2/Mini2/src/MissileBullet.cpp
+MissileBullet.hpp
+D:/Documents/I2P 2/Mini2/src/MissileBullet.hpp
+DirtyEffect.hpp
+D:/Documents/I2P 2/Mini2/src/DirtyEffect.hpp
+
+D:/Documents/I2P 2/Mini2/src/MissileTurret.cpp
+Scenes/PlayScene.hpp
+D:/Documents/I2P 2/Mini2/src/Scenes/PlayScene.hpp
+MissileTurret.hpp
+D:/Documents/I2P 2/Mini2/src/MissileTurret.hpp
+MissileBullet.hpp
+D:/Documents/I2P 2/Mini2/src/MissileBullet.hpp
+AudioHelper.hpp
+D:/Documents/I2P 2/Mini2/src/AudioHelper.hpp
+
+D:/Documents/I2P 2/Mini2/src/Plane.cpp
+GameEngine.hpp
+D:/Documents/I2P 2/Mini2/src/GameEngine.hpp
+Scenes/PlayScene.hpp
+D:/Documents/I2P 2/Mini2/src/Scenes/PlayScene.hpp
+Plane.hpp
+D:/Documents/I2P 2/Mini2/src/Plane.hpp
+Collider.hpp
+D:/Documents/I2P 2/Mini2/src/Collider.hpp
+Enemy.hpp
+D:/Documents/I2P 2/Mini2/src/Enemy.hpp
+AudioHelper.hpp
+D:/Documents/I2P 2/Mini2/src/AudioHelper.hpp
+
+D:/Documents/I2P 2/Mini2/src/PlaneEnemy.cpp
+PlaneEnemy.hpp
+D:/Documents/I2P 2/Mini2/src/PlaneEnemy.hpp
+
+D:/Documents/I2P 2/Mini2/src/Point.cpp
+cmath
+-
+Point.hpp
+D:/Documents/I2P 2/Mini2/src/Point.hpp
+
+D:/Documents/I2P 2/Mini2/src/Resources.cpp
+string
+-
+allegro5/allegro.h
+-
+allegro5/allegro_font.h
+-
+allegro5/allegro_audio.h
+-
+LOG.hpp
+D:/Documents/I2P 2/Mini2/src/LOG.hpp
+Allegro5Exception.hpp
+D:/Documents/I2P 2/Mini2/src/Allegro5Exception.hpp
+Resources.hpp
+D:/Documents/I2P 2/Mini2/src/Resources.hpp
+
+D:/Documents/I2P 2/Mini2/src/Scenes/LoseScene.cpp
+Scenes/LoseScene.hpp
+D:/Documents/I2P 2/Mini2/src/Scenes/Scenes/LoseScene.hpp
+Label.hpp
+D:/Documents/I2P 2/Mini2/src/Scenes/Label.hpp
+AudioHelper.hpp
+D:/Documents/I2P 2/Mini2/src/Scenes/AudioHelper.hpp
+
+D:/Documents/I2P 2/Mini2/src/Scenes/PlayScene.cpp
+string
+-
+queue
+-
+fstream
+-
+Image.hpp
+D:/Documents/I2P 2/Mini2/src/Scenes/Image.hpp
+Label.hpp
+D:/Documents/I2P 2/Mini2/src/Scenes/Label.hpp
+ImageButton.hpp
+D:/Documents/I2P 2/Mini2/src/Scenes/ImageButton.hpp
+Scenes/PlayScene.hpp
+D:/Documents/I2P 2/Mini2/src/Scenes/Scenes/PlayScene.hpp
+LOG.hpp
+D:/Documents/I2P 2/Mini2/src/Scenes/LOG.hpp
+Enemy.hpp
+D:/Documents/I2P 2/Mini2/src/Scenes/Enemy.hpp
+PlaneEnemy.hpp
+D:/Documents/I2P 2/Mini2/src/Scenes/PlaneEnemy.hpp
+SoldierEnemy.hpp
+D:/Documents/I2P 2/Mini2/src/Scenes/SoldierEnemy.hpp
+TankEnemy.hpp
+D:/Documents/I2P 2/Mini2/src/Scenes/TankEnemy.hpp
+MachineGunTurret.hpp
+D:/Documents/I2P 2/Mini2/src/Scenes/MachineGunTurret.hpp
+LaserTurret.hpp
+D:/Documents/I2P 2/Mini2/src/Scenes/LaserTurret.hpp
+MissileTurret.hpp
+D:/Documents/I2P 2/Mini2/src/Scenes/MissileTurret.hpp
+TurretButton.hpp
+D:/Documents/I2P 2/Mini2/src/Scenes/TurretButton.hpp
+Plane.hpp
+D:/Documents/I2P 2/Mini2/src/Scenes/Plane.hpp
+DirtyEffect.hpp
+D:/Documents/I2P 2/Mini2/src/Scenes/DirtyEffect.hpp
+AudioHelper.hpp
+D:/Documents/I2P 2/Mini2/src/Scenes/AudioHelper.hpp
+
+D:/Documents/I2P 2/Mini2/src/Scenes/StageSelectScene.cpp
+Scenes/StageSelectScene.hpp
+D:/Documents/I2P 2/Mini2/src/Scenes/Scenes/StageSelectScene.hpp
+Scenes/PlayScene.hpp
+D:/Documents/I2P 2/Mini2/src/Scenes/Scenes/PlayScene.hpp
+AudioHelper.hpp
+D:/Documents/I2P 2/Mini2/src/Scenes/AudioHelper.hpp
+Slider.hpp
+D:/Documents/I2P 2/Mini2/src/Scenes/Slider.hpp
+LOG.hpp
+D:/Documents/I2P 2/Mini2/src/Scenes/LOG.hpp
+
+D:/Documents/I2P 2/Mini2/src/Scenes/WinScene.cpp
+Scenes/WinScene.hpp
+D:/Documents/I2P 2/Mini2/src/Scenes/Scenes/WinScene.hpp
+Label.hpp
+D:/Documents/I2P 2/Mini2/src/Scenes/Label.hpp
+AudioHelper.hpp
+D:/Documents/I2P 2/Mini2/src/Scenes/AudioHelper.hpp
+Scenes/PlayScene.hpp
+D:/Documents/I2P 2/Mini2/src/Scenes/Scenes/PlayScene.hpp
+
+D:/Documents/I2P 2/Mini2/src/Slider.cpp
+Slider.hpp
+D:/Documents/I2P 2/Mini2/src/Slider.hpp
+algorithm
+-
+
+D:/Documents/I2P 2/Mini2/src/SoldierEnemy.cpp
+SoldierEnemy.hpp
+D:/Documents/I2P 2/Mini2/src/SoldierEnemy.hpp
+
+D:/Documents/I2P 2/Mini2/src/Sprite.cpp
+string
+-
+allegro5/allegro.h
+-
+Point.hpp
+D:/Documents/I2P 2/Mini2/src/Point.hpp
+Image.hpp
+D:/Documents/I2P 2/Mini2/src/Image.hpp
+Sprite.hpp
+D:/Documents/I2P 2/Mini2/src/Sprite.hpp
+
+D:/Documents/I2P 2/Mini2/src/TankEnemy.cpp
+TankEnemy.hpp
+D:/Documents/I2P 2/Mini2/src/TankEnemy.hpp
+random
+-
+
+D:/Documents/I2P 2/Mini2/src/Turret.cpp
+allegro5/allegro_primitives.h
+-
+GameEngine.hpp
+D:/Documents/I2P 2/Mini2/src/GameEngine.hpp
+Scenes/PlayScene.hpp
+D:/Documents/I2P 2/Mini2/src/Scenes/PlayScene.hpp
+Turret.hpp
+D:/Documents/I2P 2/Mini2/src/Turret.hpp
+
+D:/Documents/I2P 2/Mini2/src/TurretButton.cpp
+TurretButton.hpp
+D:/Documents/I2P 2/Mini2/src/TurretButton.hpp
+
+D:/Documents/I2P 2/Mini2/src/main.cpp
+GameEngine.hpp
+D:/Documents/I2P 2/Mini2/src/GameEngine.hpp
+LOG.hpp
+D:/Documents/I2P 2/Mini2/src/LOG.hpp
+Scenes/StageSelectScene.hpp
+D:/Documents/I2P 2/Mini2/src/Scenes/StageSelectScene.hpp
+Scenes/PlayScene.hpp
+D:/Documents/I2P 2/Mini2/src/Scenes/PlayScene.hpp
+Scenes/WinScene.hpp
+D:/Documents/I2P 2/Mini2/src/Scenes/WinScene.hpp
+Scenes/LoseScene.hpp
+D:/Documents/I2P 2/Mini2/src/Scenes/LoseScene.hpp
+

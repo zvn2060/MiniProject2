@@ -1,0 +1,361 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CMakeRunConfigurationManager" shouldGenerate="true" shouldDeleteObsolete="true">
+    <generated>
+      <config projectName="Mini2" targetName="Mini2" />
+    </generated>
+  </component>
+  <component name="CMakeSettings" AUTO_RELOAD="true">
+    <configurations>
+      <configuration PROFILE_NAME="Debug" CONFIG_NAME="Debug" />
+    </configurations>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="645d7a3b-8542-42ca-9672-82de958230aa" name="Default Changelist" comment="initalize project and ready to dev">
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeCache.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.13.4/CMakeCCompiler.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.13.4/CMakeCXXCompiler.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.13.4/CMakeDetermineCompilerABI_C.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.13.4/CMakeDetermineCompilerABI_CXX.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.13.4/CMakeRCCompiler.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.13.4/CMakeSystem.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.13.4/CompilerIdC/CMakeCCompilerId.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.13.4/CompilerIdCXX/CMakeCXXCompilerId.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeDirectoryInformation.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeOutput.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Mini2.dir/CXX.includecache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Mini2.dir/DependInfo.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Mini2.dir/build.make" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Mini2.dir/cmake_clean.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Mini2.dir/depend.internal" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Mini2.dir/depend.make" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Mini2.dir/flags.make" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Mini2.dir/includes_CXX.rsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Mini2.dir/link.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Mini2.dir/linklibs.rsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Mini2.dir/objects1.rsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Mini2.dir/progress.make" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/TargetDirectories.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-environment.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-log.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/cmake.check_cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/feature_tests.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/feature_tests.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/feature_tests.cxx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/progress.marks" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/Makefile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/Mini2.cbp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/cmake_install.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MiniProject1/Mini project 1.pptx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MiniProject1/Mini-Project 1 - package 解說.pptx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MiniProject1/README.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MiniProject1/calculator_loop/calculator_loop.cbp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MiniProject1/calculator_loop/calculator_loop.depend" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MiniProject1/calculator_loop/calculator_loop.layout" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MiniProject1/calculator_loop/codeGen.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MiniProject1/calculator_loop/codeGen.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MiniProject1/calculator_loop/lex.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MiniProject1/calculator_loop/lex.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MiniProject1/calculator_loop/main.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MiniProject1/calculator_loop/parser.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MiniProject1/calculator_loop/parser.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MiniProject1/calculator_recursion/calculator_recursion.cbp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MiniProject1/calculator_recursion/calculator_recursion.depend" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MiniProject1/calculator_recursion/calculator_recursion.layout" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MiniProject1/calculator_recursion/codeGen.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MiniProject1/calculator_recursion/codeGen.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MiniProject1/calculator_recursion/lex.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MiniProject1/calculator_recursion/lex.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MiniProject1/calculator_recursion/main.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MiniProject1/calculator_recursion/parser.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MiniProject1/calculator_recursion/parser.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ObjectPool/ObjectPool.cbp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ObjectPool/ObjectPool.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ObjectPool/ObjectPool.depend" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ObjectPool/ObjectPool.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ObjectPool/ObjectPool.layout" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ObjectPool/bin/Debug/libObjectPool.def" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ObjectPool/bin/Release/libObjectPool.def" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assignment/.idea/assignment.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assignment/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assignment/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assignment/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assignment/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assignment/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assignment/CMakeLists.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assignment/Josephus Problem using doubly circular linked list.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assignment/Moving books.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assignment/Play cards.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assignment/Prefix Boolean expression.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assignment/Prefix to infix.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assignment/main.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assignment/test.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assignment/test/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../assignment/test/main.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bsearch imple.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../calculator" beforeDir="false" afterPath="$PROJECT_DIR$/../calculator" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../in.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../remove ws.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../test/ObjectPool.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../test/main.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../test/test.cbp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../test/test.depend" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../test/test.layout" beforeDir="false" />
+    </list>
+    <list id="435e3693-0f09-4663-827b-76498fe803b3" name="Revert &quot;md&quot;" comment="Revert &quot;md&quot;&#10;&#10;This reverts commit 36f9ff41" />
+    <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ClangdSettings">
+    <option name="formatViaClangd" value="false" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="CMakeBuildProfile:Debug" />
+  <component name="FileEditorManager">
+    <leaf>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="197">
+              <caret line="15" column="19" lean-forward="true" selection-start-line="15" selection-start-column="19" selection-end-line="15" selection-end-column="19" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="Git.Settings">
+    <option name="PREVIOUS_COMMIT_AUTHORS">
+      <list>
+        <option value="zvn2060 &lt;zvn2060@gmail.com&gt;" />
+        <option value="Jason" />
+        <option value="Jaon" />
+      </list>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/src/MissileBullet.cpp" />
+        <option value="$PROJECT_DIR$/src/Turret.cpp" />
+        <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/include/AudioHelper.hpp" />
+        <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/CMakeLists.txt" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="-381" />
+    <option name="y" value="26" />
+    <option name="width" value="1346" />
+    <option name="height" value="728" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="Mini2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Mini2" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="settings.editor.selected.configurable" value="vcs.Git" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Documents\I2P 2\Final Project\src\Scenes" />
+      <recent name="D:\Documents\I2P 2\Final Project\include\Scenes" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration name="Mini2" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Mini2" TARGET_NAME="Mini2" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Mini2" RUN_TARGET_NAME="Mini2">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="645d7a3b-8542-42ca-9672-82de958230aa" name="Default Changelist" comment="" />
+      <created>1558684459764</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1558684459764</updated>
+      <workItem from="1558684465086" duration="3726000" />
+      <workItem from="1558689285345" duration="900000" />
+      <workItem from="1558693662320" duration="1534000" />
+      <workItem from="1558699183624" duration="4754000" />
+      <workItem from="1558704154274" duration="981000" />
+      <workItem from="1558705331663" duration="360000" />
+      <workItem from="1558705736549" duration="103000" />
+      <workItem from="1558705845197" duration="193000" />
+      <workItem from="1558706045007" duration="257000" />
+    </task>
+    <task id="LOCAL-00001" summary="initalize project and ready to dev">
+      <created>1558685980454</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1558685980454</updated>
+    </task>
+    <task id="LOCAL-00002" summary="initalize project and ready to dev">
+      <created>1558686677500</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1558686677500</updated>
+    </task>
+    <task id="LOCAL-00003" summary="initalize project and ready to dev">
+      <created>1558689734944</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1558689734944</updated>
+    </task>
+    <task id="LOCAL-00004" summary="write markdown note">
+      <created>1558695111115</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1558695111115</updated>
+    </task>
+    <task id="LOCAL-00005" summary="change to relative path">
+      <created>1558700105400</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1558700105400</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Cmake use ${CMAKE_SOURCE_DIR}">
+      <created>1558701440042</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1558701440042</updated>
+    </task>
+    <task id="LOCAL-00007" summary="initalize project and ready to dev">
+      <created>1558706220944</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1558706220944</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="12863000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1382" height="784" extended-state="6" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2806354" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32961783" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.32961783" />
+      <window_info anchor="bottom" id="Database Changes" order="7" />
+      <window_info anchor="bottom" id="Messages" order="8" sideWeight="0.49924356" weight="0.32961783" />
+      <window_info anchor="bottom" id="Terminal" order="9" weight="0.32961783" />
+      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.50075644" side_tool="true" weight="0.32961783" />
+      <window_info anchor="bottom" id="Version Control" order="11" sideWeight="0.4977307" weight="0.32961783" />
+      <window_info anchor="bottom" id="CMake" order="12" sideWeight="0.49924356" weight="0.32961783" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Database" order="3" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
+    <option name="CHECK_NEW_TODO" value="false" />
+    <MESSAGE value="write markdown note" />
+    <MESSAGE value="change to relative path" />
+    <MESSAGE value="Cmake use ${CMAKE_SOURCE_DIR}" />
+    <MESSAGE value="initalize project and ready to dev" />
+    <option name="LAST_COMMIT_MESSAGE" value="initalize project and ready to dev" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://C:/MinGW/lib/gcc/mingw32/6.3.0/include/c++/cstdlib">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="171" column="5" selection-start-line="171" selection-start-column="2" selection-end-line="171" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/MissileBullet.cpp" />
+    <entry file="file://$PROJECT_DIR$/src/Turret.cpp" />
+    <entry file="file://$PROJECT_DIR$/README.md" />
+    <entry file="file://$PROJECT_DIR$/include/AudioHelper.hpp" />
+    <entry file="file://$PROJECT_DIR$/src/main.cpp" />
+    <entry file="file://$PROJECT_DIR$/src/ImageButton.cpp" />
+    <entry file="file://$PROJECT_DIR$/src/Collider.cpp">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="197">
+          <caret line="15" column="19" lean-forward="true" selection-start-line="15" selection-start-column="19" selection-end-line="15" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
