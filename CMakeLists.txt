@@ -19,6 +19,6 @@ LINK_DIRECTORIES(
         ${CMAKE_SOURCE_DIR}/allegro5/lib/
 )
 
-add_executable(Mini2 ${SOURCE_FILES})
+add_executable(Mini2 ${SOURCE_FILES} include/Scenes/MainScene.hpp)
 
 TARGET_LINK_LIBRARIES(Mini2 ${CMAKE_SOURCE_DIR}/liballegro_monolith-debug.dll.a)

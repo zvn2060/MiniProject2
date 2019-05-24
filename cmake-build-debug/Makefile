@@ -851,6 +851,33 @@ src/Scenes/LoseScene.cpp.s:
 	$(MAKE) -f CMakeFiles\Mini2.dir\build.make CMakeFiles/Mini2.dir/src/Scenes/LoseScene.cpp.s
 .PHONY : src/Scenes/LoseScene.cpp.s
 
+src/Scenes/MainScene.obj: src/Scenes/MainScene.cpp.obj
+
+.PHONY : src/Scenes/MainScene.obj
+
+# target to build an object file
+src/Scenes/MainScene.cpp.obj:
+	$(MAKE) -f CMakeFiles\Mini2.dir\build.make CMakeFiles/Mini2.dir/src/Scenes/MainScene.cpp.obj
+.PHONY : src/Scenes/MainScene.cpp.obj
+
+src/Scenes/MainScene.i: src/Scenes/MainScene.cpp.i
+
+.PHONY : src/Scenes/MainScene.i
+
+# target to preprocess a source file
+src/Scenes/MainScene.cpp.i:
+	$(MAKE) -f CMakeFiles\Mini2.dir\build.make CMakeFiles/Mini2.dir/src/Scenes/MainScene.cpp.i
+.PHONY : src/Scenes/MainScene.cpp.i
+
+src/Scenes/MainScene.s: src/Scenes/MainScene.cpp.s
+
+.PHONY : src/Scenes/MainScene.s
+
+# target to generate assembly for a file
+src/Scenes/MainScene.cpp.s:
+	$(MAKE) -f CMakeFiles\Mini2.dir\build.make CMakeFiles/Mini2.dir/src/Scenes/MainScene.cpp.s
+.PHONY : src/Scenes/MainScene.cpp.s
+
 src/Scenes/PlayScene.obj: src/Scenes/PlayScene.cpp.obj
 
 .PHONY : src/Scenes/PlayScene.obj
@@ -1211,6 +1238,9 @@ help:
 	@echo ... src/Scenes/LoseScene.obj
 	@echo ... src/Scenes/LoseScene.i
 	@echo ... src/Scenes/LoseScene.s
+	@echo ... src/Scenes/MainScene.obj
+	@echo ... src/Scenes/MainScene.i
+	@echo ... src/Scenes/MainScene.s
 	@echo ... src/Scenes/PlayScene.obj
 	@echo ... src/Scenes/PlayScene.i
 	@echo ... src/Scenes/PlayScene.s

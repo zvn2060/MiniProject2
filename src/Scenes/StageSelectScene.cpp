@@ -5,8 +5,8 @@
 #include "LOG.hpp"
 
 void StageSelectScene::Initialize() {
-    int w = Engine::GameEngine::GetInstance().GetScreenSize().x;
-    int h = Engine::GameEngine::GetInstance().GetScreenSize().y;
+    int w = Engine::GameEngine::GetInstance().GetScreenSize().x;	//set window width
+    int h = Engine::GameEngine::GetInstance().GetScreenSize().y;	//set window height
     int halfW = w / 2;
     int halfH = h / 2;
     Engine::ImageButton* btn;

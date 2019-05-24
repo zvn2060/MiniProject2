@@ -1602,6 +1602,88 @@ CMakeFiles/Mini2.dir/src/Scenes/LoseScene.cpp.obj
  ../include/Resources.hpp
  ../include/Scenes/LoseScene.hpp
  D:/Documents/I2P 2/Mini2/src/Scenes/LoseScene.cpp
+CMakeFiles/Mini2.dir/src/Scenes/MainScene.cpp.obj
+ ../allegro5/include/allegro5/alcompat.h
+ ../allegro5/include/allegro5/allegro.h
+ ../allegro5/include/allegro5/allegro_acodec.h
+ ../allegro5/include/allegro5/allegro_audio.h
+ ../allegro5/include/allegro5/allegro_font.h
+ ../allegro5/include/allegro5/altime.h
+ ../allegro5/include/allegro5/base.h
+ ../allegro5/include/allegro5/bitmap.h
+ ../allegro5/include/allegro5/bitmap_draw.h
+ ../allegro5/include/allegro5/bitmap_io.h
+ ../allegro5/include/allegro5/bitmap_lock.h
+ ../allegro5/include/allegro5/blender.h
+ ../allegro5/include/allegro5/clipboard.h
+ ../allegro5/include/allegro5/color.h
+ ../allegro5/include/allegro5/config.h
+ ../allegro5/include/allegro5/cpu.h
+ ../allegro5/include/allegro5/debug.h
+ ../allegro5/include/allegro5/display.h
+ ../allegro5/include/allegro5/drawing.h
+ ../allegro5/include/allegro5/error.h
+ ../allegro5/include/allegro5/events.h
+ ../allegro5/include/allegro5/file.h
+ ../allegro5/include/allegro5/fixed.h
+ ../allegro5/include/allegro5/fmaths.h
+ ../allegro5/include/allegro5/fshook.h
+ ../allegro5/include/allegro5/fullscreen_mode.h
+ ../allegro5/include/allegro5/haptic.h
+ ../allegro5/include/allegro5/inline/fmaths.inl
+ ../allegro5/include/allegro5/internal/alconfig.h
+ ../allegro5/include/allegro5/joystick.h
+ ../allegro5/include/allegro5/keyboard.h
+ ../allegro5/include/allegro5/keycodes.h
+ ../allegro5/include/allegro5/memory.h
+ ../allegro5/include/allegro5/monitor.h
+ ../allegro5/include/allegro5/mouse.h
+ ../allegro5/include/allegro5/mouse_cursor.h
+ ../allegro5/include/allegro5/path.h
+ ../allegro5/include/allegro5/platform/alandroidcfg.h
+ ../allegro5/include/allegro5/platform/albcc32.h
+ ../allegro5/include/allegro5/platform/aliphonecfg.h
+ ../allegro5/include/allegro5/platform/allegro_sdl_config.h
+ ../allegro5/include/allegro5/platform/almngw32.h
+ ../allegro5/include/allegro5/platform/almsvc.h
+ ../allegro5/include/allegro5/platform/alosxcfg.h
+ ../allegro5/include/allegro5/platform/alplatf.h
+ ../allegro5/include/allegro5/platform/alraspberrypicfg.h
+ ../allegro5/include/allegro5/platform/alucfg.h
+ ../allegro5/include/allegro5/platform/alunix.h
+ ../allegro5/include/allegro5/platform/alwatcom.h
+ ../allegro5/include/allegro5/platform/astdbool.h
+ ../allegro5/include/allegro5/platform/astdint.h
+ ../allegro5/include/allegro5/render_state.h
+ ../allegro5/include/allegro5/shader.h
+ ../allegro5/include/allegro5/system.h
+ ../allegro5/include/allegro5/threads.h
+ ../allegro5/include/allegro5/timer.h
+ ../allegro5/include/allegro5/tls.h
+ ../allegro5/include/allegro5/touch_input.h
+ ../allegro5/include/allegro5/transformations.h
+ ../allegro5/include/allegro5/utf8.h
+ ../include/AudioHelper.hpp
+ ../include/Bullet.hpp
+ ../include/Collider.hpp
+ ../include/Enemy.hpp
+ ../include/GameEngine.hpp
+ ../include/Group.hpp
+ ../include/IControl.hpp
+ ../include/IObject.hpp
+ ../include/IScene.hpp
+ ../include/Image.hpp
+ ../include/ImageButton.hpp
+ ../include/LOG.hpp
+ ../include/Label.hpp
+ ../include/Point.hpp
+ ../include/Resources.hpp
+ ../include/Scenes/MainScene.hpp
+ ../include/Scenes/PlayScene.hpp
+ ../include/Slider.hpp
+ ../include/Sprite.hpp
+ ../include/Turret.hpp
+ D:/Documents/I2P 2/Mini2/src/Scenes/MainScene.cpp
 CMakeFiles/Mini2.dir/src/Scenes/PlayScene.cpp.obj
  ../allegro5/include/allegro5/alcompat.h
  ../allegro5/include/allegro5/allegro.h
@@ -2378,6 +2460,7 @@ CMakeFiles/Mini2.dir/src/main.cpp.obj
  ../include/Point.hpp
  ../include/Resources.hpp
  ../include/Scenes/LoseScene.hpp
+ ../include/Scenes/MainScene.hpp
  ../include/Scenes/PlayScene.hpp
  ../include/Scenes/StageSelectScene.hpp
  ../include/Scenes/WinScene.hpp

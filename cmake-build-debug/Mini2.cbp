@@ -86,6 +86,9 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="D:/Documents/I2P 2/Mini2/include/Scenes/MainScene.hpp">
+			<Option target="Mini2"/>
+		</Unit>
 		<Unit filename="D:/Documents/I2P 2/Mini2/src/Allegro5Exception.cpp">
 			<Option target="Mini2"/>
 		</Unit>
@@ -165,6 +168,9 @@
 			<Option target="Mini2"/>
 		</Unit>
 		<Unit filename="D:/Documents/I2P 2/Mini2/src/Scenes/LoseScene.cpp">
+			<Option target="Mini2"/>
+		</Unit>
+		<Unit filename="D:/Documents/I2P 2/Mini2/src/Scenes/MainScene.cpp">
 			<Option target="Mini2"/>
 		</Unit>
 		<Unit filename="D:/Documents/I2P 2/Mini2/src/Scenes/PlayScene.cpp">

@@ -33,6 +33,7 @@ file(REMOVE_RECURSE
   "CMakeFiles/Mini2.dir/src/TurretButton.cpp.obj"
   "CMakeFiles/Mini2.dir/src/main.cpp.obj"
   "CMakeFiles/Mini2.dir/src/Scenes/LoseScene.cpp.obj"
+  "CMakeFiles/Mini2.dir/src/Scenes/MainScene.cpp.obj"
   "CMakeFiles/Mini2.dir/src/Scenes/PlayScene.cpp.obj"
   "CMakeFiles/Mini2.dir/src/Scenes/StageSelectScene.cpp.obj"
   "CMakeFiles/Mini2.dir/src/Scenes/WinScene.cpp.obj"
