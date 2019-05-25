@@ -1,29 +1,35 @@
-#include <random>
 #include <allegro5/allegro_primitives.h>
-#include "Scenes/PlayScene.hpp"
-#include "Label.hpp"
+#include <allegro5/color.h>
+#include <cmath>
+#include <random>
+#include <string>
+
+#include "AudioHelper.hpp"
+#include "Bullet.hpp"
+#include "DirtyEffect.hpp"
 #include "Enemy.hpp"
 #include "ExplosionEffect.hpp"
-#include "DirtyEffect.hpp"
-#include "MachineGunTurret.hpp"
-#include "AudioHelper.hpp"
+#include "GameEngine.hpp"
+#include "Group.hpp"
+#include "IScene.hpp"
+#include "PlayScene.hpp"
+#include "Turret.hpp"
 
 PlayScene* Enemy::getPlayScene() {
 	return dynamic_cast<PlayScene*>(Engine::GameEngine::GetInstance().GetActiveScene());
 }
 void Enemy::OnExplode() {
-	getPlayScene()->EffectGroup->AddNewObject(new ExplosionEffect(Position.x, Position.y));
+	getPlayScene()->EffectGroup->AddNewObject( new ExplosionEffect( Position.x, Position.y));
 	std::random_device dev;
-	std::mt19937 rng(dev());
-	std::uniform_int_distribution<std::mt19937::result_type> distId(1, 3);
-	std::uniform_int_distribution<std::mt19937::result_type> dist(1, 20);
-	for (int i = 0; i < 10; i++) {
+	std::mt19937 rng( dev());
+	std::uniform_int_distribution<std::mt19937::result_type> distId( 1, 3);
+	std::uniform_int_distribution<std::mt19937::result_type> dist( 1, 20);
+	for ( int i = 0; i < 10; i++) {
 		// Random add 10 dirty effects.
 		getPlayScene()->GroundEffectGroup->AddNewObject(new DirtyEffect("play/dirty-" + std::to_string(distId(rng)) + ".png", dist(rng), Position.x, Position.y));
 	}
 }
-Enemy::Enemy(std::string img, float x, float y, float radius, float speed, float hp, int money) :
-	Engine::Sprite(img, x, y), speed(speed), hp(hp), money(money) {
+Enemy::Enemy(std::string img, float x, float y, float radius, float speed, float hp, int money) : Engine::Sprite(img, x, y), speed(speed), hp(hp), money(money) {
 	CollisionRadius = radius;
 }
 void Enemy::Hit(float damage) {
@@ -82,23 +88,22 @@ void Enemy::Update(float deltaTime) {
 		Engine::Point target = path.back() * PlayScene::BlockSize + Engine::Point(PlayScene::BlockSize / 2, PlayScene::BlockSize / 2);
 		Engine::Point vec = target - Position;
 		Engine::Point normalized = vec.Normalize();
-		if (remainSpeed - vec.Magnitude() > 0) {
+		if ( remainSpeed - vec.Magnitude() > 0) {
 			Position = target;
 			path.pop_back();
 			remainSpeed -= vec.Magnitude();
-		}
-		else {
+		} else {
 			Velocity = normalized * remainSpeed / deltaTime;
 			remainSpeed = 0;
 		}
 	}
-	Rotation = atan2(Velocity.y, Velocity.x);
-	Sprite::Update(deltaTime);
+	Rotation = atan2( Velocity.y, Velocity.x);
+	Sprite::Update( deltaTime);
 }
 void Enemy::Draw() const {
 	Sprite::Draw();
 	if (PlayScene::DebugMode) {
 		// Draw collision radius.
-		al_draw_circle(Position.x, Position.y, CollisionRadius, al_map_rgb(255, 0, 0), 2);
+		al_draw_circle( Position.x, Position.y, CollisionRadius, al_map_rgb( 255, 0, 0), 2);
 	}
 }

@@ -1,9 +1,18 @@
-#include "GameEngine.hpp"
-#include "Scenes/PlayScene.hpp"
-#include "Plane.hpp"
+#include <allegro5/allegro.h>
+#include <cmath>
+#include <string>
+
+#include "AudioHelper.hpp"
 #include "Collider.hpp"
 #include "Enemy.hpp"
-#include "AudioHelper.hpp"
+#include "GameEngine.hpp"
+#include "Group.hpp"
+#include "IObject.hpp"
+#include "IScene.hpp"
+#include "Plane.hpp"
+#include "PlayScene.hpp"
+#include "Point.hpp"
+#include "Resources.hpp"
 
 PlayScene* Plane::getPlayScene() {
 	return dynamic_cast<PlayScene*>(Engine::GameEngine::GetInstance().GetActiveScene());

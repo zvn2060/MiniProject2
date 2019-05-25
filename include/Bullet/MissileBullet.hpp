@@ -1,6 +1,18 @@
 #ifndef MISSILEBULLET_HPP
 #define MISSILEBULLET_HPP
+
+#include <allegro5/base.h>
+#include <list>
+
 #include "Bullet.hpp"
+
+class Enemy;
+
+class Turret;
+namespace Engine{
+	struct Point;
+}  // namespace Engine
+
 class MissileBullet : public Bullet {
 protected:
 	const float rotateRadian = 2 * ALLEGRO_PI;

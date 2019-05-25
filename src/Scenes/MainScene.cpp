@@ -1,9 +1,17 @@
-#include "Scenes/MainScene.hpp"
-#include "Scenes/SettingScene.hpp"
-#include "Scenes/PlayScene.hpp"
+#include <functional>
+#include <memory>
+#include <string>
 #include "AudioHelper.hpp"
+#include "GameEngine.hpp"
+#include "ImageButton.hpp"
+#include "Label.hpp"
+#include "Point.hpp"
+#include "Resources.hpp"
 #include "Slider.hpp"
-#include "LOG.hpp"
+
+#include "PlayScene.hpp"
+#include "MainScene.hpp"
+#include "SettingScene.hpp"
 
 void MainScene::Initialize() {
 	int w = Engine::GameEngine::GetInstance().GetScreenSize().x;	//set window width
@@ -19,13 +27,9 @@ void MainScene::Initialize() {
 	AddNewControlObject(btn);
 	btn = new Engine::ImageButton( "stage-select/dirt.png", "stage-select/floor.png", halfW - 200, halfH + 200, 400,
 								   100 );
-	AddNewObject( new Engine::Label( "Play", "pirulen.ttf", 48, halfW, halfH + 200, 0, 0, 0, 255, 0.5, 0.5 ) );
 	btn->SetOnClickCallback( std::bind( &MainScene::PlayOnclick, this, 1 ) );
 	AddNewControlObject( btn );
-	bgmInstance = al_create_sample_instance(Engine::Resources::GetInstance().GetSample("select.ogg").get());
-	al_set_sample_instance_playmode(bgmInstance, ALLEGRO_PLAYMODE_LOOP);
-	al_attach_sample_instance_to_mixer(bgmInstance, al_get_default_mixer());
-	al_play_sample_instance(bgmInstance);
+	AudioHelper::PlayBGM( "select.ogg" );
 }
 
 void MainScene::SettingOnClick( int stage ){
@@ -39,5 +43,6 @@ void MainScene::BackOnclick( int stage ){
 
 void MainScene::PlayOnclick( int stage ){
 	PlayScene* scene = dynamic_cast<PlayScene*>(Engine::GameEngine::GetInstance().GetScene("play"));
+	scene->MapId = stage;
 	Engine::GameEngine::GetInstance().ChangeScene("play");
 }

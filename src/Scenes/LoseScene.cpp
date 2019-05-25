@@ -1,6 +1,12 @@
-#include "Scenes/LoseScene.hpp"
-#include "Label.hpp"
+#include <functional>
+#include <string>
+
 #include "AudioHelper.hpp"
+#include "GameEngine.hpp"
+#include "ImageButton.hpp"
+#include "Label.hpp"
+#include "LoseScene.hpp"
+#include "Point.hpp"
 
 void LoseScene::Initialize() {
 	// TODO 1 (2/2): You can imitate the 2 files: 'LoseScene.hpp', 'LoseScene.cpp' to implement your start scene.

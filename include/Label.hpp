@@ -1,12 +1,11 @@
 #ifndef LABEL_HPP
 #define LABEL_HPP
-#include <string>
-#include <memory>
-#include <allegro5/allegro.h>
 #include <allegro5/allegro_font.h>
+#include <allegro5/color.h>
+#include <memory>
+#include <string>
+
 #include "IObject.hpp"
-#include "Point.hpp"
-#include "Resources.hpp"
 
 namespace Engine {
 	/// <summary>

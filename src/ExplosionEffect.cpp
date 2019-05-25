@@ -1,7 +1,12 @@
-#include "GameEngine.hpp"
-#include "Scenes/PlayScene.hpp"
+#include <cmath>
+#include <string>
+
 #include "ExplosionEffect.hpp"
-#include "AudioHelper.hpp"
+#include "GameEngine.hpp"
+#include "Group.hpp"
+#include "IScene.hpp"
+#include "PlayScene.hpp"
+#include "Resources.hpp"
 
 PlayScene* ExplosionEffect::getPlayScene() {
 	return dynamic_cast<PlayScene*>(Engine::GameEngine::GetInstance().GetActiveScene());

@@ -1,13 +1,16 @@
 #ifndef TURRET_HPP
 #define TURRET_HPP
+
+#include <allegro5/base.h>
+#include <list>
+#include <string>
+
 #include "Sprite.hpp"
-#include "Scenes/PlayScene.hpp"
-#include "Enemy.hpp"
-#include "Bullet.hpp"
+
+class Enemy;
 
 class PlayScene;
-class Bullet;
-class Enemy;
+
 class Turret: public Engine::Sprite {
 protected:
     int price;
@@ -17,7 +20,9 @@ protected:
     Sprite imgBase;
     std::list<Turret*>::iterator lockedTurretIterator;
     PlayScene* getPlayScene();
-    virtual void CreateBullet() = 0;
+	
+	// Reference: Design Patterns - Factory Method.
+	virtual void CreateBullet() = 0;
 
 public:
     bool Enabled = true;
@@ -27,6 +32,5 @@ public:
     void Update(float deltaTime) override;
     void Draw() const override;
 	int GetPrice() const;
-    // Reference: Design Patterns - Factory Method.
 };
 #endif // TURRET_HPP

@@ -1,8 +1,6 @@
 #ifndef LOSESCENE_HPP
 #define LOSESCENE_HPP
 #include "IScene.hpp"
-#include "GameEngine.hpp"
-#include "ImageButton.hpp"
 
 class LoseScene final : public Engine::IScene {
 public:

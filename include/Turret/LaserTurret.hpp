@@ -1,10 +1,7 @@
 #ifndef LASERTURRET_HPP
 #define LASERTURRET_HPP
-#include "Scenes/PlayScene.hpp"
-#include "Bullet.hpp"
 #include "Turret.hpp"
 
-class PlayScene;
 class LaserTurret: public Turret {
 public:
 	static const int Price;

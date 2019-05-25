@@ -1,10 +1,7 @@
 #ifndef MISSILETURRET_HPP
 #define MISSILETURRET_HPP
-#include "Scenes/PlayScene.hpp"
-#include "Bullet.hpp"
 #include "Turret.hpp"
 
-class PlayScene;
 class MissileTurret: public Turret {
 public:
 	static const int Price;

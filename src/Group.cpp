@@ -1,8 +1,9 @@
 #include <stdexcept>
-#include <allegro5/allegro.h>
-#include "IObject.hpp"
-#include "IControl.hpp"
+#include <utility>
+
 #include "Group.hpp"
+#include "IControl.hpp"
+#include "IObject.hpp"
 
 namespace Engine {
 	void Group::addObject(bool shouldDelete, IObject* obj) {

@@ -1,16 +1,22 @@
-#include <string>
-#include <memory>
-#include <chrono>
 #include <allegro5/allegro.h>
+#include <allegro5/allegro_acodec.h>
+#include <allegro5/allegro_audio.h>
+#include <allegro5/allegro_font.h>
 #include <allegro5/allegro_image.h>
 #include <allegro5/allegro_primitives.h>
 #include <allegro5/allegro_ttf.h>
-#include "GameEngine.hpp"
-#include "Resources.hpp"
-#include "LOG.hpp"
+#include <chrono>
+#include <memory>
+#include <stdexcept>
+#include <string>
+#include <utility>
+
 #include "Allegro5Exception.hpp"
-#include "Point.hpp"
+#include "GameEngine.hpp"
 #include "IScene.hpp"
+#include "LOG.hpp"
+#include "Point.hpp"
+#include "Resources.hpp"
 
 namespace Engine {
 	void GameEngine::initAllegro5() {

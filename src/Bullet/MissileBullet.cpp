@@ -1,5 +1,17 @@
-#include "MissileBullet.hpp"
+#include <cmath>
+#include <random>
+#include <string>
+#include <utility>
+
 #include "DirtyEffect.hpp"
+#include "Enemy.hpp"
+#include "Group.hpp"
+#include "IObject.hpp"
+#include "MissileBullet.hpp"
+#include "PlayScene.hpp"
+#include "Point.hpp"
+
+class Turret;
 
 MissileBullet::MissileBullet(Engine::Point position, Engine::Point forwardDirection, float rotation, Turret* parent) :
 	Bullet("play/bullet-3.png", 100, 4, position, forwardDirection, rotation + ALLEGRO_PI / 2, parent) {
@@ -32,10 +44,10 @@ void MissileBullet::Update(float deltaTime) {
 	if (cosTheta > 1) cosTheta = 1;
 	else if (cosTheta < -1) cosTheta = -1;
 	float radian = acos(cosTheta);
-	if (std::abs(radian) <= maxRotateRadian)
+	if ( abs( radian ) <= maxRotateRadian )
 		Velocity = targetVelocity;
 	else
-		Velocity = ((std::abs(radian) - maxRotateRadian) * originVelocity + maxRotateRadian * targetVelocity) / radian;
+		Velocity = ( ( abs( radian ) - maxRotateRadian ) * originVelocity + maxRotateRadian * targetVelocity ) / radian;
 	Velocity = speed * Velocity.Normalize();
 	Rotation = atan2(Velocity.y, Velocity.x) + ALLEGRO_PI / 2;
 	Bullet::Update(deltaTime);

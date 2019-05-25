@@ -1,12 +1,19 @@
-#include "Scenes/StageSelectScene.hpp"
-#include "Scenes/PlayScene.hpp"
+#include <functional>
+#include <memory>
+#include <string>
 #include "AudioHelper.hpp"
+#include "GameEngine.hpp"
+#include "ImageButton.hpp"
+#include "Label.hpp"
+#include "PlayScene.hpp"
+#include "Point.hpp"
+#include "Resources.hpp"
 #include "Slider.hpp"
-#include "LOG.hpp"
+#include "StageSelectScene.hpp"
 
 void StageSelectScene::Initialize() {
-    int w = Engine::GameEngine::GetInstance().GetScreenSize().x;	//set window width
-    int h = Engine::GameEngine::GetInstance().GetScreenSize().y;	//set window height
+	int w = Engine::GameEngine::GetInstance().GetScreenSize().x;
+	int h = Engine::GameEngine::GetInstance().GetScreenSize().y;
     int halfW = w / 2;
     int halfH = h / 2;
     Engine::ImageButton* btn;

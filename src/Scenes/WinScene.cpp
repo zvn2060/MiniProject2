@@ -1,7 +1,13 @@
-#include "Scenes/WinScene.hpp"
-#include "Label.hpp"
+#include <functional>
+#include <string>
+
 #include "AudioHelper.hpp"
-#include "Scenes/PlayScene.hpp"
+#include "GameEngine.hpp"
+#include "ImageButton.hpp"
+#include "Label.hpp"
+#include "PlayScene.hpp"
+#include "Point.hpp"
+#include "WinScene.hpp"
 
 void WinScene::Initialize() {
 	ticks = 0;

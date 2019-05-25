@@ -1,10 +1,10 @@
 #ifndef COLLIDER_HPP
 #define COLLIDER_HPP
-#include <memory>
 #include <allegro5/bitmap.h>
-#include "Point.hpp"
+#include <memory>
 
 namespace Engine {
+	struct Point;
 	/// <summary>
 	/// Helper class for calculating physical collision, overlap, point in region.
 	/// Note: Implementing a physical engine is an overkill in this game, helper class is much simpler.

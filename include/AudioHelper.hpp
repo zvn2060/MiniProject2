@@ -1,6 +1,10 @@
 #ifndef AUDIOHELPER_HPP
 #define AUDIOHELPER_HPP
-#include "allegro5/allegro_acodec.h"
+
+#include <allegro5/allegro_audio.h>
+#include <string>
+
+
 class AudioHelper {
 private:
 	AudioHelper() = default;

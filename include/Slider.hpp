@@ -1,5 +1,9 @@
 #ifndef SLIDER_HPP
 #define SLIDER_HPP
+
+#include <functional>
+
+#include "Image.hpp"
 #include "ImageButton.hpp"
 
 class Slider : public Engine::ImageButton {

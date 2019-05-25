@@ -1,8 +1,9 @@
 #ifndef MAINSCENE_HPP
 #define MAINSCENE_HPP
+
+#include <allegro5/allegro_audio.h>
 #include "IScene.hpp"
-#include "GameEngine.hpp"
-#include "ImageButton.hpp"
+
 
 class MainScene final : public Engine::IScene{
 private:

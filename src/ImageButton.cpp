@@ -1,13 +1,12 @@
-#include <memory>
 #include <functional>
-#include <allegro5/allegro.h>
-#include "IControl.hpp"
-#include "Image.hpp"
+#include <memory>
+
 #include "Collider.hpp"
 #include "GameEngine.hpp"
-#include "Resources.hpp"
+#include "Image.hpp"
 #include "ImageButton.hpp"
-#include <allegro5/allegro_primitives.h>
+#include "Point.hpp"
+#include "Resources.hpp"
 
 namespace Engine {
 	ImageButton::ImageButton(std::string img, std::string imgIn, float x, float y, float w, float h, float anchorX, float anchorY) :

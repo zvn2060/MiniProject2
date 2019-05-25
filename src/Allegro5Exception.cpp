@@ -1,5 +1,5 @@
-#include <string>
 #include <stdexcept>
+
 #include "Allegro5Exception.hpp"
 
 namespace Engine {

@@ -1,10 +1,13 @@
 #ifndef TURRETBUTTON_HPP
 #define TURRETBUTTON_HPP
+
+#include <string>
+
 #include "ImageButton.hpp"
 #include "Sprite.hpp"
-#include "Scenes/PlayScene.hpp"
 
 class PlayScene;
+
 class TurretButton : public Engine::ImageButton {
 protected:
     PlayScene* getPlayScene();

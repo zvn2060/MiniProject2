@@ -1,6 +1,4 @@
 #include <allegro5/allegro.h>
-#include "IObject.hpp"
-#include "IControl.hpp"
 #include "IScene.hpp"
 
 namespace Engine {

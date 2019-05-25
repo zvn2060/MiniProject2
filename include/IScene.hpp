@@ -1,6 +1,6 @@
 #ifndef ISCENE_HPP
 #define ISCENE_HPP
-#include <list>
+
 #include "Group.hpp"
 
 namespace Engine {

@@ -1,9 +1,10 @@
-#include <string>
-#include <memory>
 #include <allegro5/allegro.h>
+#include <memory>
+
 #include "IObject.hpp"
-#include "Resources.hpp"
 #include "Image.hpp"
+#include "Point.hpp"
+#include "Resources.hpp"
 
 namespace Engine {
 	Image::Image(std::string img, float x, float y, float w, float h, float anchorX, float anchorY) :

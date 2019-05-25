@@ -1,8 +1,6 @@
 #ifndef WINSCENE_HPP
 #define WINSCENE_HPP
 #include "IScene.hpp"
-#include "GameEngine.hpp"
-#include "ImageButton.hpp"
 
 class WinScene final : public Engine::IScene {
 private:

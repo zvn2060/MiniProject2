@@ -1,7 +1,8 @@
-#include <string>
 #include <allegro5/allegro.h>
-#include "Point.hpp"
+#include <memory>
+
 #include "Image.hpp"
+#include "Point.hpp"
 #include "Sprite.hpp"
 
 namespace Engine {

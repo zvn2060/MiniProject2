@@ -1,7 +1,13 @@
 #ifndef PLANE_HPP
 #define PLANE_HPP
+
+#include <allegro5/bitmap.h>
+#include <memory>
+#include <vector>
+
 #include "Sprite.hpp"
-#include "Scenes/PlayScene.hpp"
+
+class PlayScene;
 
 class Plane : public Engine::Sprite {
 protected:

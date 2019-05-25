@@ -1,14 +1,16 @@
 #ifndef GAMEENGINE_HPP
 #define GAMEENGINE_HPP
-#include <unordered_map>
 #include <allegro5/allegro.h>
-#include "IScene.hpp"
+#include <unordered_map>
+#include <string>
+
 #include "Point.hpp"
 
 /// <summary>
 /// All general classes are under this namespace for clarity.
 /// </summary>
 namespace Engine {
+	class IScene;
 	/// <summary>
 	/// The one and only GameEngine for the entire program. Responsible for low-level initialization and window events.
 	/// </summary>

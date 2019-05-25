@@ -1,9 +1,12 @@
-#include <string>
 #include <allegro5/allegro.h>
-#include <allegro5/allegro_font.h>
 #include <allegro5/allegro_audio.h>
-#include "LOG.hpp"
+#include <allegro5/allegro_font.h>
+#include <list>
+#include <string>
+#include <utility>
+
 #include "Allegro5Exception.hpp"
+#include "LOG.hpp"
 #include "Resources.hpp"
 
 // #include "Resources.hpp"

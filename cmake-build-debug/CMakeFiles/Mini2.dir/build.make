@@ -84,24 +84,10 @@ CMakeFiles/Mini2.dir/src/AudioHelper.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Mini2.dir/src/AudioHelper.cpp.s"
 	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\Documents\I2P 2\Mini2\src\AudioHelper.cpp" -o CMakeFiles\Mini2.dir\src\AudioHelper.cpp.s
 
-CMakeFiles/Mini2.dir/src/Bullet.cpp.obj: CMakeFiles/Mini2.dir/flags.make
-CMakeFiles/Mini2.dir/src/Bullet.cpp.obj: CMakeFiles/Mini2.dir/includes_CXX.rsp
-CMakeFiles/Mini2.dir/src/Bullet.cpp.obj: ../src/Bullet.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\Documents\I2P 2\Mini2\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/Mini2.dir/src/Bullet.cpp.obj"
-	C:\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\Mini2.dir\src\Bullet.cpp.obj -c "D:\Documents\I2P 2\Mini2\src\Bullet.cpp"
-
-CMakeFiles/Mini2.dir/src/Bullet.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Mini2.dir/src/Bullet.cpp.i"
-	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "D:\Documents\I2P 2\Mini2\src\Bullet.cpp" > CMakeFiles\Mini2.dir\src\Bullet.cpp.i
-
-CMakeFiles/Mini2.dir/src/Bullet.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Mini2.dir/src/Bullet.cpp.s"
-	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\Documents\I2P 2\Mini2\src\Bullet.cpp" -o CMakeFiles\Mini2.dir\src\Bullet.cpp.s
-
 CMakeFiles/Mini2.dir/src/Collider.cpp.obj: CMakeFiles/Mini2.dir/flags.make
 CMakeFiles/Mini2.dir/src/Collider.cpp.obj: CMakeFiles/Mini2.dir/includes_CXX.rsp
 CMakeFiles/Mini2.dir/src/Collider.cpp.obj: ../src/Collider.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\Documents\I2P 2\Mini2\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/Mini2.dir/src/Collider.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\Documents\I2P 2\Mini2\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/Mini2.dir/src/Collider.cpp.obj"
 	C:\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\Mini2.dir\src\Collider.cpp.obj -c "D:\Documents\I2P 2\Mini2\src\Collider.cpp"
 
 CMakeFiles/Mini2.dir/src/Collider.cpp.i: cmake_force
@@ -115,7 +101,7 @@ CMakeFiles/Mini2.dir/src/Collider.cpp.s: cmake_force
 CMakeFiles/Mini2.dir/src/DirtyEffect.cpp.obj: CMakeFiles/Mini2.dir/flags.make
 CMakeFiles/Mini2.dir/src/DirtyEffect.cpp.obj: CMakeFiles/Mini2.dir/includes_CXX.rsp
 CMakeFiles/Mini2.dir/src/DirtyEffect.cpp.obj: ../src/DirtyEffect.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\Documents\I2P 2\Mini2\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/Mini2.dir/src/DirtyEffect.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\Documents\I2P 2\Mini2\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/Mini2.dir/src/DirtyEffect.cpp.obj"
 	C:\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\Mini2.dir\src\DirtyEffect.cpp.obj -c "D:\Documents\I2P 2\Mini2\src\DirtyEffect.cpp"
 
 CMakeFiles/Mini2.dir/src/DirtyEffect.cpp.i: cmake_force
@@ -126,24 +112,10 @@ CMakeFiles/Mini2.dir/src/DirtyEffect.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Mini2.dir/src/DirtyEffect.cpp.s"
 	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\Documents\I2P 2\Mini2\src\DirtyEffect.cpp" -o CMakeFiles\Mini2.dir\src\DirtyEffect.cpp.s
 
-CMakeFiles/Mini2.dir/src/Enemy.cpp.obj: CMakeFiles/Mini2.dir/flags.make
-CMakeFiles/Mini2.dir/src/Enemy.cpp.obj: CMakeFiles/Mini2.dir/includes_CXX.rsp
-CMakeFiles/Mini2.dir/src/Enemy.cpp.obj: ../src/Enemy.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\Documents\I2P 2\Mini2\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/Mini2.dir/src/Enemy.cpp.obj"
-	C:\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\Mini2.dir\src\Enemy.cpp.obj -c "D:\Documents\I2P 2\Mini2\src\Enemy.cpp"
-
-CMakeFiles/Mini2.dir/src/Enemy.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Mini2.dir/src/Enemy.cpp.i"
-	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "D:\Documents\I2P 2\Mini2\src\Enemy.cpp" > CMakeFiles\Mini2.dir\src\Enemy.cpp.i
-
-CMakeFiles/Mini2.dir/src/Enemy.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Mini2.dir/src/Enemy.cpp.s"
-	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\Documents\I2P 2\Mini2\src\Enemy.cpp" -o CMakeFiles\Mini2.dir\src\Enemy.cpp.s
-
 CMakeFiles/Mini2.dir/src/ExplosionEffect.cpp.obj: CMakeFiles/Mini2.dir/flags.make
 CMakeFiles/Mini2.dir/src/ExplosionEffect.cpp.obj: CMakeFiles/Mini2.dir/includes_CXX.rsp
 CMakeFiles/Mini2.dir/src/ExplosionEffect.cpp.obj: ../src/ExplosionEffect.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\Documents\I2P 2\Mini2\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/Mini2.dir/src/ExplosionEffect.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\Documents\I2P 2\Mini2\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/Mini2.dir/src/ExplosionEffect.cpp.obj"
 	C:\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\Mini2.dir\src\ExplosionEffect.cpp.obj -c "D:\Documents\I2P 2\Mini2\src\ExplosionEffect.cpp"
 
 CMakeFiles/Mini2.dir/src/ExplosionEffect.cpp.i: cmake_force
@@ -154,24 +126,10 @@ CMakeFiles/Mini2.dir/src/ExplosionEffect.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Mini2.dir/src/ExplosionEffect.cpp.s"
 	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\Documents\I2P 2\Mini2\src\ExplosionEffect.cpp" -o CMakeFiles\Mini2.dir\src\ExplosionEffect.cpp.s
 
-CMakeFiles/Mini2.dir/src/FireBullet.cpp.obj: CMakeFiles/Mini2.dir/flags.make
-CMakeFiles/Mini2.dir/src/FireBullet.cpp.obj: CMakeFiles/Mini2.dir/includes_CXX.rsp
-CMakeFiles/Mini2.dir/src/FireBullet.cpp.obj: ../src/FireBullet.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\Documents\I2P 2\Mini2\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/Mini2.dir/src/FireBullet.cpp.obj"
-	C:\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\Mini2.dir\src\FireBullet.cpp.obj -c "D:\Documents\I2P 2\Mini2\src\FireBullet.cpp"
-
-CMakeFiles/Mini2.dir/src/FireBullet.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Mini2.dir/src/FireBullet.cpp.i"
-	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "D:\Documents\I2P 2\Mini2\src\FireBullet.cpp" > CMakeFiles\Mini2.dir\src\FireBullet.cpp.i
-
-CMakeFiles/Mini2.dir/src/FireBullet.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Mini2.dir/src/FireBullet.cpp.s"
-	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\Documents\I2P 2\Mini2\src\FireBullet.cpp" -o CMakeFiles\Mini2.dir\src\FireBullet.cpp.s
-
 CMakeFiles/Mini2.dir/src/GameEngine.cpp.obj: CMakeFiles/Mini2.dir/flags.make
 CMakeFiles/Mini2.dir/src/GameEngine.cpp.obj: CMakeFiles/Mini2.dir/includes_CXX.rsp
 CMakeFiles/Mini2.dir/src/GameEngine.cpp.obj: ../src/GameEngine.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\Documents\I2P 2\Mini2\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/Mini2.dir/src/GameEngine.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\Documents\I2P 2\Mini2\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/Mini2.dir/src/GameEngine.cpp.obj"
 	C:\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\Mini2.dir\src\GameEngine.cpp.obj -c "D:\Documents\I2P 2\Mini2\src\GameEngine.cpp"
 
 CMakeFiles/Mini2.dir/src/GameEngine.cpp.i: cmake_force
@@ -185,7 +143,7 @@ CMakeFiles/Mini2.dir/src/GameEngine.cpp.s: cmake_force
 CMakeFiles/Mini2.dir/src/Group.cpp.obj: CMakeFiles/Mini2.dir/flags.make
 CMakeFiles/Mini2.dir/src/Group.cpp.obj: CMakeFiles/Mini2.dir/includes_CXX.rsp
 CMakeFiles/Mini2.dir/src/Group.cpp.obj: ../src/Group.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\Documents\I2P 2\Mini2\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/Mini2.dir/src/Group.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\Documents\I2P 2\Mini2\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/Mini2.dir/src/Group.cpp.obj"
 	C:\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\Mini2.dir\src\Group.cpp.obj -c "D:\Documents\I2P 2\Mini2\src\Group.cpp"
 
 CMakeFiles/Mini2.dir/src/Group.cpp.i: cmake_force
@@ -199,7 +157,7 @@ CMakeFiles/Mini2.dir/src/Group.cpp.s: cmake_force
 CMakeFiles/Mini2.dir/src/IControl.cpp.obj: CMakeFiles/Mini2.dir/flags.make
 CMakeFiles/Mini2.dir/src/IControl.cpp.obj: CMakeFiles/Mini2.dir/includes_CXX.rsp
 CMakeFiles/Mini2.dir/src/IControl.cpp.obj: ../src/IControl.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\Documents\I2P 2\Mini2\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/Mini2.dir/src/IControl.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\Documents\I2P 2\Mini2\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/Mini2.dir/src/IControl.cpp.obj"
 	C:\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\Mini2.dir\src\IControl.cpp.obj -c "D:\Documents\I2P 2\Mini2\src\IControl.cpp"
 
 CMakeFiles/Mini2.dir/src/IControl.cpp.i: cmake_force
@@ -213,7 +171,7 @@ CMakeFiles/Mini2.dir/src/IControl.cpp.s: cmake_force
 CMakeFiles/Mini2.dir/src/IObject.cpp.obj: CMakeFiles/Mini2.dir/flags.make
 CMakeFiles/Mini2.dir/src/IObject.cpp.obj: CMakeFiles/Mini2.dir/includes_CXX.rsp
 CMakeFiles/Mini2.dir/src/IObject.cpp.obj: ../src/IObject.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\Documents\I2P 2\Mini2\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object CMakeFiles/Mini2.dir/src/IObject.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\Documents\I2P 2\Mini2\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/Mini2.dir/src/IObject.cpp.obj"
 	C:\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\Mini2.dir\src\IObject.cpp.obj -c "D:\Documents\I2P 2\Mini2\src\IObject.cpp"
 
 CMakeFiles/Mini2.dir/src/IObject.cpp.i: cmake_force
@@ -227,7 +185,7 @@ CMakeFiles/Mini2.dir/src/IObject.cpp.s: cmake_force
 CMakeFiles/Mini2.dir/src/IScene.cpp.obj: CMakeFiles/Mini2.dir/flags.make
 CMakeFiles/Mini2.dir/src/IScene.cpp.obj: CMakeFiles/Mini2.dir/includes_CXX.rsp
 CMakeFiles/Mini2.dir/src/IScene.cpp.obj: ../src/IScene.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\Documents\I2P 2\Mini2\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object CMakeFiles/Mini2.dir/src/IScene.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\Documents\I2P 2\Mini2\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/Mini2.dir/src/IScene.cpp.obj"
 	C:\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\Mini2.dir\src\IScene.cpp.obj -c "D:\Documents\I2P 2\Mini2\src\IScene.cpp"
 
 CMakeFiles/Mini2.dir/src/IScene.cpp.i: cmake_force
@@ -241,7 +199,7 @@ CMakeFiles/Mini2.dir/src/IScene.cpp.s: cmake_force
 CMakeFiles/Mini2.dir/src/Image.cpp.obj: CMakeFiles/Mini2.dir/flags.make
 CMakeFiles/Mini2.dir/src/Image.cpp.obj: CMakeFiles/Mini2.dir/includes_CXX.rsp
 CMakeFiles/Mini2.dir/src/Image.cpp.obj: ../src/Image.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\Documents\I2P 2\Mini2\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object CMakeFiles/Mini2.dir/src/Image.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\Documents\I2P 2\Mini2\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/Mini2.dir/src/Image.cpp.obj"
 	C:\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\Mini2.dir\src\Image.cpp.obj -c "D:\Documents\I2P 2\Mini2\src\Image.cpp"
 
 CMakeFiles/Mini2.dir/src/Image.cpp.i: cmake_force
@@ -255,7 +213,7 @@ CMakeFiles/Mini2.dir/src/Image.cpp.s: cmake_force
 CMakeFiles/Mini2.dir/src/ImageButton.cpp.obj: CMakeFiles/Mini2.dir/flags.make
 CMakeFiles/Mini2.dir/src/ImageButton.cpp.obj: CMakeFiles/Mini2.dir/includes_CXX.rsp
 CMakeFiles/Mini2.dir/src/ImageButton.cpp.obj: ../src/ImageButton.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\Documents\I2P 2\Mini2\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_15) "Building CXX object CMakeFiles/Mini2.dir/src/ImageButton.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\Documents\I2P 2\Mini2\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object CMakeFiles/Mini2.dir/src/ImageButton.cpp.obj"
 	C:\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\Mini2.dir\src\ImageButton.cpp.obj -c "D:\Documents\I2P 2\Mini2\src\ImageButton.cpp"
 
 CMakeFiles/Mini2.dir/src/ImageButton.cpp.i: cmake_force
@@ -269,7 +227,7 @@ CMakeFiles/Mini2.dir/src/ImageButton.cpp.s: cmake_force
 CMakeFiles/Mini2.dir/src/LOG.cpp.obj: CMakeFiles/Mini2.dir/flags.make
 CMakeFiles/Mini2.dir/src/LOG.cpp.obj: CMakeFiles/Mini2.dir/includes_CXX.rsp
 CMakeFiles/Mini2.dir/src/LOG.cpp.obj: ../src/LOG.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\Documents\I2P 2\Mini2\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_16) "Building CXX object CMakeFiles/Mini2.dir/src/LOG.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\Documents\I2P 2\Mini2\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object CMakeFiles/Mini2.dir/src/LOG.cpp.obj"
 	C:\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\Mini2.dir\src\LOG.cpp.obj -c "D:\Documents\I2P 2\Mini2\src\LOG.cpp"
 
 CMakeFiles/Mini2.dir/src/LOG.cpp.i: cmake_force
@@ -283,7 +241,7 @@ CMakeFiles/Mini2.dir/src/LOG.cpp.s: cmake_force
 CMakeFiles/Mini2.dir/src/Label.cpp.obj: CMakeFiles/Mini2.dir/flags.make
 CMakeFiles/Mini2.dir/src/Label.cpp.obj: CMakeFiles/Mini2.dir/includes_CXX.rsp
 CMakeFiles/Mini2.dir/src/Label.cpp.obj: ../src/Label.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\Documents\I2P 2\Mini2\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_17) "Building CXX object CMakeFiles/Mini2.dir/src/Label.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\Documents\I2P 2\Mini2\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object CMakeFiles/Mini2.dir/src/Label.cpp.obj"
 	C:\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\Mini2.dir\src\Label.cpp.obj -c "D:\Documents\I2P 2\Mini2\src\Label.cpp"
 
 CMakeFiles/Mini2.dir/src/Label.cpp.i: cmake_force
@@ -294,80 +252,10 @@ CMakeFiles/Mini2.dir/src/Label.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Mini2.dir/src/Label.cpp.s"
 	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\Documents\I2P 2\Mini2\src\Label.cpp" -o CMakeFiles\Mini2.dir\src\Label.cpp.s
 
-CMakeFiles/Mini2.dir/src/LaserBullet.cpp.obj: CMakeFiles/Mini2.dir/flags.make
-CMakeFiles/Mini2.dir/src/LaserBullet.cpp.obj: CMakeFiles/Mini2.dir/includes_CXX.rsp
-CMakeFiles/Mini2.dir/src/LaserBullet.cpp.obj: ../src/LaserBullet.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\Documents\I2P 2\Mini2\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_18) "Building CXX object CMakeFiles/Mini2.dir/src/LaserBullet.cpp.obj"
-	C:\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\Mini2.dir\src\LaserBullet.cpp.obj -c "D:\Documents\I2P 2\Mini2\src\LaserBullet.cpp"
-
-CMakeFiles/Mini2.dir/src/LaserBullet.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Mini2.dir/src/LaserBullet.cpp.i"
-	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "D:\Documents\I2P 2\Mini2\src\LaserBullet.cpp" > CMakeFiles\Mini2.dir\src\LaserBullet.cpp.i
-
-CMakeFiles/Mini2.dir/src/LaserBullet.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Mini2.dir/src/LaserBullet.cpp.s"
-	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\Documents\I2P 2\Mini2\src\LaserBullet.cpp" -o CMakeFiles\Mini2.dir\src\LaserBullet.cpp.s
-
-CMakeFiles/Mini2.dir/src/LaserTurret.cpp.obj: CMakeFiles/Mini2.dir/flags.make
-CMakeFiles/Mini2.dir/src/LaserTurret.cpp.obj: CMakeFiles/Mini2.dir/includes_CXX.rsp
-CMakeFiles/Mini2.dir/src/LaserTurret.cpp.obj: ../src/LaserTurret.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\Documents\I2P 2\Mini2\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_19) "Building CXX object CMakeFiles/Mini2.dir/src/LaserTurret.cpp.obj"
-	C:\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\Mini2.dir\src\LaserTurret.cpp.obj -c "D:\Documents\I2P 2\Mini2\src\LaserTurret.cpp"
-
-CMakeFiles/Mini2.dir/src/LaserTurret.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Mini2.dir/src/LaserTurret.cpp.i"
-	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "D:\Documents\I2P 2\Mini2\src\LaserTurret.cpp" > CMakeFiles\Mini2.dir\src\LaserTurret.cpp.i
-
-CMakeFiles/Mini2.dir/src/LaserTurret.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Mini2.dir/src/LaserTurret.cpp.s"
-	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\Documents\I2P 2\Mini2\src\LaserTurret.cpp" -o CMakeFiles\Mini2.dir\src\LaserTurret.cpp.s
-
-CMakeFiles/Mini2.dir/src/MachineGunTurret.cpp.obj: CMakeFiles/Mini2.dir/flags.make
-CMakeFiles/Mini2.dir/src/MachineGunTurret.cpp.obj: CMakeFiles/Mini2.dir/includes_CXX.rsp
-CMakeFiles/Mini2.dir/src/MachineGunTurret.cpp.obj: ../src/MachineGunTurret.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\Documents\I2P 2\Mini2\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_20) "Building CXX object CMakeFiles/Mini2.dir/src/MachineGunTurret.cpp.obj"
-	C:\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\Mini2.dir\src\MachineGunTurret.cpp.obj -c "D:\Documents\I2P 2\Mini2\src\MachineGunTurret.cpp"
-
-CMakeFiles/Mini2.dir/src/MachineGunTurret.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Mini2.dir/src/MachineGunTurret.cpp.i"
-	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "D:\Documents\I2P 2\Mini2\src\MachineGunTurret.cpp" > CMakeFiles\Mini2.dir\src\MachineGunTurret.cpp.i
-
-CMakeFiles/Mini2.dir/src/MachineGunTurret.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Mini2.dir/src/MachineGunTurret.cpp.s"
-	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\Documents\I2P 2\Mini2\src\MachineGunTurret.cpp" -o CMakeFiles\Mini2.dir\src\MachineGunTurret.cpp.s
-
-CMakeFiles/Mini2.dir/src/MissileBullet.cpp.obj: CMakeFiles/Mini2.dir/flags.make
-CMakeFiles/Mini2.dir/src/MissileBullet.cpp.obj: CMakeFiles/Mini2.dir/includes_CXX.rsp
-CMakeFiles/Mini2.dir/src/MissileBullet.cpp.obj: ../src/MissileBullet.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\Documents\I2P 2\Mini2\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_21) "Building CXX object CMakeFiles/Mini2.dir/src/MissileBullet.cpp.obj"
-	C:\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\Mini2.dir\src\MissileBullet.cpp.obj -c "D:\Documents\I2P 2\Mini2\src\MissileBullet.cpp"
-
-CMakeFiles/Mini2.dir/src/MissileBullet.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Mini2.dir/src/MissileBullet.cpp.i"
-	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "D:\Documents\I2P 2\Mini2\src\MissileBullet.cpp" > CMakeFiles\Mini2.dir\src\MissileBullet.cpp.i
-
-CMakeFiles/Mini2.dir/src/MissileBullet.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Mini2.dir/src/MissileBullet.cpp.s"
-	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\Documents\I2P 2\Mini2\src\MissileBullet.cpp" -o CMakeFiles\Mini2.dir\src\MissileBullet.cpp.s
-
-CMakeFiles/Mini2.dir/src/MissileTurret.cpp.obj: CMakeFiles/Mini2.dir/flags.make
-CMakeFiles/Mini2.dir/src/MissileTurret.cpp.obj: CMakeFiles/Mini2.dir/includes_CXX.rsp
-CMakeFiles/Mini2.dir/src/MissileTurret.cpp.obj: ../src/MissileTurret.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\Documents\I2P 2\Mini2\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_22) "Building CXX object CMakeFiles/Mini2.dir/src/MissileTurret.cpp.obj"
-	C:\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\Mini2.dir\src\MissileTurret.cpp.obj -c "D:\Documents\I2P 2\Mini2\src\MissileTurret.cpp"
-
-CMakeFiles/Mini2.dir/src/MissileTurret.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Mini2.dir/src/MissileTurret.cpp.i"
-	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "D:\Documents\I2P 2\Mini2\src\MissileTurret.cpp" > CMakeFiles\Mini2.dir\src\MissileTurret.cpp.i
-
-CMakeFiles/Mini2.dir/src/MissileTurret.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Mini2.dir/src/MissileTurret.cpp.s"
-	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\Documents\I2P 2\Mini2\src\MissileTurret.cpp" -o CMakeFiles\Mini2.dir\src\MissileTurret.cpp.s
-
 CMakeFiles/Mini2.dir/src/Plane.cpp.obj: CMakeFiles/Mini2.dir/flags.make
 CMakeFiles/Mini2.dir/src/Plane.cpp.obj: CMakeFiles/Mini2.dir/includes_CXX.rsp
 CMakeFiles/Mini2.dir/src/Plane.cpp.obj: ../src/Plane.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\Documents\I2P 2\Mini2\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_23) "Building CXX object CMakeFiles/Mini2.dir/src/Plane.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\Documents\I2P 2\Mini2\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_15) "Building CXX object CMakeFiles/Mini2.dir/src/Plane.cpp.obj"
 	C:\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\Mini2.dir\src\Plane.cpp.obj -c "D:\Documents\I2P 2\Mini2\src\Plane.cpp"
 
 CMakeFiles/Mini2.dir/src/Plane.cpp.i: cmake_force
@@ -378,24 +266,10 @@ CMakeFiles/Mini2.dir/src/Plane.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Mini2.dir/src/Plane.cpp.s"
 	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\Documents\I2P 2\Mini2\src\Plane.cpp" -o CMakeFiles\Mini2.dir\src\Plane.cpp.s
 
-CMakeFiles/Mini2.dir/src/PlaneEnemy.cpp.obj: CMakeFiles/Mini2.dir/flags.make
-CMakeFiles/Mini2.dir/src/PlaneEnemy.cpp.obj: CMakeFiles/Mini2.dir/includes_CXX.rsp
-CMakeFiles/Mini2.dir/src/PlaneEnemy.cpp.obj: ../src/PlaneEnemy.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\Documents\I2P 2\Mini2\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_24) "Building CXX object CMakeFiles/Mini2.dir/src/PlaneEnemy.cpp.obj"
-	C:\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\Mini2.dir\src\PlaneEnemy.cpp.obj -c "D:\Documents\I2P 2\Mini2\src\PlaneEnemy.cpp"
-
-CMakeFiles/Mini2.dir/src/PlaneEnemy.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Mini2.dir/src/PlaneEnemy.cpp.i"
-	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "D:\Documents\I2P 2\Mini2\src\PlaneEnemy.cpp" > CMakeFiles\Mini2.dir\src\PlaneEnemy.cpp.i
-
-CMakeFiles/Mini2.dir/src/PlaneEnemy.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Mini2.dir/src/PlaneEnemy.cpp.s"
-	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\Documents\I2P 2\Mini2\src\PlaneEnemy.cpp" -o CMakeFiles\Mini2.dir\src\PlaneEnemy.cpp.s
-
 CMakeFiles/Mini2.dir/src/Point.cpp.obj: CMakeFiles/Mini2.dir/flags.make
 CMakeFiles/Mini2.dir/src/Point.cpp.obj: CMakeFiles/Mini2.dir/includes_CXX.rsp
 CMakeFiles/Mini2.dir/src/Point.cpp.obj: ../src/Point.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\Documents\I2P 2\Mini2\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_25) "Building CXX object CMakeFiles/Mini2.dir/src/Point.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\Documents\I2P 2\Mini2\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_16) "Building CXX object CMakeFiles/Mini2.dir/src/Point.cpp.obj"
 	C:\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\Mini2.dir\src\Point.cpp.obj -c "D:\Documents\I2P 2\Mini2\src\Point.cpp"
 
 CMakeFiles/Mini2.dir/src/Point.cpp.i: cmake_force
@@ -409,7 +283,7 @@ CMakeFiles/Mini2.dir/src/Point.cpp.s: cmake_force
 CMakeFiles/Mini2.dir/src/Resources.cpp.obj: CMakeFiles/Mini2.dir/flags.make
 CMakeFiles/Mini2.dir/src/Resources.cpp.obj: CMakeFiles/Mini2.dir/includes_CXX.rsp
 CMakeFiles/Mini2.dir/src/Resources.cpp.obj: ../src/Resources.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\Documents\I2P 2\Mini2\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_26) "Building CXX object CMakeFiles/Mini2.dir/src/Resources.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\Documents\I2P 2\Mini2\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_17) "Building CXX object CMakeFiles/Mini2.dir/src/Resources.cpp.obj"
 	C:\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\Mini2.dir\src\Resources.cpp.obj -c "D:\Documents\I2P 2\Mini2\src\Resources.cpp"
 
 CMakeFiles/Mini2.dir/src/Resources.cpp.i: cmake_force
@@ -423,7 +297,7 @@ CMakeFiles/Mini2.dir/src/Resources.cpp.s: cmake_force
 CMakeFiles/Mini2.dir/src/Slider.cpp.obj: CMakeFiles/Mini2.dir/flags.make
 CMakeFiles/Mini2.dir/src/Slider.cpp.obj: CMakeFiles/Mini2.dir/includes_CXX.rsp
 CMakeFiles/Mini2.dir/src/Slider.cpp.obj: ../src/Slider.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\Documents\I2P 2\Mini2\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_27) "Building CXX object CMakeFiles/Mini2.dir/src/Slider.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\Documents\I2P 2\Mini2\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_18) "Building CXX object CMakeFiles/Mini2.dir/src/Slider.cpp.obj"
 	C:\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\Mini2.dir\src\Slider.cpp.obj -c "D:\Documents\I2P 2\Mini2\src\Slider.cpp"
 
 CMakeFiles/Mini2.dir/src/Slider.cpp.i: cmake_force
@@ -434,24 +308,10 @@ CMakeFiles/Mini2.dir/src/Slider.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Mini2.dir/src/Slider.cpp.s"
 	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\Documents\I2P 2\Mini2\src\Slider.cpp" -o CMakeFiles\Mini2.dir\src\Slider.cpp.s
 
-CMakeFiles/Mini2.dir/src/SoldierEnemy.cpp.obj: CMakeFiles/Mini2.dir/flags.make
-CMakeFiles/Mini2.dir/src/SoldierEnemy.cpp.obj: CMakeFiles/Mini2.dir/includes_CXX.rsp
-CMakeFiles/Mini2.dir/src/SoldierEnemy.cpp.obj: ../src/SoldierEnemy.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\Documents\I2P 2\Mini2\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_28) "Building CXX object CMakeFiles/Mini2.dir/src/SoldierEnemy.cpp.obj"
-	C:\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\Mini2.dir\src\SoldierEnemy.cpp.obj -c "D:\Documents\I2P 2\Mini2\src\SoldierEnemy.cpp"
-
-CMakeFiles/Mini2.dir/src/SoldierEnemy.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Mini2.dir/src/SoldierEnemy.cpp.i"
-	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "D:\Documents\I2P 2\Mini2\src\SoldierEnemy.cpp" > CMakeFiles\Mini2.dir\src\SoldierEnemy.cpp.i
-
-CMakeFiles/Mini2.dir/src/SoldierEnemy.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Mini2.dir/src/SoldierEnemy.cpp.s"
-	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\Documents\I2P 2\Mini2\src\SoldierEnemy.cpp" -o CMakeFiles\Mini2.dir\src\SoldierEnemy.cpp.s
-
 CMakeFiles/Mini2.dir/src/Sprite.cpp.obj: CMakeFiles/Mini2.dir/flags.make
 CMakeFiles/Mini2.dir/src/Sprite.cpp.obj: CMakeFiles/Mini2.dir/includes_CXX.rsp
 CMakeFiles/Mini2.dir/src/Sprite.cpp.obj: ../src/Sprite.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\Documents\I2P 2\Mini2\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_29) "Building CXX object CMakeFiles/Mini2.dir/src/Sprite.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\Documents\I2P 2\Mini2\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_19) "Building CXX object CMakeFiles/Mini2.dir/src/Sprite.cpp.obj"
 	C:\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\Mini2.dir\src\Sprite.cpp.obj -c "D:\Documents\I2P 2\Mini2\src\Sprite.cpp"
 
 CMakeFiles/Mini2.dir/src/Sprite.cpp.i: cmake_force
@@ -462,38 +322,10 @@ CMakeFiles/Mini2.dir/src/Sprite.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Mini2.dir/src/Sprite.cpp.s"
 	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\Documents\I2P 2\Mini2\src\Sprite.cpp" -o CMakeFiles\Mini2.dir\src\Sprite.cpp.s
 
-CMakeFiles/Mini2.dir/src/TankEnemy.cpp.obj: CMakeFiles/Mini2.dir/flags.make
-CMakeFiles/Mini2.dir/src/TankEnemy.cpp.obj: CMakeFiles/Mini2.dir/includes_CXX.rsp
-CMakeFiles/Mini2.dir/src/TankEnemy.cpp.obj: ../src/TankEnemy.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\Documents\I2P 2\Mini2\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_30) "Building CXX object CMakeFiles/Mini2.dir/src/TankEnemy.cpp.obj"
-	C:\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\Mini2.dir\src\TankEnemy.cpp.obj -c "D:\Documents\I2P 2\Mini2\src\TankEnemy.cpp"
-
-CMakeFiles/Mini2.dir/src/TankEnemy.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Mini2.dir/src/TankEnemy.cpp.i"
-	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "D:\Documents\I2P 2\Mini2\src\TankEnemy.cpp" > CMakeFiles\Mini2.dir\src\TankEnemy.cpp.i
-
-CMakeFiles/Mini2.dir/src/TankEnemy.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Mini2.dir/src/TankEnemy.cpp.s"
-	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\Documents\I2P 2\Mini2\src\TankEnemy.cpp" -o CMakeFiles\Mini2.dir\src\TankEnemy.cpp.s
-
-CMakeFiles/Mini2.dir/src/Turret.cpp.obj: CMakeFiles/Mini2.dir/flags.make
-CMakeFiles/Mini2.dir/src/Turret.cpp.obj: CMakeFiles/Mini2.dir/includes_CXX.rsp
-CMakeFiles/Mini2.dir/src/Turret.cpp.obj: ../src/Turret.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\Documents\I2P 2\Mini2\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_31) "Building CXX object CMakeFiles/Mini2.dir/src/Turret.cpp.obj"
-	C:\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\Mini2.dir\src\Turret.cpp.obj -c "D:\Documents\I2P 2\Mini2\src\Turret.cpp"
-
-CMakeFiles/Mini2.dir/src/Turret.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Mini2.dir/src/Turret.cpp.i"
-	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "D:\Documents\I2P 2\Mini2\src\Turret.cpp" > CMakeFiles\Mini2.dir\src\Turret.cpp.i
-
-CMakeFiles/Mini2.dir/src/Turret.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Mini2.dir/src/Turret.cpp.s"
-	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\Documents\I2P 2\Mini2\src\Turret.cpp" -o CMakeFiles\Mini2.dir\src\Turret.cpp.s
-
 CMakeFiles/Mini2.dir/src/TurretButton.cpp.obj: CMakeFiles/Mini2.dir/flags.make
 CMakeFiles/Mini2.dir/src/TurretButton.cpp.obj: CMakeFiles/Mini2.dir/includes_CXX.rsp
 CMakeFiles/Mini2.dir/src/TurretButton.cpp.obj: ../src/TurretButton.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\Documents\I2P 2\Mini2\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_32) "Building CXX object CMakeFiles/Mini2.dir/src/TurretButton.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\Documents\I2P 2\Mini2\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_20) "Building CXX object CMakeFiles/Mini2.dir/src/TurretButton.cpp.obj"
 	C:\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\Mini2.dir\src\TurretButton.cpp.obj -c "D:\Documents\I2P 2\Mini2\src\TurretButton.cpp"
 
 CMakeFiles/Mini2.dir/src/TurretButton.cpp.i: cmake_force
@@ -507,7 +339,7 @@ CMakeFiles/Mini2.dir/src/TurretButton.cpp.s: cmake_force
 CMakeFiles/Mini2.dir/src/main.cpp.obj: CMakeFiles/Mini2.dir/flags.make
 CMakeFiles/Mini2.dir/src/main.cpp.obj: CMakeFiles/Mini2.dir/includes_CXX.rsp
 CMakeFiles/Mini2.dir/src/main.cpp.obj: ../src/main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\Documents\I2P 2\Mini2\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_33) "Building CXX object CMakeFiles/Mini2.dir/src/main.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\Documents\I2P 2\Mini2\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_21) "Building CXX object CMakeFiles/Mini2.dir/src/main.cpp.obj"
 	C:\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\Mini2.dir\src\main.cpp.obj -c "D:\Documents\I2P 2\Mini2\src\main.cpp"
 
 CMakeFiles/Mini2.dir/src/main.cpp.i: cmake_force
@@ -521,7 +353,7 @@ CMakeFiles/Mini2.dir/src/main.cpp.s: cmake_force
 CMakeFiles/Mini2.dir/src/Scenes/LoseScene.cpp.obj: CMakeFiles/Mini2.dir/flags.make
 CMakeFiles/Mini2.dir/src/Scenes/LoseScene.cpp.obj: CMakeFiles/Mini2.dir/includes_CXX.rsp
 CMakeFiles/Mini2.dir/src/Scenes/LoseScene.cpp.obj: ../src/Scenes/LoseScene.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\Documents\I2P 2\Mini2\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_34) "Building CXX object CMakeFiles/Mini2.dir/src/Scenes/LoseScene.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\Documents\I2P 2\Mini2\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_22) "Building CXX object CMakeFiles/Mini2.dir/src/Scenes/LoseScene.cpp.obj"
 	C:\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\Mini2.dir\src\Scenes\LoseScene.cpp.obj -c "D:\Documents\I2P 2\Mini2\src\Scenes\LoseScene.cpp"
 
 CMakeFiles/Mini2.dir/src/Scenes/LoseScene.cpp.i: cmake_force
@@ -535,7 +367,7 @@ CMakeFiles/Mini2.dir/src/Scenes/LoseScene.cpp.s: cmake_force
 CMakeFiles/Mini2.dir/src/Scenes/MainScene.cpp.obj: CMakeFiles/Mini2.dir/flags.make
 CMakeFiles/Mini2.dir/src/Scenes/MainScene.cpp.obj: CMakeFiles/Mini2.dir/includes_CXX.rsp
 CMakeFiles/Mini2.dir/src/Scenes/MainScene.cpp.obj: ../src/Scenes/MainScene.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\Documents\I2P 2\Mini2\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_35) "Building CXX object CMakeFiles/Mini2.dir/src/Scenes/MainScene.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\Documents\I2P 2\Mini2\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_23) "Building CXX object CMakeFiles/Mini2.dir/src/Scenes/MainScene.cpp.obj"
 	C:\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\Mini2.dir\src\Scenes\MainScene.cpp.obj -c "D:\Documents\I2P 2\Mini2\src\Scenes\MainScene.cpp"
 
 CMakeFiles/Mini2.dir/src/Scenes/MainScene.cpp.i: cmake_force
@@ -549,7 +381,7 @@ CMakeFiles/Mini2.dir/src/Scenes/MainScene.cpp.s: cmake_force
 CMakeFiles/Mini2.dir/src/Scenes/PlayScene.cpp.obj: CMakeFiles/Mini2.dir/flags.make
 CMakeFiles/Mini2.dir/src/Scenes/PlayScene.cpp.obj: CMakeFiles/Mini2.dir/includes_CXX.rsp
 CMakeFiles/Mini2.dir/src/Scenes/PlayScene.cpp.obj: ../src/Scenes/PlayScene.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\Documents\I2P 2\Mini2\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_36) "Building CXX object CMakeFiles/Mini2.dir/src/Scenes/PlayScene.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\Documents\I2P 2\Mini2\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_24) "Building CXX object CMakeFiles/Mini2.dir/src/Scenes/PlayScene.cpp.obj"
 	C:\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\Mini2.dir\src\Scenes\PlayScene.cpp.obj -c "D:\Documents\I2P 2\Mini2\src\Scenes\PlayScene.cpp"
 
 CMakeFiles/Mini2.dir/src/Scenes/PlayScene.cpp.i: cmake_force
@@ -563,7 +395,7 @@ CMakeFiles/Mini2.dir/src/Scenes/PlayScene.cpp.s: cmake_force
 CMakeFiles/Mini2.dir/src/Scenes/SettingScene.cpp.obj: CMakeFiles/Mini2.dir/flags.make
 CMakeFiles/Mini2.dir/src/Scenes/SettingScene.cpp.obj: CMakeFiles/Mini2.dir/includes_CXX.rsp
 CMakeFiles/Mini2.dir/src/Scenes/SettingScene.cpp.obj: ../src/Scenes/SettingScene.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\Documents\I2P 2\Mini2\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_37) "Building CXX object CMakeFiles/Mini2.dir/src/Scenes/SettingScene.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\Documents\I2P 2\Mini2\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_25) "Building CXX object CMakeFiles/Mini2.dir/src/Scenes/SettingScene.cpp.obj"
 	C:\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\Mini2.dir\src\Scenes\SettingScene.cpp.obj -c "D:\Documents\I2P 2\Mini2\src\Scenes\SettingScene.cpp"
 
 CMakeFiles/Mini2.dir/src/Scenes/SettingScene.cpp.i: cmake_force
@@ -577,7 +409,7 @@ CMakeFiles/Mini2.dir/src/Scenes/SettingScene.cpp.s: cmake_force
 CMakeFiles/Mini2.dir/src/Scenes/StageSelectScene.cpp.obj: CMakeFiles/Mini2.dir/flags.make
 CMakeFiles/Mini2.dir/src/Scenes/StageSelectScene.cpp.obj: CMakeFiles/Mini2.dir/includes_CXX.rsp
 CMakeFiles/Mini2.dir/src/Scenes/StageSelectScene.cpp.obj: ../src/Scenes/StageSelectScene.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\Documents\I2P 2\Mini2\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_38) "Building CXX object CMakeFiles/Mini2.dir/src/Scenes/StageSelectScene.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\Documents\I2P 2\Mini2\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_26) "Building CXX object CMakeFiles/Mini2.dir/src/Scenes/StageSelectScene.cpp.obj"
 	C:\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\Mini2.dir\src\Scenes\StageSelectScene.cpp.obj -c "D:\Documents\I2P 2\Mini2\src\Scenes\StageSelectScene.cpp"
 
 CMakeFiles/Mini2.dir/src/Scenes/StageSelectScene.cpp.i: cmake_force
@@ -591,7 +423,7 @@ CMakeFiles/Mini2.dir/src/Scenes/StageSelectScene.cpp.s: cmake_force
 CMakeFiles/Mini2.dir/src/Scenes/WinScene.cpp.obj: CMakeFiles/Mini2.dir/flags.make
 CMakeFiles/Mini2.dir/src/Scenes/WinScene.cpp.obj: CMakeFiles/Mini2.dir/includes_CXX.rsp
 CMakeFiles/Mini2.dir/src/Scenes/WinScene.cpp.obj: ../src/Scenes/WinScene.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\Documents\I2P 2\Mini2\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_39) "Building CXX object CMakeFiles/Mini2.dir/src/Scenes/WinScene.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\Documents\I2P 2\Mini2\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_27) "Building CXX object CMakeFiles/Mini2.dir/src/Scenes/WinScene.cpp.obj"
 	C:\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\Mini2.dir\src\Scenes\WinScene.cpp.obj -c "D:\Documents\I2P 2\Mini2\src\Scenes\WinScene.cpp"
 
 CMakeFiles/Mini2.dir/src/Scenes/WinScene.cpp.i: cmake_force
@@ -602,16 +434,181 @@ CMakeFiles/Mini2.dir/src/Scenes/WinScene.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Mini2.dir/src/Scenes/WinScene.cpp.s"
 	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\Documents\I2P 2\Mini2\src\Scenes\WinScene.cpp" -o CMakeFiles\Mini2.dir\src\Scenes\WinScene.cpp.s
 
+CMakeFiles/Mini2.dir/src/Bullet/Bullet.cpp.obj: CMakeFiles/Mini2.dir/flags.make
+CMakeFiles/Mini2.dir/src/Bullet/Bullet.cpp.obj: CMakeFiles/Mini2.dir/includes_CXX.rsp
+CMakeFiles/Mini2.dir/src/Bullet/Bullet.cpp.obj: ../src/Bullet/Bullet.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\Documents\I2P 2\Mini2\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_28) "Building CXX object CMakeFiles/Mini2.dir/src/Bullet/Bullet.cpp.obj"
+	C:\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\Mini2.dir\src\Bullet\Bullet.cpp.obj -c "D:\Documents\I2P 2\Mini2\src\Bullet\Bullet.cpp"
+
+CMakeFiles/Mini2.dir/src/Bullet/Bullet.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Mini2.dir/src/Bullet/Bullet.cpp.i"
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "D:\Documents\I2P 2\Mini2\src\Bullet\Bullet.cpp" > CMakeFiles\Mini2.dir\src\Bullet\Bullet.cpp.i
+
+CMakeFiles/Mini2.dir/src/Bullet/Bullet.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Mini2.dir/src/Bullet/Bullet.cpp.s"
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\Documents\I2P 2\Mini2\src\Bullet\Bullet.cpp" -o CMakeFiles\Mini2.dir\src\Bullet\Bullet.cpp.s
+
+CMakeFiles/Mini2.dir/src/Bullet/FireBullet.cpp.obj: CMakeFiles/Mini2.dir/flags.make
+CMakeFiles/Mini2.dir/src/Bullet/FireBullet.cpp.obj: CMakeFiles/Mini2.dir/includes_CXX.rsp
+CMakeFiles/Mini2.dir/src/Bullet/FireBullet.cpp.obj: ../src/Bullet/FireBullet.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\Documents\I2P 2\Mini2\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_29) "Building CXX object CMakeFiles/Mini2.dir/src/Bullet/FireBullet.cpp.obj"
+	C:\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\Mini2.dir\src\Bullet\FireBullet.cpp.obj -c "D:\Documents\I2P 2\Mini2\src\Bullet\FireBullet.cpp"
+
+CMakeFiles/Mini2.dir/src/Bullet/FireBullet.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Mini2.dir/src/Bullet/FireBullet.cpp.i"
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "D:\Documents\I2P 2\Mini2\src\Bullet\FireBullet.cpp" > CMakeFiles\Mini2.dir\src\Bullet\FireBullet.cpp.i
+
+CMakeFiles/Mini2.dir/src/Bullet/FireBullet.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Mini2.dir/src/Bullet/FireBullet.cpp.s"
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\Documents\I2P 2\Mini2\src\Bullet\FireBullet.cpp" -o CMakeFiles\Mini2.dir\src\Bullet\FireBullet.cpp.s
+
+CMakeFiles/Mini2.dir/src/Bullet/LaserBullet.cpp.obj: CMakeFiles/Mini2.dir/flags.make
+CMakeFiles/Mini2.dir/src/Bullet/LaserBullet.cpp.obj: CMakeFiles/Mini2.dir/includes_CXX.rsp
+CMakeFiles/Mini2.dir/src/Bullet/LaserBullet.cpp.obj: ../src/Bullet/LaserBullet.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\Documents\I2P 2\Mini2\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_30) "Building CXX object CMakeFiles/Mini2.dir/src/Bullet/LaserBullet.cpp.obj"
+	C:\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\Mini2.dir\src\Bullet\LaserBullet.cpp.obj -c "D:\Documents\I2P 2\Mini2\src\Bullet\LaserBullet.cpp"
+
+CMakeFiles/Mini2.dir/src/Bullet/LaserBullet.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Mini2.dir/src/Bullet/LaserBullet.cpp.i"
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "D:\Documents\I2P 2\Mini2\src\Bullet\LaserBullet.cpp" > CMakeFiles\Mini2.dir\src\Bullet\LaserBullet.cpp.i
+
+CMakeFiles/Mini2.dir/src/Bullet/LaserBullet.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Mini2.dir/src/Bullet/LaserBullet.cpp.s"
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\Documents\I2P 2\Mini2\src\Bullet\LaserBullet.cpp" -o CMakeFiles\Mini2.dir\src\Bullet\LaserBullet.cpp.s
+
+CMakeFiles/Mini2.dir/src/Bullet/MissileBullet.cpp.obj: CMakeFiles/Mini2.dir/flags.make
+CMakeFiles/Mini2.dir/src/Bullet/MissileBullet.cpp.obj: CMakeFiles/Mini2.dir/includes_CXX.rsp
+CMakeFiles/Mini2.dir/src/Bullet/MissileBullet.cpp.obj: ../src/Bullet/MissileBullet.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\Documents\I2P 2\Mini2\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_31) "Building CXX object CMakeFiles/Mini2.dir/src/Bullet/MissileBullet.cpp.obj"
+	C:\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\Mini2.dir\src\Bullet\MissileBullet.cpp.obj -c "D:\Documents\I2P 2\Mini2\src\Bullet\MissileBullet.cpp"
+
+CMakeFiles/Mini2.dir/src/Bullet/MissileBullet.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Mini2.dir/src/Bullet/MissileBullet.cpp.i"
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "D:\Documents\I2P 2\Mini2\src\Bullet\MissileBullet.cpp" > CMakeFiles\Mini2.dir\src\Bullet\MissileBullet.cpp.i
+
+CMakeFiles/Mini2.dir/src/Bullet/MissileBullet.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Mini2.dir/src/Bullet/MissileBullet.cpp.s"
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\Documents\I2P 2\Mini2\src\Bullet\MissileBullet.cpp" -o CMakeFiles\Mini2.dir\src\Bullet\MissileBullet.cpp.s
+
+CMakeFiles/Mini2.dir/src/Turret/LaserTurret.cpp.obj: CMakeFiles/Mini2.dir/flags.make
+CMakeFiles/Mini2.dir/src/Turret/LaserTurret.cpp.obj: CMakeFiles/Mini2.dir/includes_CXX.rsp
+CMakeFiles/Mini2.dir/src/Turret/LaserTurret.cpp.obj: ../src/Turret/LaserTurret.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\Documents\I2P 2\Mini2\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_32) "Building CXX object CMakeFiles/Mini2.dir/src/Turret/LaserTurret.cpp.obj"
+	C:\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\Mini2.dir\src\Turret\LaserTurret.cpp.obj -c "D:\Documents\I2P 2\Mini2\src\Turret\LaserTurret.cpp"
+
+CMakeFiles/Mini2.dir/src/Turret/LaserTurret.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Mini2.dir/src/Turret/LaserTurret.cpp.i"
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "D:\Documents\I2P 2\Mini2\src\Turret\LaserTurret.cpp" > CMakeFiles\Mini2.dir\src\Turret\LaserTurret.cpp.i
+
+CMakeFiles/Mini2.dir/src/Turret/LaserTurret.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Mini2.dir/src/Turret/LaserTurret.cpp.s"
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\Documents\I2P 2\Mini2\src\Turret\LaserTurret.cpp" -o CMakeFiles\Mini2.dir\src\Turret\LaserTurret.cpp.s
+
+CMakeFiles/Mini2.dir/src/Turret/MachineGunTurret.cpp.obj: CMakeFiles/Mini2.dir/flags.make
+CMakeFiles/Mini2.dir/src/Turret/MachineGunTurret.cpp.obj: CMakeFiles/Mini2.dir/includes_CXX.rsp
+CMakeFiles/Mini2.dir/src/Turret/MachineGunTurret.cpp.obj: ../src/Turret/MachineGunTurret.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\Documents\I2P 2\Mini2\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_33) "Building CXX object CMakeFiles/Mini2.dir/src/Turret/MachineGunTurret.cpp.obj"
+	C:\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\Mini2.dir\src\Turret\MachineGunTurret.cpp.obj -c "D:\Documents\I2P 2\Mini2\src\Turret\MachineGunTurret.cpp"
+
+CMakeFiles/Mini2.dir/src/Turret/MachineGunTurret.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Mini2.dir/src/Turret/MachineGunTurret.cpp.i"
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "D:\Documents\I2P 2\Mini2\src\Turret\MachineGunTurret.cpp" > CMakeFiles\Mini2.dir\src\Turret\MachineGunTurret.cpp.i
+
+CMakeFiles/Mini2.dir/src/Turret/MachineGunTurret.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Mini2.dir/src/Turret/MachineGunTurret.cpp.s"
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\Documents\I2P 2\Mini2\src\Turret\MachineGunTurret.cpp" -o CMakeFiles\Mini2.dir\src\Turret\MachineGunTurret.cpp.s
+
+CMakeFiles/Mini2.dir/src/Turret/MissileTurret.cpp.obj: CMakeFiles/Mini2.dir/flags.make
+CMakeFiles/Mini2.dir/src/Turret/MissileTurret.cpp.obj: CMakeFiles/Mini2.dir/includes_CXX.rsp
+CMakeFiles/Mini2.dir/src/Turret/MissileTurret.cpp.obj: ../src/Turret/MissileTurret.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\Documents\I2P 2\Mini2\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_34) "Building CXX object CMakeFiles/Mini2.dir/src/Turret/MissileTurret.cpp.obj"
+	C:\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\Mini2.dir\src\Turret\MissileTurret.cpp.obj -c "D:\Documents\I2P 2\Mini2\src\Turret\MissileTurret.cpp"
+
+CMakeFiles/Mini2.dir/src/Turret/MissileTurret.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Mini2.dir/src/Turret/MissileTurret.cpp.i"
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "D:\Documents\I2P 2\Mini2\src\Turret\MissileTurret.cpp" > CMakeFiles\Mini2.dir\src\Turret\MissileTurret.cpp.i
+
+CMakeFiles/Mini2.dir/src/Turret/MissileTurret.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Mini2.dir/src/Turret/MissileTurret.cpp.s"
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\Documents\I2P 2\Mini2\src\Turret\MissileTurret.cpp" -o CMakeFiles\Mini2.dir\src\Turret\MissileTurret.cpp.s
+
+CMakeFiles/Mini2.dir/src/Turret/Turret.cpp.obj: CMakeFiles/Mini2.dir/flags.make
+CMakeFiles/Mini2.dir/src/Turret/Turret.cpp.obj: CMakeFiles/Mini2.dir/includes_CXX.rsp
+CMakeFiles/Mini2.dir/src/Turret/Turret.cpp.obj: ../src/Turret/Turret.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\Documents\I2P 2\Mini2\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_35) "Building CXX object CMakeFiles/Mini2.dir/src/Turret/Turret.cpp.obj"
+	C:\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\Mini2.dir\src\Turret\Turret.cpp.obj -c "D:\Documents\I2P 2\Mini2\src\Turret\Turret.cpp"
+
+CMakeFiles/Mini2.dir/src/Turret/Turret.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Mini2.dir/src/Turret/Turret.cpp.i"
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "D:\Documents\I2P 2\Mini2\src\Turret\Turret.cpp" > CMakeFiles\Mini2.dir\src\Turret\Turret.cpp.i
+
+CMakeFiles/Mini2.dir/src/Turret/Turret.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Mini2.dir/src/Turret/Turret.cpp.s"
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\Documents\I2P 2\Mini2\src\Turret\Turret.cpp" -o CMakeFiles\Mini2.dir\src\Turret\Turret.cpp.s
+
+CMakeFiles/Mini2.dir/src/Enemy/Enemy.cpp.obj: CMakeFiles/Mini2.dir/flags.make
+CMakeFiles/Mini2.dir/src/Enemy/Enemy.cpp.obj: CMakeFiles/Mini2.dir/includes_CXX.rsp
+CMakeFiles/Mini2.dir/src/Enemy/Enemy.cpp.obj: ../src/Enemy/Enemy.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\Documents\I2P 2\Mini2\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_36) "Building CXX object CMakeFiles/Mini2.dir/src/Enemy/Enemy.cpp.obj"
+	C:\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\Mini2.dir\src\Enemy\Enemy.cpp.obj -c "D:\Documents\I2P 2\Mini2\src\Enemy\Enemy.cpp"
+
+CMakeFiles/Mini2.dir/src/Enemy/Enemy.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Mini2.dir/src/Enemy/Enemy.cpp.i"
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "D:\Documents\I2P 2\Mini2\src\Enemy\Enemy.cpp" > CMakeFiles\Mini2.dir\src\Enemy\Enemy.cpp.i
+
+CMakeFiles/Mini2.dir/src/Enemy/Enemy.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Mini2.dir/src/Enemy/Enemy.cpp.s"
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\Documents\I2P 2\Mini2\src\Enemy\Enemy.cpp" -o CMakeFiles\Mini2.dir\src\Enemy\Enemy.cpp.s
+
+CMakeFiles/Mini2.dir/src/Enemy/PlaneEnemy.cpp.obj: CMakeFiles/Mini2.dir/flags.make
+CMakeFiles/Mini2.dir/src/Enemy/PlaneEnemy.cpp.obj: CMakeFiles/Mini2.dir/includes_CXX.rsp
+CMakeFiles/Mini2.dir/src/Enemy/PlaneEnemy.cpp.obj: ../src/Enemy/PlaneEnemy.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\Documents\I2P 2\Mini2\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_37) "Building CXX object CMakeFiles/Mini2.dir/src/Enemy/PlaneEnemy.cpp.obj"
+	C:\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\Mini2.dir\src\Enemy\PlaneEnemy.cpp.obj -c "D:\Documents\I2P 2\Mini2\src\Enemy\PlaneEnemy.cpp"
+
+CMakeFiles/Mini2.dir/src/Enemy/PlaneEnemy.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Mini2.dir/src/Enemy/PlaneEnemy.cpp.i"
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "D:\Documents\I2P 2\Mini2\src\Enemy\PlaneEnemy.cpp" > CMakeFiles\Mini2.dir\src\Enemy\PlaneEnemy.cpp.i
+
+CMakeFiles/Mini2.dir/src/Enemy/PlaneEnemy.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Mini2.dir/src/Enemy/PlaneEnemy.cpp.s"
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\Documents\I2P 2\Mini2\src\Enemy\PlaneEnemy.cpp" -o CMakeFiles\Mini2.dir\src\Enemy\PlaneEnemy.cpp.s
+
+CMakeFiles/Mini2.dir/src/Enemy/SoldierEnemy.cpp.obj: CMakeFiles/Mini2.dir/flags.make
+CMakeFiles/Mini2.dir/src/Enemy/SoldierEnemy.cpp.obj: CMakeFiles/Mini2.dir/includes_CXX.rsp
+CMakeFiles/Mini2.dir/src/Enemy/SoldierEnemy.cpp.obj: ../src/Enemy/SoldierEnemy.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\Documents\I2P 2\Mini2\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_38) "Building CXX object CMakeFiles/Mini2.dir/src/Enemy/SoldierEnemy.cpp.obj"
+	C:\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\Mini2.dir\src\Enemy\SoldierEnemy.cpp.obj -c "D:\Documents\I2P 2\Mini2\src\Enemy\SoldierEnemy.cpp"
+
+CMakeFiles/Mini2.dir/src/Enemy/SoldierEnemy.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Mini2.dir/src/Enemy/SoldierEnemy.cpp.i"
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "D:\Documents\I2P 2\Mini2\src\Enemy\SoldierEnemy.cpp" > CMakeFiles\Mini2.dir\src\Enemy\SoldierEnemy.cpp.i
+
+CMakeFiles/Mini2.dir/src/Enemy/SoldierEnemy.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Mini2.dir/src/Enemy/SoldierEnemy.cpp.s"
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\Documents\I2P 2\Mini2\src\Enemy\SoldierEnemy.cpp" -o CMakeFiles\Mini2.dir\src\Enemy\SoldierEnemy.cpp.s
+
+CMakeFiles/Mini2.dir/src/Enemy/TankEnemy.cpp.obj: CMakeFiles/Mini2.dir/flags.make
+CMakeFiles/Mini2.dir/src/Enemy/TankEnemy.cpp.obj: CMakeFiles/Mini2.dir/includes_CXX.rsp
+CMakeFiles/Mini2.dir/src/Enemy/TankEnemy.cpp.obj: ../src/Enemy/TankEnemy.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\Documents\I2P 2\Mini2\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_39) "Building CXX object CMakeFiles/Mini2.dir/src/Enemy/TankEnemy.cpp.obj"
+	C:\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\Mini2.dir\src\Enemy\TankEnemy.cpp.obj -c "D:\Documents\I2P 2\Mini2\src\Enemy\TankEnemy.cpp"
+
+CMakeFiles/Mini2.dir/src/Enemy/TankEnemy.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Mini2.dir/src/Enemy/TankEnemy.cpp.i"
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "D:\Documents\I2P 2\Mini2\src\Enemy\TankEnemy.cpp" > CMakeFiles\Mini2.dir\src\Enemy\TankEnemy.cpp.i
+
+CMakeFiles/Mini2.dir/src/Enemy/TankEnemy.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Mini2.dir/src/Enemy/TankEnemy.cpp.s"
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\Documents\I2P 2\Mini2\src\Enemy\TankEnemy.cpp" -o CMakeFiles\Mini2.dir\src\Enemy\TankEnemy.cpp.s
+
 # Object files for target Mini2
 Mini2_OBJECTS = \
 "CMakeFiles/Mini2.dir/src/Allegro5Exception.cpp.obj" \
 "CMakeFiles/Mini2.dir/src/AudioHelper.cpp.obj" \
-"CMakeFiles/Mini2.dir/src/Bullet.cpp.obj" \
 "CMakeFiles/Mini2.dir/src/Collider.cpp.obj" \
 "CMakeFiles/Mini2.dir/src/DirtyEffect.cpp.obj" \
-"CMakeFiles/Mini2.dir/src/Enemy.cpp.obj" \
 "CMakeFiles/Mini2.dir/src/ExplosionEffect.cpp.obj" \
-"CMakeFiles/Mini2.dir/src/FireBullet.cpp.obj" \
 "CMakeFiles/Mini2.dir/src/GameEngine.cpp.obj" \
 "CMakeFiles/Mini2.dir/src/Group.cpp.obj" \
 "CMakeFiles/Mini2.dir/src/IControl.cpp.obj" \
@@ -621,20 +618,11 @@ Mini2_OBJECTS = \
 "CMakeFiles/Mini2.dir/src/ImageButton.cpp.obj" \
 "CMakeFiles/Mini2.dir/src/LOG.cpp.obj" \
 "CMakeFiles/Mini2.dir/src/Label.cpp.obj" \
-"CMakeFiles/Mini2.dir/src/LaserBullet.cpp.obj" \
-"CMakeFiles/Mini2.dir/src/LaserTurret.cpp.obj" \
-"CMakeFiles/Mini2.dir/src/MachineGunTurret.cpp.obj" \
-"CMakeFiles/Mini2.dir/src/MissileBullet.cpp.obj" \
-"CMakeFiles/Mini2.dir/src/MissileTurret.cpp.obj" \
 "CMakeFiles/Mini2.dir/src/Plane.cpp.obj" \
-"CMakeFiles/Mini2.dir/src/PlaneEnemy.cpp.obj" \
 "CMakeFiles/Mini2.dir/src/Point.cpp.obj" \
 "CMakeFiles/Mini2.dir/src/Resources.cpp.obj" \
 "CMakeFiles/Mini2.dir/src/Slider.cpp.obj" \
-"CMakeFiles/Mini2.dir/src/SoldierEnemy.cpp.obj" \
 "CMakeFiles/Mini2.dir/src/Sprite.cpp.obj" \
-"CMakeFiles/Mini2.dir/src/TankEnemy.cpp.obj" \
-"CMakeFiles/Mini2.dir/src/Turret.cpp.obj" \
 "CMakeFiles/Mini2.dir/src/TurretButton.cpp.obj" \
 "CMakeFiles/Mini2.dir/src/main.cpp.obj" \
 "CMakeFiles/Mini2.dir/src/Scenes/LoseScene.cpp.obj" \
@@ -642,19 +630,28 @@ Mini2_OBJECTS = \
 "CMakeFiles/Mini2.dir/src/Scenes/PlayScene.cpp.obj" \
 "CMakeFiles/Mini2.dir/src/Scenes/SettingScene.cpp.obj" \
 "CMakeFiles/Mini2.dir/src/Scenes/StageSelectScene.cpp.obj" \
-"CMakeFiles/Mini2.dir/src/Scenes/WinScene.cpp.obj"
+"CMakeFiles/Mini2.dir/src/Scenes/WinScene.cpp.obj" \
+"CMakeFiles/Mini2.dir/src/Bullet/Bullet.cpp.obj" \
+"CMakeFiles/Mini2.dir/src/Bullet/FireBullet.cpp.obj" \
+"CMakeFiles/Mini2.dir/src/Bullet/LaserBullet.cpp.obj" \
+"CMakeFiles/Mini2.dir/src/Bullet/MissileBullet.cpp.obj" \
+"CMakeFiles/Mini2.dir/src/Turret/LaserTurret.cpp.obj" \
+"CMakeFiles/Mini2.dir/src/Turret/MachineGunTurret.cpp.obj" \
+"CMakeFiles/Mini2.dir/src/Turret/MissileTurret.cpp.obj" \
+"CMakeFiles/Mini2.dir/src/Turret/Turret.cpp.obj" \
+"CMakeFiles/Mini2.dir/src/Enemy/Enemy.cpp.obj" \
+"CMakeFiles/Mini2.dir/src/Enemy/PlaneEnemy.cpp.obj" \
+"CMakeFiles/Mini2.dir/src/Enemy/SoldierEnemy.cpp.obj" \
+"CMakeFiles/Mini2.dir/src/Enemy/TankEnemy.cpp.obj"
 
 # External object files for target Mini2
 Mini2_EXTERNAL_OBJECTS =
 
 ../game/Mini2.exe: CMakeFiles/Mini2.dir/src/Allegro5Exception.cpp.obj
 ../game/Mini2.exe: CMakeFiles/Mini2.dir/src/AudioHelper.cpp.obj
-../game/Mini2.exe: CMakeFiles/Mini2.dir/src/Bullet.cpp.obj
 ../game/Mini2.exe: CMakeFiles/Mini2.dir/src/Collider.cpp.obj
 ../game/Mini2.exe: CMakeFiles/Mini2.dir/src/DirtyEffect.cpp.obj
-../game/Mini2.exe: CMakeFiles/Mini2.dir/src/Enemy.cpp.obj
 ../game/Mini2.exe: CMakeFiles/Mini2.dir/src/ExplosionEffect.cpp.obj
-../game/Mini2.exe: CMakeFiles/Mini2.dir/src/FireBullet.cpp.obj
 ../game/Mini2.exe: CMakeFiles/Mini2.dir/src/GameEngine.cpp.obj
 ../game/Mini2.exe: CMakeFiles/Mini2.dir/src/Group.cpp.obj
 ../game/Mini2.exe: CMakeFiles/Mini2.dir/src/IControl.cpp.obj
@@ -664,20 +661,11 @@ Mini2_EXTERNAL_OBJECTS =
 ../game/Mini2.exe: CMakeFiles/Mini2.dir/src/ImageButton.cpp.obj
 ../game/Mini2.exe: CMakeFiles/Mini2.dir/src/LOG.cpp.obj
 ../game/Mini2.exe: CMakeFiles/Mini2.dir/src/Label.cpp.obj
-../game/Mini2.exe: CMakeFiles/Mini2.dir/src/LaserBullet.cpp.obj
-../game/Mini2.exe: CMakeFiles/Mini2.dir/src/LaserTurret.cpp.obj
-../game/Mini2.exe: CMakeFiles/Mini2.dir/src/MachineGunTurret.cpp.obj
-../game/Mini2.exe: CMakeFiles/Mini2.dir/src/MissileBullet.cpp.obj
-../game/Mini2.exe: CMakeFiles/Mini2.dir/src/MissileTurret.cpp.obj
 ../game/Mini2.exe: CMakeFiles/Mini2.dir/src/Plane.cpp.obj
-../game/Mini2.exe: CMakeFiles/Mini2.dir/src/PlaneEnemy.cpp.obj
 ../game/Mini2.exe: CMakeFiles/Mini2.dir/src/Point.cpp.obj
 ../game/Mini2.exe: CMakeFiles/Mini2.dir/src/Resources.cpp.obj
 ../game/Mini2.exe: CMakeFiles/Mini2.dir/src/Slider.cpp.obj
-../game/Mini2.exe: CMakeFiles/Mini2.dir/src/SoldierEnemy.cpp.obj
 ../game/Mini2.exe: CMakeFiles/Mini2.dir/src/Sprite.cpp.obj
-../game/Mini2.exe: CMakeFiles/Mini2.dir/src/TankEnemy.cpp.obj
-../game/Mini2.exe: CMakeFiles/Mini2.dir/src/Turret.cpp.obj
 ../game/Mini2.exe: CMakeFiles/Mini2.dir/src/TurretButton.cpp.obj
 ../game/Mini2.exe: CMakeFiles/Mini2.dir/src/main.cpp.obj
 ../game/Mini2.exe: CMakeFiles/Mini2.dir/src/Scenes/LoseScene.cpp.obj
@@ -686,6 +674,18 @@ Mini2_EXTERNAL_OBJECTS =
 ../game/Mini2.exe: CMakeFiles/Mini2.dir/src/Scenes/SettingScene.cpp.obj
 ../game/Mini2.exe: CMakeFiles/Mini2.dir/src/Scenes/StageSelectScene.cpp.obj
 ../game/Mini2.exe: CMakeFiles/Mini2.dir/src/Scenes/WinScene.cpp.obj
+../game/Mini2.exe: CMakeFiles/Mini2.dir/src/Bullet/Bullet.cpp.obj
+../game/Mini2.exe: CMakeFiles/Mini2.dir/src/Bullet/FireBullet.cpp.obj
+../game/Mini2.exe: CMakeFiles/Mini2.dir/src/Bullet/LaserBullet.cpp.obj
+../game/Mini2.exe: CMakeFiles/Mini2.dir/src/Bullet/MissileBullet.cpp.obj
+../game/Mini2.exe: CMakeFiles/Mini2.dir/src/Turret/LaserTurret.cpp.obj
+../game/Mini2.exe: CMakeFiles/Mini2.dir/src/Turret/MachineGunTurret.cpp.obj
+../game/Mini2.exe: CMakeFiles/Mini2.dir/src/Turret/MissileTurret.cpp.obj
+../game/Mini2.exe: CMakeFiles/Mini2.dir/src/Turret/Turret.cpp.obj
+../game/Mini2.exe: CMakeFiles/Mini2.dir/src/Enemy/Enemy.cpp.obj
+../game/Mini2.exe: CMakeFiles/Mini2.dir/src/Enemy/PlaneEnemy.cpp.obj
+../game/Mini2.exe: CMakeFiles/Mini2.dir/src/Enemy/SoldierEnemy.cpp.obj
+../game/Mini2.exe: CMakeFiles/Mini2.dir/src/Enemy/TankEnemy.cpp.obj
 ../game/Mini2.exe: CMakeFiles/Mini2.dir/build.make
 ../game/Mini2.exe: ../liballegro_monolith-debug.dll.a
 ../game/Mini2.exe: CMakeFiles/Mini2.dir/linklibs.rsp

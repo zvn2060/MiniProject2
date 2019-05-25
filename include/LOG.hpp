@@ -1,7 +1,7 @@
 #ifndef LOG_HPP
 #define LOG_HPP
-#include <iostream>
 #include <fstream>
+#include <iostream>
 
 namespace Engine {
 	// Log types that will be formatted in front of the line.

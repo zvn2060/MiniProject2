@@ -1,13 +1,13 @@
 #ifndef IMAGEBUTTON_HPP
 #define IMAGEBUTTON_HPP
-#include <memory>
+
+#include <allegro5/bitmap.h>
 #include <functional>
-#include <allegro5/allegro.h>
+#include <memory>
+#include <string>
+
 #include "IControl.hpp"
 #include "Image.hpp"
-#include "Collider.hpp"
-#include "GameEngine.hpp"
-#include "Resources.hpp"
 
 namespace Engine {
 	/// <summary>

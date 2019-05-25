@@ -13,7 +13,6 @@
 [INFO] Loaded Resource<image>: resources/images/stage-select/dirt.png scaled to 400x100
 [INFO] Loaded Resource<image>: resources/images/stage-select/dirt.png
 [INFO] Loaded Resource<image>: resources/images/stage-select/floor.png
-[INFO] Loaded Resource<font>: resources/fonts/pirulen.ttf with size 48
 [INFO] Loaded Resource<audio>: resources/audios/select.ogg
 [INFO] Game initialized
 [INFO] Game start event loop
@@ -26,5 +25,166 @@
 [INFO] Destroyed Resource<image>
 [INFO] Destroyed Resource<image>
 [INFO] Destroyed Resource<image>
+[INFO] Destroyed Resource<audio>
+[INFO] Loaded Resource<image>: resources/images/UI/return.png scaled to 100x100
+[INFO] Loaded Resource<image>: resources/images/UI/return.png
+[INFO] Loaded Resource<image>: resources/images/UI/return_CL.png
+[INFO] Loaded Resource<image>: resources/images/stage-select/slider.png
+[INFO] Loaded Resource<image>: resources/images/stage-select/slider-blue.png
+[INFO] Loaded Resource<image>: resources/images/stage-select/bar.png scaled to 190x4
+[INFO] Loaded Resource<image>: resources/images/stage-select/end.png
+[INFO] Loaded Resource<font>: resources/fonts/pirulen.ttf with size 28
+[INFO] Loaded Resource<audio>: resources/audios/select.ogg
+[INFO] Changed to setting scene
+[INFO] Destroyed Resource<image>
+[INFO] Destroyed Resource<image>
+[INFO] Destroyed Resource<image>
+[INFO] Destroyed Resource<image>
+[INFO] Destroyed Resource<image>
+[INFO] Destroyed Resource<image>
+[INFO] Destroyed Resource<image>
 [INFO] Destroyed Resource<font>
 [INFO] Destroyed Resource<audio>
+[INFO] Loaded Resource<image>: resources/images/UI/setting.png scaled to 100x100
+[INFO] Loaded Resource<image>: resources/images/UI/setting.png
+[INFO] Loaded Resource<image>: resources/images/UI/setting_CL.png
+[INFO] Loaded Resource<image>: resources/images/UI/return.png scaled to 100x100
+[INFO] Loaded Resource<image>: resources/images/UI/return.png
+[INFO] Loaded Resource<image>: resources/images/UI/return_CL.png
+[INFO] Loaded Resource<image>: resources/images/stage-select/dirt.png scaled to 400x100
+[INFO] Loaded Resource<image>: resources/images/stage-select/dirt.png
+[INFO] Loaded Resource<image>: resources/images/stage-select/floor.png
+[INFO] Loaded Resource<audio>: resources/audios/select.ogg
+[INFO] Changed to main scene
+[INFO] Destroyed Resource<image>
+[INFO] Destroyed Resource<image>
+[INFO] Destroyed Resource<image>
+[INFO] Destroyed Resource<image>
+[INFO] Destroyed Resource<image>
+[INFO] Destroyed Resource<image>
+[INFO] Destroyed Resource<image>
+[INFO] Destroyed Resource<image>
+[INFO] Destroyed Resource<image>
+[INFO] Destroyed Resource<audio>
+[INFO] Loaded Resource<image>: resources/images/UI/return.png scaled to 100x100
+[INFO] Loaded Resource<image>: resources/images/UI/return.png
+[INFO] Loaded Resource<image>: resources/images/UI/return_CL.png
+[INFO] Loaded Resource<image>: resources/images/stage-select/slider.png
+[INFO] Loaded Resource<image>: resources/images/stage-select/slider-blue.png
+[INFO] Loaded Resource<image>: resources/images/stage-select/bar.png scaled to 190x4
+[INFO] Loaded Resource<image>: resources/images/stage-select/end.png
+[INFO] Loaded Resource<font>: resources/fonts/pirulen.ttf with size 28
+[INFO] Loaded Resource<audio>: resources/audios/select.ogg
+[INFO] Changed to setting scene
+[INFO] Destroyed Resource<image>
+[INFO] Destroyed Resource<image>
+[INFO] Destroyed Resource<image>
+[INFO] Destroyed Resource<image>
+[INFO] Destroyed Resource<image>
+[INFO] Destroyed Resource<image>
+[INFO] Destroyed Resource<image>
+[INFO] Destroyed Resource<font>
+[INFO] Destroyed Resource<audio>
+[INFO] Loaded Resource<image>: resources/images/UI/setting.png scaled to 100x100
+[INFO] Loaded Resource<image>: resources/images/UI/setting.png
+[INFO] Loaded Resource<image>: resources/images/UI/setting_CL.png
+[INFO] Loaded Resource<image>: resources/images/UI/return.png scaled to 100x100
+[INFO] Loaded Resource<image>: resources/images/UI/return.png
+[INFO] Loaded Resource<image>: resources/images/UI/return_CL.png
+[INFO] Loaded Resource<image>: resources/images/stage-select/dirt.png scaled to 400x100
+[INFO] Loaded Resource<image>: resources/images/stage-select/dirt.png
+[INFO] Loaded Resource<image>: resources/images/stage-select/floor.png
+[INFO] Loaded Resource<audio>: resources/audios/select.ogg
+[INFO] Changed to main scene
+[INFO] Destroyed Resource<image>
+[INFO] Destroyed Resource<image>
+[INFO] Destroyed Resource<image>
+[INFO] Destroyed Resource<image>
+[INFO] Destroyed Resource<image>
+[INFO] Destroyed Resource<image>
+[INFO] Destroyed Resource<image>
+[INFO] Destroyed Resource<image>
+[INFO] Destroyed Resource<image>
+[INFO] Destroyed Resource<audio>
+[INFO] Loaded Resource<image>: resources/images/UI/return.png scaled to 100x100
+[INFO] Loaded Resource<image>: resources/images/UI/return.png
+[INFO] Loaded Resource<image>: resources/images/UI/return_CL.png
+[INFO] Loaded Resource<image>: resources/images/stage-select/slider.png
+[INFO] Loaded Resource<image>: resources/images/stage-select/slider-blue.png
+[INFO] Loaded Resource<image>: resources/images/stage-select/bar.png scaled to 190x4
+[INFO] Loaded Resource<image>: resources/images/stage-select/end.png
+[INFO] Loaded Resource<font>: resources/fonts/pirulen.ttf with size 28
+[INFO] Loaded Resource<audio>: resources/audios/select.ogg
+[INFO] Changed to setting scene
+[INFO] Destroyed Resource<image>
+[INFO] Destroyed Resource<image>
+[INFO] Destroyed Resource<image>
+[INFO] Destroyed Resource<image>
+[INFO] Destroyed Resource<image>
+[INFO] Destroyed Resource<image>
+[INFO] Destroyed Resource<image>
+[INFO] Destroyed Resource<font>
+[INFO] Destroyed Resource<audio>
+[INFO] Loaded Resource<image>: resources/images/UI/setting.png scaled to 100x100
+[INFO] Loaded Resource<image>: resources/images/UI/setting.png
+[INFO] Loaded Resource<image>: resources/images/UI/setting_CL.png
+[INFO] Loaded Resource<image>: resources/images/UI/return.png scaled to 100x100
+[INFO] Loaded Resource<image>: resources/images/UI/return.png
+[INFO] Loaded Resource<image>: resources/images/UI/return_CL.png
+[INFO] Loaded Resource<image>: resources/images/stage-select/dirt.png scaled to 400x100
+[INFO] Loaded Resource<image>: resources/images/stage-select/dirt.png
+[INFO] Loaded Resource<image>: resources/images/stage-select/floor.png
+[INFO] Loaded Resource<audio>: resources/audios/select.ogg
+[INFO] Changed to main scene
+[INFO] Destroyed Resource<image>
+[INFO] Destroyed Resource<image>
+[INFO] Destroyed Resource<image>
+[INFO] Destroyed Resource<image>
+[INFO] Destroyed Resource<image>
+[INFO] Destroyed Resource<image>
+[INFO] Destroyed Resource<image>
+[INFO] Destroyed Resource<image>
+[INFO] Destroyed Resource<image>
+[INFO] Destroyed Resource<audio>
+[INFO] Loaded Resource<image>: resources/images/UI/return.png scaled to 100x100
+[INFO] Loaded Resource<image>: resources/images/UI/return.png
+[INFO] Loaded Resource<image>: resources/images/UI/return_CL.png
+[INFO] Loaded Resource<image>: resources/images/stage-select/slider.png
+[INFO] Loaded Resource<image>: resources/images/stage-select/slider-blue.png
+[INFO] Loaded Resource<image>: resources/images/stage-select/bar.png scaled to 190x4
+[INFO] Loaded Resource<image>: resources/images/stage-select/end.png
+[INFO] Loaded Resource<font>: resources/fonts/pirulen.ttf with size 28
+[INFO] Loaded Resource<audio>: resources/audios/select.ogg
+[INFO] Changed to setting scene
+[INFO] Destroyed Resource<image>
+[INFO] Destroyed Resource<image>
+[INFO] Destroyed Resource<image>
+[INFO] Destroyed Resource<image>
+[INFO] Destroyed Resource<image>
+[INFO] Destroyed Resource<image>
+[INFO] Destroyed Resource<image>
+[INFO] Destroyed Resource<font>
+[INFO] Destroyed Resource<audio>
+[INFO] Loaded Resource<image>: resources/images/UI/setting.png scaled to 100x100
+[INFO] Loaded Resource<image>: resources/images/UI/setting.png
+[INFO] Loaded Resource<image>: resources/images/UI/setting_CL.png
+[INFO] Loaded Resource<image>: resources/images/UI/return.png scaled to 100x100
+[INFO] Loaded Resource<image>: resources/images/UI/return.png
+[INFO] Loaded Resource<image>: resources/images/UI/return_CL.png
+[INFO] Loaded Resource<image>: resources/images/stage-select/dirt.png scaled to 400x100
+[INFO] Loaded Resource<image>: resources/images/stage-select/dirt.png
+[INFO] Loaded Resource<image>: resources/images/stage-select/floor.png
+[INFO] Loaded Resource<audio>: resources/audios/select.ogg
+[INFO] Changed to main scene
+[INFO] Destroyed Resource<image>
+[INFO] Destroyed Resource<image>
+[INFO] Destroyed Resource<image>
+[INFO] Destroyed Resource<image>
+[INFO] Destroyed Resource<image>
+[INFO] Destroyed Resource<image>
+[INFO] Destroyed Resource<image>
+[INFO] Destroyed Resource<image>
+[INFO] Destroyed Resource<image>
+[INFO] Destroyed Resource<audio>
+[INFO] Loaded Resource<image>: resources/images/play/dirt.png scaled to 64x64
+[INFO] Loaded Resource<image>: resources/images/play/floor.png scaled to 64x64

@@ -1,7 +1,13 @@
 #ifndef EXPLOSIONEFFECT_HPP
 #define EXPLOSIONEFFECT_HPP
+
+#include <allegro5/bitmap.h>
+#include <memory>
+#include <vector>
+
 #include "Sprite.hpp"
-#include "Scenes/PlayScene.hpp"
+
+class PlayScene;
 
 class ExplosionEffect : public Engine::Sprite {
 protected:

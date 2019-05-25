@@ -37,6 +37,9 @@
 					<Add directory="D:/Documents/I2P 2/Mini2/allegro5/include"/>
 					<Add directory="D:/Documents/I2P 2/Mini2/include"/>
 					<Add directory="D:/Documents/I2P 2/Mini2/include/Scenes"/>
+					<Add directory="D:/Documents/I2P 2/Mini2/include/Bullet"/>
+					<Add directory="D:/Documents/I2P 2/Mini2/include/Turret"/>
+					<Add directory="D:/Documents/I2P 2/Mini2/include/Enemy"/>
 					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include/c++"/>
 					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include/c++/mingw32"/>
 					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include/c++/backward"/>
@@ -61,6 +64,9 @@
 					<Add directory="D:/Documents/I2P 2/Mini2/allegro5/include"/>
 					<Add directory="D:/Documents/I2P 2/Mini2/include"/>
 					<Add directory="D:/Documents/I2P 2/Mini2/include/Scenes"/>
+					<Add directory="D:/Documents/I2P 2/Mini2/include/Bullet"/>
+					<Add directory="D:/Documents/I2P 2/Mini2/include/Turret"/>
+					<Add directory="D:/Documents/I2P 2/Mini2/include/Enemy"/>
 					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include/c++"/>
 					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include/c++/mingw32"/>
 					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include/c++/backward"/>
@@ -95,7 +101,16 @@
 		<Unit filename="D:/Documents/I2P 2/Mini2/src/AudioHelper.cpp">
 			<Option target="Mini2"/>
 		</Unit>
-		<Unit filename="D:/Documents/I2P 2/Mini2/src/Bullet.cpp">
+		<Unit filename="D:/Documents/I2P 2/Mini2/src/Bullet/Bullet.cpp">
+			<Option target="Mini2"/>
+		</Unit>
+		<Unit filename="D:/Documents/I2P 2/Mini2/src/Bullet/FireBullet.cpp">
+			<Option target="Mini2"/>
+		</Unit>
+		<Unit filename="D:/Documents/I2P 2/Mini2/src/Bullet/LaserBullet.cpp">
+			<Option target="Mini2"/>
+		</Unit>
+		<Unit filename="D:/Documents/I2P 2/Mini2/src/Bullet/MissileBullet.cpp">
 			<Option target="Mini2"/>
 		</Unit>
 		<Unit filename="D:/Documents/I2P 2/Mini2/src/Collider.cpp">
@@ -104,13 +119,19 @@
 		<Unit filename="D:/Documents/I2P 2/Mini2/src/DirtyEffect.cpp">
 			<Option target="Mini2"/>
 		</Unit>
-		<Unit filename="D:/Documents/I2P 2/Mini2/src/Enemy.cpp">
+		<Unit filename="D:/Documents/I2P 2/Mini2/src/Enemy/Enemy.cpp">
+			<Option target="Mini2"/>
+		</Unit>
+		<Unit filename="D:/Documents/I2P 2/Mini2/src/Enemy/PlaneEnemy.cpp">
+			<Option target="Mini2"/>
+		</Unit>
+		<Unit filename="D:/Documents/I2P 2/Mini2/src/Enemy/SoldierEnemy.cpp">
+			<Option target="Mini2"/>
+		</Unit>
+		<Unit filename="D:/Documents/I2P 2/Mini2/src/Enemy/TankEnemy.cpp">
 			<Option target="Mini2"/>
 		</Unit>
 		<Unit filename="D:/Documents/I2P 2/Mini2/src/ExplosionEffect.cpp">
-			<Option target="Mini2"/>
-		</Unit>
-		<Unit filename="D:/Documents/I2P 2/Mini2/src/FireBullet.cpp">
 			<Option target="Mini2"/>
 		</Unit>
 		<Unit filename="D:/Documents/I2P 2/Mini2/src/GameEngine.cpp">
@@ -140,25 +161,7 @@
 		<Unit filename="D:/Documents/I2P 2/Mini2/src/Label.cpp">
 			<Option target="Mini2"/>
 		</Unit>
-		<Unit filename="D:/Documents/I2P 2/Mini2/src/LaserBullet.cpp">
-			<Option target="Mini2"/>
-		</Unit>
-		<Unit filename="D:/Documents/I2P 2/Mini2/src/LaserTurret.cpp">
-			<Option target="Mini2"/>
-		</Unit>
-		<Unit filename="D:/Documents/I2P 2/Mini2/src/MachineGunTurret.cpp">
-			<Option target="Mini2"/>
-		</Unit>
-		<Unit filename="D:/Documents/I2P 2/Mini2/src/MissileBullet.cpp">
-			<Option target="Mini2"/>
-		</Unit>
-		<Unit filename="D:/Documents/I2P 2/Mini2/src/MissileTurret.cpp">
-			<Option target="Mini2"/>
-		</Unit>
 		<Unit filename="D:/Documents/I2P 2/Mini2/src/Plane.cpp">
-			<Option target="Mini2"/>
-		</Unit>
-		<Unit filename="D:/Documents/I2P 2/Mini2/src/PlaneEnemy.cpp">
 			<Option target="Mini2"/>
 		</Unit>
 		<Unit filename="D:/Documents/I2P 2/Mini2/src/Point.cpp">
@@ -188,16 +191,19 @@
 		<Unit filename="D:/Documents/I2P 2/Mini2/src/Slider.cpp">
 			<Option target="Mini2"/>
 		</Unit>
-		<Unit filename="D:/Documents/I2P 2/Mini2/src/SoldierEnemy.cpp">
-			<Option target="Mini2"/>
-		</Unit>
 		<Unit filename="D:/Documents/I2P 2/Mini2/src/Sprite.cpp">
 			<Option target="Mini2"/>
 		</Unit>
-		<Unit filename="D:/Documents/I2P 2/Mini2/src/TankEnemy.cpp">
+		<Unit filename="D:/Documents/I2P 2/Mini2/src/Turret/LaserTurret.cpp">
 			<Option target="Mini2"/>
 		</Unit>
-		<Unit filename="D:/Documents/I2P 2/Mini2/src/Turret.cpp">
+		<Unit filename="D:/Documents/I2P 2/Mini2/src/Turret/MachineGunTurret.cpp">
+			<Option target="Mini2"/>
+		</Unit>
+		<Unit filename="D:/Documents/I2P 2/Mini2/src/Turret/MissileTurret.cpp">
+			<Option target="Mini2"/>
+		</Unit>
+		<Unit filename="D:/Documents/I2P 2/Mini2/src/Turret/Turret.cpp">
 			<Option target="Mini2"/>
 		</Unit>
 		<Unit filename="D:/Documents/I2P 2/Mini2/src/TurretButton.cpp">

@@ -1,6 +1,7 @@
 #ifndef TANKENEMY_HPP
 #define TANKENEMY_HPP
 #include "Enemy.hpp"
+#include "Sprite.hpp"
 
 class TankEnemy : public Enemy {
 private:

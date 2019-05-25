@@ -176,32 +176,113 @@ src/AudioHelper.cpp.s:
 	$(MAKE) -f CMakeFiles\Mini2.dir\build.make CMakeFiles/Mini2.dir/src/AudioHelper.cpp.s
 .PHONY : src/AudioHelper.cpp.s
 
-src/Bullet.obj: src/Bullet.cpp.obj
+src/Bullet/Bullet.obj: src/Bullet/Bullet.cpp.obj
 
-.PHONY : src/Bullet.obj
+.PHONY : src/Bullet/Bullet.obj
 
 # target to build an object file
-src/Bullet.cpp.obj:
-	$(MAKE) -f CMakeFiles\Mini2.dir\build.make CMakeFiles/Mini2.dir/src/Bullet.cpp.obj
-.PHONY : src/Bullet.cpp.obj
+src/Bullet/Bullet.cpp.obj:
+	$(MAKE) -f CMakeFiles\Mini2.dir\build.make CMakeFiles/Mini2.dir/src/Bullet/Bullet.cpp.obj
+.PHONY : src/Bullet/Bullet.cpp.obj
 
-src/Bullet.i: src/Bullet.cpp.i
+src/Bullet/Bullet.i: src/Bullet/Bullet.cpp.i
 
-.PHONY : src/Bullet.i
+.PHONY : src/Bullet/Bullet.i
 
 # target to preprocess a source file
-src/Bullet.cpp.i:
-	$(MAKE) -f CMakeFiles\Mini2.dir\build.make CMakeFiles/Mini2.dir/src/Bullet.cpp.i
-.PHONY : src/Bullet.cpp.i
+src/Bullet/Bullet.cpp.i:
+	$(MAKE) -f CMakeFiles\Mini2.dir\build.make CMakeFiles/Mini2.dir/src/Bullet/Bullet.cpp.i
+.PHONY : src/Bullet/Bullet.cpp.i
 
-src/Bullet.s: src/Bullet.cpp.s
+src/Bullet/Bullet.s: src/Bullet/Bullet.cpp.s
 
-.PHONY : src/Bullet.s
+.PHONY : src/Bullet/Bullet.s
 
 # target to generate assembly for a file
-src/Bullet.cpp.s:
-	$(MAKE) -f CMakeFiles\Mini2.dir\build.make CMakeFiles/Mini2.dir/src/Bullet.cpp.s
-.PHONY : src/Bullet.cpp.s
+src/Bullet/Bullet.cpp.s:
+	$(MAKE) -f CMakeFiles\Mini2.dir\build.make CMakeFiles/Mini2.dir/src/Bullet/Bullet.cpp.s
+.PHONY : src/Bullet/Bullet.cpp.s
+
+src/Bullet/FireBullet.obj: src/Bullet/FireBullet.cpp.obj
+
+.PHONY : src/Bullet/FireBullet.obj
+
+# target to build an object file
+src/Bullet/FireBullet.cpp.obj:
+	$(MAKE) -f CMakeFiles\Mini2.dir\build.make CMakeFiles/Mini2.dir/src/Bullet/FireBullet.cpp.obj
+.PHONY : src/Bullet/FireBullet.cpp.obj
+
+src/Bullet/FireBullet.i: src/Bullet/FireBullet.cpp.i
+
+.PHONY : src/Bullet/FireBullet.i
+
+# target to preprocess a source file
+src/Bullet/FireBullet.cpp.i:
+	$(MAKE) -f CMakeFiles\Mini2.dir\build.make CMakeFiles/Mini2.dir/src/Bullet/FireBullet.cpp.i
+.PHONY : src/Bullet/FireBullet.cpp.i
+
+src/Bullet/FireBullet.s: src/Bullet/FireBullet.cpp.s
+
+.PHONY : src/Bullet/FireBullet.s
+
+# target to generate assembly for a file
+src/Bullet/FireBullet.cpp.s:
+	$(MAKE) -f CMakeFiles\Mini2.dir\build.make CMakeFiles/Mini2.dir/src/Bullet/FireBullet.cpp.s
+.PHONY : src/Bullet/FireBullet.cpp.s
+
+src/Bullet/LaserBullet.obj: src/Bullet/LaserBullet.cpp.obj
+
+.PHONY : src/Bullet/LaserBullet.obj
+
+# target to build an object file
+src/Bullet/LaserBullet.cpp.obj:
+	$(MAKE) -f CMakeFiles\Mini2.dir\build.make CMakeFiles/Mini2.dir/src/Bullet/LaserBullet.cpp.obj
+.PHONY : src/Bullet/LaserBullet.cpp.obj
+
+src/Bullet/LaserBullet.i: src/Bullet/LaserBullet.cpp.i
+
+.PHONY : src/Bullet/LaserBullet.i
+
+# target to preprocess a source file
+src/Bullet/LaserBullet.cpp.i:
+	$(MAKE) -f CMakeFiles\Mini2.dir\build.make CMakeFiles/Mini2.dir/src/Bullet/LaserBullet.cpp.i
+.PHONY : src/Bullet/LaserBullet.cpp.i
+
+src/Bullet/LaserBullet.s: src/Bullet/LaserBullet.cpp.s
+
+.PHONY : src/Bullet/LaserBullet.s
+
+# target to generate assembly for a file
+src/Bullet/LaserBullet.cpp.s:
+	$(MAKE) -f CMakeFiles\Mini2.dir\build.make CMakeFiles/Mini2.dir/src/Bullet/LaserBullet.cpp.s
+.PHONY : src/Bullet/LaserBullet.cpp.s
+
+src/Bullet/MissileBullet.obj: src/Bullet/MissileBullet.cpp.obj
+
+.PHONY : src/Bullet/MissileBullet.obj
+
+# target to build an object file
+src/Bullet/MissileBullet.cpp.obj:
+	$(MAKE) -f CMakeFiles\Mini2.dir\build.make CMakeFiles/Mini2.dir/src/Bullet/MissileBullet.cpp.obj
+.PHONY : src/Bullet/MissileBullet.cpp.obj
+
+src/Bullet/MissileBullet.i: src/Bullet/MissileBullet.cpp.i
+
+.PHONY : src/Bullet/MissileBullet.i
+
+# target to preprocess a source file
+src/Bullet/MissileBullet.cpp.i:
+	$(MAKE) -f CMakeFiles\Mini2.dir\build.make CMakeFiles/Mini2.dir/src/Bullet/MissileBullet.cpp.i
+.PHONY : src/Bullet/MissileBullet.cpp.i
+
+src/Bullet/MissileBullet.s: src/Bullet/MissileBullet.cpp.s
+
+.PHONY : src/Bullet/MissileBullet.s
+
+# target to generate assembly for a file
+src/Bullet/MissileBullet.cpp.s:
+	$(MAKE) -f CMakeFiles\Mini2.dir\build.make CMakeFiles/Mini2.dir/src/Bullet/MissileBullet.cpp.s
+.PHONY : src/Bullet/MissileBullet.cpp.s
 
 src/Collider.obj: src/Collider.cpp.obj
 
@@ -257,32 +338,113 @@ src/DirtyEffect.cpp.s:
 	$(MAKE) -f CMakeFiles\Mini2.dir\build.make CMakeFiles/Mini2.dir/src/DirtyEffect.cpp.s
 .PHONY : src/DirtyEffect.cpp.s
 
-src/Enemy.obj: src/Enemy.cpp.obj
+src/Enemy/Enemy.obj: src/Enemy/Enemy.cpp.obj
 
-.PHONY : src/Enemy.obj
+.PHONY : src/Enemy/Enemy.obj
 
 # target to build an object file
-src/Enemy.cpp.obj:
-	$(MAKE) -f CMakeFiles\Mini2.dir\build.make CMakeFiles/Mini2.dir/src/Enemy.cpp.obj
-.PHONY : src/Enemy.cpp.obj
+src/Enemy/Enemy.cpp.obj:
+	$(MAKE) -f CMakeFiles\Mini2.dir\build.make CMakeFiles/Mini2.dir/src/Enemy/Enemy.cpp.obj
+.PHONY : src/Enemy/Enemy.cpp.obj
 
-src/Enemy.i: src/Enemy.cpp.i
+src/Enemy/Enemy.i: src/Enemy/Enemy.cpp.i
 
-.PHONY : src/Enemy.i
+.PHONY : src/Enemy/Enemy.i
 
 # target to preprocess a source file
-src/Enemy.cpp.i:
-	$(MAKE) -f CMakeFiles\Mini2.dir\build.make CMakeFiles/Mini2.dir/src/Enemy.cpp.i
-.PHONY : src/Enemy.cpp.i
+src/Enemy/Enemy.cpp.i:
+	$(MAKE) -f CMakeFiles\Mini2.dir\build.make CMakeFiles/Mini2.dir/src/Enemy/Enemy.cpp.i
+.PHONY : src/Enemy/Enemy.cpp.i
 
-src/Enemy.s: src/Enemy.cpp.s
+src/Enemy/Enemy.s: src/Enemy/Enemy.cpp.s
 
-.PHONY : src/Enemy.s
+.PHONY : src/Enemy/Enemy.s
 
 # target to generate assembly for a file
-src/Enemy.cpp.s:
-	$(MAKE) -f CMakeFiles\Mini2.dir\build.make CMakeFiles/Mini2.dir/src/Enemy.cpp.s
-.PHONY : src/Enemy.cpp.s
+src/Enemy/Enemy.cpp.s:
+	$(MAKE) -f CMakeFiles\Mini2.dir\build.make CMakeFiles/Mini2.dir/src/Enemy/Enemy.cpp.s
+.PHONY : src/Enemy/Enemy.cpp.s
+
+src/Enemy/PlaneEnemy.obj: src/Enemy/PlaneEnemy.cpp.obj
+
+.PHONY : src/Enemy/PlaneEnemy.obj
+
+# target to build an object file
+src/Enemy/PlaneEnemy.cpp.obj:
+	$(MAKE) -f CMakeFiles\Mini2.dir\build.make CMakeFiles/Mini2.dir/src/Enemy/PlaneEnemy.cpp.obj
+.PHONY : src/Enemy/PlaneEnemy.cpp.obj
+
+src/Enemy/PlaneEnemy.i: src/Enemy/PlaneEnemy.cpp.i
+
+.PHONY : src/Enemy/PlaneEnemy.i
+
+# target to preprocess a source file
+src/Enemy/PlaneEnemy.cpp.i:
+	$(MAKE) -f CMakeFiles\Mini2.dir\build.make CMakeFiles/Mini2.dir/src/Enemy/PlaneEnemy.cpp.i
+.PHONY : src/Enemy/PlaneEnemy.cpp.i
+
+src/Enemy/PlaneEnemy.s: src/Enemy/PlaneEnemy.cpp.s
+
+.PHONY : src/Enemy/PlaneEnemy.s
+
+# target to generate assembly for a file
+src/Enemy/PlaneEnemy.cpp.s:
+	$(MAKE) -f CMakeFiles\Mini2.dir\build.make CMakeFiles/Mini2.dir/src/Enemy/PlaneEnemy.cpp.s
+.PHONY : src/Enemy/PlaneEnemy.cpp.s
+
+src/Enemy/SoldierEnemy.obj: src/Enemy/SoldierEnemy.cpp.obj
+
+.PHONY : src/Enemy/SoldierEnemy.obj
+
+# target to build an object file
+src/Enemy/SoldierEnemy.cpp.obj:
+	$(MAKE) -f CMakeFiles\Mini2.dir\build.make CMakeFiles/Mini2.dir/src/Enemy/SoldierEnemy.cpp.obj
+.PHONY : src/Enemy/SoldierEnemy.cpp.obj
+
+src/Enemy/SoldierEnemy.i: src/Enemy/SoldierEnemy.cpp.i
+
+.PHONY : src/Enemy/SoldierEnemy.i
+
+# target to preprocess a source file
+src/Enemy/SoldierEnemy.cpp.i:
+	$(MAKE) -f CMakeFiles\Mini2.dir\build.make CMakeFiles/Mini2.dir/src/Enemy/SoldierEnemy.cpp.i
+.PHONY : src/Enemy/SoldierEnemy.cpp.i
+
+src/Enemy/SoldierEnemy.s: src/Enemy/SoldierEnemy.cpp.s
+
+.PHONY : src/Enemy/SoldierEnemy.s
+
+# target to generate assembly for a file
+src/Enemy/SoldierEnemy.cpp.s:
+	$(MAKE) -f CMakeFiles\Mini2.dir\build.make CMakeFiles/Mini2.dir/src/Enemy/SoldierEnemy.cpp.s
+.PHONY : src/Enemy/SoldierEnemy.cpp.s
+
+src/Enemy/TankEnemy.obj: src/Enemy/TankEnemy.cpp.obj
+
+.PHONY : src/Enemy/TankEnemy.obj
+
+# target to build an object file
+src/Enemy/TankEnemy.cpp.obj:
+	$(MAKE) -f CMakeFiles\Mini2.dir\build.make CMakeFiles/Mini2.dir/src/Enemy/TankEnemy.cpp.obj
+.PHONY : src/Enemy/TankEnemy.cpp.obj
+
+src/Enemy/TankEnemy.i: src/Enemy/TankEnemy.cpp.i
+
+.PHONY : src/Enemy/TankEnemy.i
+
+# target to preprocess a source file
+src/Enemy/TankEnemy.cpp.i:
+	$(MAKE) -f CMakeFiles\Mini2.dir\build.make CMakeFiles/Mini2.dir/src/Enemy/TankEnemy.cpp.i
+.PHONY : src/Enemy/TankEnemy.cpp.i
+
+src/Enemy/TankEnemy.s: src/Enemy/TankEnemy.cpp.s
+
+.PHONY : src/Enemy/TankEnemy.s
+
+# target to generate assembly for a file
+src/Enemy/TankEnemy.cpp.s:
+	$(MAKE) -f CMakeFiles\Mini2.dir\build.make CMakeFiles/Mini2.dir/src/Enemy/TankEnemy.cpp.s
+.PHONY : src/Enemy/TankEnemy.cpp.s
 
 src/ExplosionEffect.obj: src/ExplosionEffect.cpp.obj
 
@@ -310,33 +472,6 @@ src/ExplosionEffect.s: src/ExplosionEffect.cpp.s
 src/ExplosionEffect.cpp.s:
 	$(MAKE) -f CMakeFiles\Mini2.dir\build.make CMakeFiles/Mini2.dir/src/ExplosionEffect.cpp.s
 .PHONY : src/ExplosionEffect.cpp.s
-
-src/FireBullet.obj: src/FireBullet.cpp.obj
-
-.PHONY : src/FireBullet.obj
-
-# target to build an object file
-src/FireBullet.cpp.obj:
-	$(MAKE) -f CMakeFiles\Mini2.dir\build.make CMakeFiles/Mini2.dir/src/FireBullet.cpp.obj
-.PHONY : src/FireBullet.cpp.obj
-
-src/FireBullet.i: src/FireBullet.cpp.i
-
-.PHONY : src/FireBullet.i
-
-# target to preprocess a source file
-src/FireBullet.cpp.i:
-	$(MAKE) -f CMakeFiles\Mini2.dir\build.make CMakeFiles/Mini2.dir/src/FireBullet.cpp.i
-.PHONY : src/FireBullet.cpp.i
-
-src/FireBullet.s: src/FireBullet.cpp.s
-
-.PHONY : src/FireBullet.s
-
-# target to generate assembly for a file
-src/FireBullet.cpp.s:
-	$(MAKE) -f CMakeFiles\Mini2.dir\build.make CMakeFiles/Mini2.dir/src/FireBullet.cpp.s
-.PHONY : src/FireBullet.cpp.s
 
 src/GameEngine.obj: src/GameEngine.cpp.obj
 
@@ -581,141 +716,6 @@ src/Label.cpp.s:
 	$(MAKE) -f CMakeFiles\Mini2.dir\build.make CMakeFiles/Mini2.dir/src/Label.cpp.s
 .PHONY : src/Label.cpp.s
 
-src/LaserBullet.obj: src/LaserBullet.cpp.obj
-
-.PHONY : src/LaserBullet.obj
-
-# target to build an object file
-src/LaserBullet.cpp.obj:
-	$(MAKE) -f CMakeFiles\Mini2.dir\build.make CMakeFiles/Mini2.dir/src/LaserBullet.cpp.obj
-.PHONY : src/LaserBullet.cpp.obj
-
-src/LaserBullet.i: src/LaserBullet.cpp.i
-
-.PHONY : src/LaserBullet.i
-
-# target to preprocess a source file
-src/LaserBullet.cpp.i:
-	$(MAKE) -f CMakeFiles\Mini2.dir\build.make CMakeFiles/Mini2.dir/src/LaserBullet.cpp.i
-.PHONY : src/LaserBullet.cpp.i
-
-src/LaserBullet.s: src/LaserBullet.cpp.s
-
-.PHONY : src/LaserBullet.s
-
-# target to generate assembly for a file
-src/LaserBullet.cpp.s:
-	$(MAKE) -f CMakeFiles\Mini2.dir\build.make CMakeFiles/Mini2.dir/src/LaserBullet.cpp.s
-.PHONY : src/LaserBullet.cpp.s
-
-src/LaserTurret.obj: src/LaserTurret.cpp.obj
-
-.PHONY : src/LaserTurret.obj
-
-# target to build an object file
-src/LaserTurret.cpp.obj:
-	$(MAKE) -f CMakeFiles\Mini2.dir\build.make CMakeFiles/Mini2.dir/src/LaserTurret.cpp.obj
-.PHONY : src/LaserTurret.cpp.obj
-
-src/LaserTurret.i: src/LaserTurret.cpp.i
-
-.PHONY : src/LaserTurret.i
-
-# target to preprocess a source file
-src/LaserTurret.cpp.i:
-	$(MAKE) -f CMakeFiles\Mini2.dir\build.make CMakeFiles/Mini2.dir/src/LaserTurret.cpp.i
-.PHONY : src/LaserTurret.cpp.i
-
-src/LaserTurret.s: src/LaserTurret.cpp.s
-
-.PHONY : src/LaserTurret.s
-
-# target to generate assembly for a file
-src/LaserTurret.cpp.s:
-	$(MAKE) -f CMakeFiles\Mini2.dir\build.make CMakeFiles/Mini2.dir/src/LaserTurret.cpp.s
-.PHONY : src/LaserTurret.cpp.s
-
-src/MachineGunTurret.obj: src/MachineGunTurret.cpp.obj
-
-.PHONY : src/MachineGunTurret.obj
-
-# target to build an object file
-src/MachineGunTurret.cpp.obj:
-	$(MAKE) -f CMakeFiles\Mini2.dir\build.make CMakeFiles/Mini2.dir/src/MachineGunTurret.cpp.obj
-.PHONY : src/MachineGunTurret.cpp.obj
-
-src/MachineGunTurret.i: src/MachineGunTurret.cpp.i
-
-.PHONY : src/MachineGunTurret.i
-
-# target to preprocess a source file
-src/MachineGunTurret.cpp.i:
-	$(MAKE) -f CMakeFiles\Mini2.dir\build.make CMakeFiles/Mini2.dir/src/MachineGunTurret.cpp.i
-.PHONY : src/MachineGunTurret.cpp.i
-
-src/MachineGunTurret.s: src/MachineGunTurret.cpp.s
-
-.PHONY : src/MachineGunTurret.s
-
-# target to generate assembly for a file
-src/MachineGunTurret.cpp.s:
-	$(MAKE) -f CMakeFiles\Mini2.dir\build.make CMakeFiles/Mini2.dir/src/MachineGunTurret.cpp.s
-.PHONY : src/MachineGunTurret.cpp.s
-
-src/MissileBullet.obj: src/MissileBullet.cpp.obj
-
-.PHONY : src/MissileBullet.obj
-
-# target to build an object file
-src/MissileBullet.cpp.obj:
-	$(MAKE) -f CMakeFiles\Mini2.dir\build.make CMakeFiles/Mini2.dir/src/MissileBullet.cpp.obj
-.PHONY : src/MissileBullet.cpp.obj
-
-src/MissileBullet.i: src/MissileBullet.cpp.i
-
-.PHONY : src/MissileBullet.i
-
-# target to preprocess a source file
-src/MissileBullet.cpp.i:
-	$(MAKE) -f CMakeFiles\Mini2.dir\build.make CMakeFiles/Mini2.dir/src/MissileBullet.cpp.i
-.PHONY : src/MissileBullet.cpp.i
-
-src/MissileBullet.s: src/MissileBullet.cpp.s
-
-.PHONY : src/MissileBullet.s
-
-# target to generate assembly for a file
-src/MissileBullet.cpp.s:
-	$(MAKE) -f CMakeFiles\Mini2.dir\build.make CMakeFiles/Mini2.dir/src/MissileBullet.cpp.s
-.PHONY : src/MissileBullet.cpp.s
-
-src/MissileTurret.obj: src/MissileTurret.cpp.obj
-
-.PHONY : src/MissileTurret.obj
-
-# target to build an object file
-src/MissileTurret.cpp.obj:
-	$(MAKE) -f CMakeFiles\Mini2.dir\build.make CMakeFiles/Mini2.dir/src/MissileTurret.cpp.obj
-.PHONY : src/MissileTurret.cpp.obj
-
-src/MissileTurret.i: src/MissileTurret.cpp.i
-
-.PHONY : src/MissileTurret.i
-
-# target to preprocess a source file
-src/MissileTurret.cpp.i:
-	$(MAKE) -f CMakeFiles\Mini2.dir\build.make CMakeFiles/Mini2.dir/src/MissileTurret.cpp.i
-.PHONY : src/MissileTurret.cpp.i
-
-src/MissileTurret.s: src/MissileTurret.cpp.s
-
-.PHONY : src/MissileTurret.s
-
-# target to generate assembly for a file
-src/MissileTurret.cpp.s:
-	$(MAKE) -f CMakeFiles\Mini2.dir\build.make CMakeFiles/Mini2.dir/src/MissileTurret.cpp.s
-.PHONY : src/MissileTurret.cpp.s
-
 src/Plane.obj: src/Plane.cpp.obj
 
 .PHONY : src/Plane.obj
@@ -742,33 +742,6 @@ src/Plane.s: src/Plane.cpp.s
 src/Plane.cpp.s:
 	$(MAKE) -f CMakeFiles\Mini2.dir\build.make CMakeFiles/Mini2.dir/src/Plane.cpp.s
 .PHONY : src/Plane.cpp.s
-
-src/PlaneEnemy.obj: src/PlaneEnemy.cpp.obj
-
-.PHONY : src/PlaneEnemy.obj
-
-# target to build an object file
-src/PlaneEnemy.cpp.obj:
-	$(MAKE) -f CMakeFiles\Mini2.dir\build.make CMakeFiles/Mini2.dir/src/PlaneEnemy.cpp.obj
-.PHONY : src/PlaneEnemy.cpp.obj
-
-src/PlaneEnemy.i: src/PlaneEnemy.cpp.i
-
-.PHONY : src/PlaneEnemy.i
-
-# target to preprocess a source file
-src/PlaneEnemy.cpp.i:
-	$(MAKE) -f CMakeFiles\Mini2.dir\build.make CMakeFiles/Mini2.dir/src/PlaneEnemy.cpp.i
-.PHONY : src/PlaneEnemy.cpp.i
-
-src/PlaneEnemy.s: src/PlaneEnemy.cpp.s
-
-.PHONY : src/PlaneEnemy.s
-
-# target to generate assembly for a file
-src/PlaneEnemy.cpp.s:
-	$(MAKE) -f CMakeFiles\Mini2.dir\build.make CMakeFiles/Mini2.dir/src/PlaneEnemy.cpp.s
-.PHONY : src/PlaneEnemy.cpp.s
 
 src/Point.obj: src/Point.cpp.obj
 
@@ -1013,33 +986,6 @@ src/Slider.cpp.s:
 	$(MAKE) -f CMakeFiles\Mini2.dir\build.make CMakeFiles/Mini2.dir/src/Slider.cpp.s
 .PHONY : src/Slider.cpp.s
 
-src/SoldierEnemy.obj: src/SoldierEnemy.cpp.obj
-
-.PHONY : src/SoldierEnemy.obj
-
-# target to build an object file
-src/SoldierEnemy.cpp.obj:
-	$(MAKE) -f CMakeFiles\Mini2.dir\build.make CMakeFiles/Mini2.dir/src/SoldierEnemy.cpp.obj
-.PHONY : src/SoldierEnemy.cpp.obj
-
-src/SoldierEnemy.i: src/SoldierEnemy.cpp.i
-
-.PHONY : src/SoldierEnemy.i
-
-# target to preprocess a source file
-src/SoldierEnemy.cpp.i:
-	$(MAKE) -f CMakeFiles\Mini2.dir\build.make CMakeFiles/Mini2.dir/src/SoldierEnemy.cpp.i
-.PHONY : src/SoldierEnemy.cpp.i
-
-src/SoldierEnemy.s: src/SoldierEnemy.cpp.s
-
-.PHONY : src/SoldierEnemy.s
-
-# target to generate assembly for a file
-src/SoldierEnemy.cpp.s:
-	$(MAKE) -f CMakeFiles\Mini2.dir\build.make CMakeFiles/Mini2.dir/src/SoldierEnemy.cpp.s
-.PHONY : src/SoldierEnemy.cpp.s
-
 src/Sprite.obj: src/Sprite.cpp.obj
 
 .PHONY : src/Sprite.obj
@@ -1067,59 +1013,113 @@ src/Sprite.cpp.s:
 	$(MAKE) -f CMakeFiles\Mini2.dir\build.make CMakeFiles/Mini2.dir/src/Sprite.cpp.s
 .PHONY : src/Sprite.cpp.s
 
-src/TankEnemy.obj: src/TankEnemy.cpp.obj
+src/Turret/LaserTurret.obj: src/Turret/LaserTurret.cpp.obj
 
-.PHONY : src/TankEnemy.obj
-
-# target to build an object file
-src/TankEnemy.cpp.obj:
-	$(MAKE) -f CMakeFiles\Mini2.dir\build.make CMakeFiles/Mini2.dir/src/TankEnemy.cpp.obj
-.PHONY : src/TankEnemy.cpp.obj
-
-src/TankEnemy.i: src/TankEnemy.cpp.i
-
-.PHONY : src/TankEnemy.i
-
-# target to preprocess a source file
-src/TankEnemy.cpp.i:
-	$(MAKE) -f CMakeFiles\Mini2.dir\build.make CMakeFiles/Mini2.dir/src/TankEnemy.cpp.i
-.PHONY : src/TankEnemy.cpp.i
-
-src/TankEnemy.s: src/TankEnemy.cpp.s
-
-.PHONY : src/TankEnemy.s
-
-# target to generate assembly for a file
-src/TankEnemy.cpp.s:
-	$(MAKE) -f CMakeFiles\Mini2.dir\build.make CMakeFiles/Mini2.dir/src/TankEnemy.cpp.s
-.PHONY : src/TankEnemy.cpp.s
-
-src/Turret.obj: src/Turret.cpp.obj
-
-.PHONY : src/Turret.obj
+.PHONY : src/Turret/LaserTurret.obj
 
 # target to build an object file
-src/Turret.cpp.obj:
-	$(MAKE) -f CMakeFiles\Mini2.dir\build.make CMakeFiles/Mini2.dir/src/Turret.cpp.obj
-.PHONY : src/Turret.cpp.obj
+src/Turret/LaserTurret.cpp.obj:
+	$(MAKE) -f CMakeFiles\Mini2.dir\build.make CMakeFiles/Mini2.dir/src/Turret/LaserTurret.cpp.obj
+.PHONY : src/Turret/LaserTurret.cpp.obj
 
-src/Turret.i: src/Turret.cpp.i
+src/Turret/LaserTurret.i: src/Turret/LaserTurret.cpp.i
 
-.PHONY : src/Turret.i
+.PHONY : src/Turret/LaserTurret.i
 
 # target to preprocess a source file
-src/Turret.cpp.i:
-	$(MAKE) -f CMakeFiles\Mini2.dir\build.make CMakeFiles/Mini2.dir/src/Turret.cpp.i
-.PHONY : src/Turret.cpp.i
+src/Turret/LaserTurret.cpp.i:
+	$(MAKE) -f CMakeFiles\Mini2.dir\build.make CMakeFiles/Mini2.dir/src/Turret/LaserTurret.cpp.i
+.PHONY : src/Turret/LaserTurret.cpp.i
 
-src/Turret.s: src/Turret.cpp.s
+src/Turret/LaserTurret.s: src/Turret/LaserTurret.cpp.s
 
-.PHONY : src/Turret.s
+.PHONY : src/Turret/LaserTurret.s
 
 # target to generate assembly for a file
-src/Turret.cpp.s:
-	$(MAKE) -f CMakeFiles\Mini2.dir\build.make CMakeFiles/Mini2.dir/src/Turret.cpp.s
-.PHONY : src/Turret.cpp.s
+src/Turret/LaserTurret.cpp.s:
+	$(MAKE) -f CMakeFiles\Mini2.dir\build.make CMakeFiles/Mini2.dir/src/Turret/LaserTurret.cpp.s
+.PHONY : src/Turret/LaserTurret.cpp.s
+
+src/Turret/MachineGunTurret.obj: src/Turret/MachineGunTurret.cpp.obj
+
+.PHONY : src/Turret/MachineGunTurret.obj
+
+# target to build an object file
+src/Turret/MachineGunTurret.cpp.obj:
+	$(MAKE) -f CMakeFiles\Mini2.dir\build.make CMakeFiles/Mini2.dir/src/Turret/MachineGunTurret.cpp.obj
+.PHONY : src/Turret/MachineGunTurret.cpp.obj
+
+src/Turret/MachineGunTurret.i: src/Turret/MachineGunTurret.cpp.i
+
+.PHONY : src/Turret/MachineGunTurret.i
+
+# target to preprocess a source file
+src/Turret/MachineGunTurret.cpp.i:
+	$(MAKE) -f CMakeFiles\Mini2.dir\build.make CMakeFiles/Mini2.dir/src/Turret/MachineGunTurret.cpp.i
+.PHONY : src/Turret/MachineGunTurret.cpp.i
+
+src/Turret/MachineGunTurret.s: src/Turret/MachineGunTurret.cpp.s
+
+.PHONY : src/Turret/MachineGunTurret.s
+
+# target to generate assembly for a file
+src/Turret/MachineGunTurret.cpp.s:
+	$(MAKE) -f CMakeFiles\Mini2.dir\build.make CMakeFiles/Mini2.dir/src/Turret/MachineGunTurret.cpp.s
+.PHONY : src/Turret/MachineGunTurret.cpp.s
+
+src/Turret/MissileTurret.obj: src/Turret/MissileTurret.cpp.obj
+
+.PHONY : src/Turret/MissileTurret.obj
+
+# target to build an object file
+src/Turret/MissileTurret.cpp.obj:
+	$(MAKE) -f CMakeFiles\Mini2.dir\build.make CMakeFiles/Mini2.dir/src/Turret/MissileTurret.cpp.obj
+.PHONY : src/Turret/MissileTurret.cpp.obj
+
+src/Turret/MissileTurret.i: src/Turret/MissileTurret.cpp.i
+
+.PHONY : src/Turret/MissileTurret.i
+
+# target to preprocess a source file
+src/Turret/MissileTurret.cpp.i:
+	$(MAKE) -f CMakeFiles\Mini2.dir\build.make CMakeFiles/Mini2.dir/src/Turret/MissileTurret.cpp.i
+.PHONY : src/Turret/MissileTurret.cpp.i
+
+src/Turret/MissileTurret.s: src/Turret/MissileTurret.cpp.s
+
+.PHONY : src/Turret/MissileTurret.s
+
+# target to generate assembly for a file
+src/Turret/MissileTurret.cpp.s:
+	$(MAKE) -f CMakeFiles\Mini2.dir\build.make CMakeFiles/Mini2.dir/src/Turret/MissileTurret.cpp.s
+.PHONY : src/Turret/MissileTurret.cpp.s
+
+src/Turret/Turret.obj: src/Turret/Turret.cpp.obj
+
+.PHONY : src/Turret/Turret.obj
+
+# target to build an object file
+src/Turret/Turret.cpp.obj:
+	$(MAKE) -f CMakeFiles\Mini2.dir\build.make CMakeFiles/Mini2.dir/src/Turret/Turret.cpp.obj
+.PHONY : src/Turret/Turret.cpp.obj
+
+src/Turret/Turret.i: src/Turret/Turret.cpp.i
+
+.PHONY : src/Turret/Turret.i
+
+# target to preprocess a source file
+src/Turret/Turret.cpp.i:
+	$(MAKE) -f CMakeFiles\Mini2.dir\build.make CMakeFiles/Mini2.dir/src/Turret/Turret.cpp.i
+.PHONY : src/Turret/Turret.cpp.i
+
+src/Turret/Turret.s: src/Turret/Turret.cpp.s
+
+.PHONY : src/Turret/Turret.s
+
+# target to generate assembly for a file
+src/Turret/Turret.cpp.s:
+	$(MAKE) -f CMakeFiles\Mini2.dir\build.make CMakeFiles/Mini2.dir/src/Turret/Turret.cpp.s
+.PHONY : src/Turret/Turret.cpp.s
 
 src/TurretButton.obj: src/TurretButton.cpp.obj
 
@@ -1190,24 +1190,39 @@ help:
 	@echo ... src/AudioHelper.obj
 	@echo ... src/AudioHelper.i
 	@echo ... src/AudioHelper.s
-	@echo ... src/Bullet.obj
-	@echo ... src/Bullet.i
-	@echo ... src/Bullet.s
+	@echo ... src/Bullet/Bullet.obj
+	@echo ... src/Bullet/Bullet.i
+	@echo ... src/Bullet/Bullet.s
+	@echo ... src/Bullet/FireBullet.obj
+	@echo ... src/Bullet/FireBullet.i
+	@echo ... src/Bullet/FireBullet.s
+	@echo ... src/Bullet/LaserBullet.obj
+	@echo ... src/Bullet/LaserBullet.i
+	@echo ... src/Bullet/LaserBullet.s
+	@echo ... src/Bullet/MissileBullet.obj
+	@echo ... src/Bullet/MissileBullet.i
+	@echo ... src/Bullet/MissileBullet.s
 	@echo ... src/Collider.obj
 	@echo ... src/Collider.i
 	@echo ... src/Collider.s
 	@echo ... src/DirtyEffect.obj
 	@echo ... src/DirtyEffect.i
 	@echo ... src/DirtyEffect.s
-	@echo ... src/Enemy.obj
-	@echo ... src/Enemy.i
-	@echo ... src/Enemy.s
+	@echo ... src/Enemy/Enemy.obj
+	@echo ... src/Enemy/Enemy.i
+	@echo ... src/Enemy/Enemy.s
+	@echo ... src/Enemy/PlaneEnemy.obj
+	@echo ... src/Enemy/PlaneEnemy.i
+	@echo ... src/Enemy/PlaneEnemy.s
+	@echo ... src/Enemy/SoldierEnemy.obj
+	@echo ... src/Enemy/SoldierEnemy.i
+	@echo ... src/Enemy/SoldierEnemy.s
+	@echo ... src/Enemy/TankEnemy.obj
+	@echo ... src/Enemy/TankEnemy.i
+	@echo ... src/Enemy/TankEnemy.s
 	@echo ... src/ExplosionEffect.obj
 	@echo ... src/ExplosionEffect.i
 	@echo ... src/ExplosionEffect.s
-	@echo ... src/FireBullet.obj
-	@echo ... src/FireBullet.i
-	@echo ... src/FireBullet.s
 	@echo ... src/GameEngine.obj
 	@echo ... src/GameEngine.i
 	@echo ... src/GameEngine.s
@@ -1235,27 +1250,9 @@ help:
 	@echo ... src/Label.obj
 	@echo ... src/Label.i
 	@echo ... src/Label.s
-	@echo ... src/LaserBullet.obj
-	@echo ... src/LaserBullet.i
-	@echo ... src/LaserBullet.s
-	@echo ... src/LaserTurret.obj
-	@echo ... src/LaserTurret.i
-	@echo ... src/LaserTurret.s
-	@echo ... src/MachineGunTurret.obj
-	@echo ... src/MachineGunTurret.i
-	@echo ... src/MachineGunTurret.s
-	@echo ... src/MissileBullet.obj
-	@echo ... src/MissileBullet.i
-	@echo ... src/MissileBullet.s
-	@echo ... src/MissileTurret.obj
-	@echo ... src/MissileTurret.i
-	@echo ... src/MissileTurret.s
 	@echo ... src/Plane.obj
 	@echo ... src/Plane.i
 	@echo ... src/Plane.s
-	@echo ... src/PlaneEnemy.obj
-	@echo ... src/PlaneEnemy.i
-	@echo ... src/PlaneEnemy.s
 	@echo ... src/Point.obj
 	@echo ... src/Point.i
 	@echo ... src/Point.s
@@ -1283,18 +1280,21 @@ help:
 	@echo ... src/Slider.obj
 	@echo ... src/Slider.i
 	@echo ... src/Slider.s
-	@echo ... src/SoldierEnemy.obj
-	@echo ... src/SoldierEnemy.i
-	@echo ... src/SoldierEnemy.s
 	@echo ... src/Sprite.obj
 	@echo ... src/Sprite.i
 	@echo ... src/Sprite.s
-	@echo ... src/TankEnemy.obj
-	@echo ... src/TankEnemy.i
-	@echo ... src/TankEnemy.s
-	@echo ... src/Turret.obj
-	@echo ... src/Turret.i
-	@echo ... src/Turret.s
+	@echo ... src/Turret/LaserTurret.obj
+	@echo ... src/Turret/LaserTurret.i
+	@echo ... src/Turret/LaserTurret.s
+	@echo ... src/Turret/MachineGunTurret.obj
+	@echo ... src/Turret/MachineGunTurret.i
+	@echo ... src/Turret/MachineGunTurret.s
+	@echo ... src/Turret/MissileTurret.obj
+	@echo ... src/Turret/MissileTurret.i
+	@echo ... src/Turret/MissileTurret.s
+	@echo ... src/Turret/Turret.obj
+	@echo ... src/Turret/Turret.i
+	@echo ... src/Turret/Turret.s
 	@echo ... src/TurretButton.obj
 	@echo ... src/TurretButton.i
 	@echo ... src/TurretButton.s
