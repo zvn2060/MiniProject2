@@ -14,6 +14,7 @@ Slider::Slider(float x, float y, float w, float h) :
 //               The slider shouldn't be dragged outside the bar, and you should also keep the mouse-in / mouse-out effect.
 void Slider::Draw() const {
 	// TODO 4 (1/6): Draw all components.
+	
 }
 void Slider::SetOnValueChangedCallback(std::function<void(float value)> onValueChangedCallback) {
 	// TODO 4 (2/6): Set the function pointer. Can imitate ImageButton's 'SetOnClickCallback'.

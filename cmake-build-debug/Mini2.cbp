@@ -176,6 +176,9 @@
 		<Unit filename="D:/Documents/I2P 2/Mini2/src/Scenes/PlayScene.cpp">
 			<Option target="Mini2"/>
 		</Unit>
+		<Unit filename="D:/Documents/I2P 2/Mini2/src/Scenes/SettingScene.cpp">
+			<Option target="Mini2"/>
+		</Unit>
 		<Unit filename="D:/Documents/I2P 2/Mini2/src/Scenes/StageSelectScene.cpp">
 			<Option target="Mini2"/>
 		</Unit>

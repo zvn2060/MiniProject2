@@ -33,6 +33,7 @@ set(CMAKE_DEPENDS_CHECK_CXX
   "D:/Documents/I2P 2/Mini2/src/Scenes/LoseScene.cpp" "D:/Documents/I2P 2/Mini2/cmake-build-debug/CMakeFiles/Mini2.dir/src/Scenes/LoseScene.cpp.obj"
   "D:/Documents/I2P 2/Mini2/src/Scenes/MainScene.cpp" "D:/Documents/I2P 2/Mini2/cmake-build-debug/CMakeFiles/Mini2.dir/src/Scenes/MainScene.cpp.obj"
   "D:/Documents/I2P 2/Mini2/src/Scenes/PlayScene.cpp" "D:/Documents/I2P 2/Mini2/cmake-build-debug/CMakeFiles/Mini2.dir/src/Scenes/PlayScene.cpp.obj"
+  "D:/Documents/I2P 2/Mini2/src/Scenes/SettingScene.cpp" "D:/Documents/I2P 2/Mini2/cmake-build-debug/CMakeFiles/Mini2.dir/src/Scenes/SettingScene.cpp.obj"
   "D:/Documents/I2P 2/Mini2/src/Scenes/StageSelectScene.cpp" "D:/Documents/I2P 2/Mini2/cmake-build-debug/CMakeFiles/Mini2.dir/src/Scenes/StageSelectScene.cpp.obj"
   "D:/Documents/I2P 2/Mini2/src/Scenes/WinScene.cpp" "D:/Documents/I2P 2/Mini2/cmake-build-debug/CMakeFiles/Mini2.dir/src/Scenes/WinScene.cpp.obj"
   "D:/Documents/I2P 2/Mini2/src/Slider.cpp" "D:/Documents/I2P 2/Mini2/cmake-build-debug/CMakeFiles/Mini2.dir/src/Slider.cpp.obj"

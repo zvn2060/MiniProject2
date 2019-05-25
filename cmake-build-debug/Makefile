@@ -905,6 +905,33 @@ src/Scenes/PlayScene.cpp.s:
 	$(MAKE) -f CMakeFiles\Mini2.dir\build.make CMakeFiles/Mini2.dir/src/Scenes/PlayScene.cpp.s
 .PHONY : src/Scenes/PlayScene.cpp.s
 
+src/Scenes/SettingScene.obj: src/Scenes/SettingScene.cpp.obj
+
+.PHONY : src/Scenes/SettingScene.obj
+
+# target to build an object file
+src/Scenes/SettingScene.cpp.obj:
+	$(MAKE) -f CMakeFiles\Mini2.dir\build.make CMakeFiles/Mini2.dir/src/Scenes/SettingScene.cpp.obj
+.PHONY : src/Scenes/SettingScene.cpp.obj
+
+src/Scenes/SettingScene.i: src/Scenes/SettingScene.cpp.i
+
+.PHONY : src/Scenes/SettingScene.i
+
+# target to preprocess a source file
+src/Scenes/SettingScene.cpp.i:
+	$(MAKE) -f CMakeFiles\Mini2.dir\build.make CMakeFiles/Mini2.dir/src/Scenes/SettingScene.cpp.i
+.PHONY : src/Scenes/SettingScene.cpp.i
+
+src/Scenes/SettingScene.s: src/Scenes/SettingScene.cpp.s
+
+.PHONY : src/Scenes/SettingScene.s
+
+# target to generate assembly for a file
+src/Scenes/SettingScene.cpp.s:
+	$(MAKE) -f CMakeFiles\Mini2.dir\build.make CMakeFiles/Mini2.dir/src/Scenes/SettingScene.cpp.s
+.PHONY : src/Scenes/SettingScene.cpp.s
+
 src/Scenes/StageSelectScene.obj: src/Scenes/StageSelectScene.cpp.obj
 
 .PHONY : src/Scenes/StageSelectScene.obj
@@ -1244,6 +1271,9 @@ help:
 	@echo ... src/Scenes/PlayScene.obj
 	@echo ... src/Scenes/PlayScene.i
 	@echo ... src/Scenes/PlayScene.s
+	@echo ... src/Scenes/SettingScene.obj
+	@echo ... src/Scenes/SettingScene.i
+	@echo ... src/Scenes/SettingScene.s
 	@echo ... src/Scenes/StageSelectScene.obj
 	@echo ... src/Scenes/StageSelectScene.i
 	@echo ... src/Scenes/StageSelectScene.s

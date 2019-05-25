@@ -560,10 +560,24 @@ CMakeFiles/Mini2.dir/src/Scenes/PlayScene.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Mini2.dir/src/Scenes/PlayScene.cpp.s"
 	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\Documents\I2P 2\Mini2\src\Scenes\PlayScene.cpp" -o CMakeFiles\Mini2.dir\src\Scenes\PlayScene.cpp.s
 
+CMakeFiles/Mini2.dir/src/Scenes/SettingScene.cpp.obj: CMakeFiles/Mini2.dir/flags.make
+CMakeFiles/Mini2.dir/src/Scenes/SettingScene.cpp.obj: CMakeFiles/Mini2.dir/includes_CXX.rsp
+CMakeFiles/Mini2.dir/src/Scenes/SettingScene.cpp.obj: ../src/Scenes/SettingScene.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\Documents\I2P 2\Mini2\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_37) "Building CXX object CMakeFiles/Mini2.dir/src/Scenes/SettingScene.cpp.obj"
+	C:\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\Mini2.dir\src\Scenes\SettingScene.cpp.obj -c "D:\Documents\I2P 2\Mini2\src\Scenes\SettingScene.cpp"
+
+CMakeFiles/Mini2.dir/src/Scenes/SettingScene.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Mini2.dir/src/Scenes/SettingScene.cpp.i"
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "D:\Documents\I2P 2\Mini2\src\Scenes\SettingScene.cpp" > CMakeFiles\Mini2.dir\src\Scenes\SettingScene.cpp.i
+
+CMakeFiles/Mini2.dir/src/Scenes/SettingScene.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Mini2.dir/src/Scenes/SettingScene.cpp.s"
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\Documents\I2P 2\Mini2\src\Scenes\SettingScene.cpp" -o CMakeFiles\Mini2.dir\src\Scenes\SettingScene.cpp.s
+
 CMakeFiles/Mini2.dir/src/Scenes/StageSelectScene.cpp.obj: CMakeFiles/Mini2.dir/flags.make
 CMakeFiles/Mini2.dir/src/Scenes/StageSelectScene.cpp.obj: CMakeFiles/Mini2.dir/includes_CXX.rsp
 CMakeFiles/Mini2.dir/src/Scenes/StageSelectScene.cpp.obj: ../src/Scenes/StageSelectScene.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\Documents\I2P 2\Mini2\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_37) "Building CXX object CMakeFiles/Mini2.dir/src/Scenes/StageSelectScene.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\Documents\I2P 2\Mini2\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_38) "Building CXX object CMakeFiles/Mini2.dir/src/Scenes/StageSelectScene.cpp.obj"
 	C:\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\Mini2.dir\src\Scenes\StageSelectScene.cpp.obj -c "D:\Documents\I2P 2\Mini2\src\Scenes\StageSelectScene.cpp"
 
 CMakeFiles/Mini2.dir/src/Scenes/StageSelectScene.cpp.i: cmake_force
@@ -577,7 +591,7 @@ CMakeFiles/Mini2.dir/src/Scenes/StageSelectScene.cpp.s: cmake_force
 CMakeFiles/Mini2.dir/src/Scenes/WinScene.cpp.obj: CMakeFiles/Mini2.dir/flags.make
 CMakeFiles/Mini2.dir/src/Scenes/WinScene.cpp.obj: CMakeFiles/Mini2.dir/includes_CXX.rsp
 CMakeFiles/Mini2.dir/src/Scenes/WinScene.cpp.obj: ../src/Scenes/WinScene.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\Documents\I2P 2\Mini2\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_38) "Building CXX object CMakeFiles/Mini2.dir/src/Scenes/WinScene.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\Documents\I2P 2\Mini2\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_39) "Building CXX object CMakeFiles/Mini2.dir/src/Scenes/WinScene.cpp.obj"
 	C:\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\Mini2.dir\src\Scenes\WinScene.cpp.obj -c "D:\Documents\I2P 2\Mini2\src\Scenes\WinScene.cpp"
 
 CMakeFiles/Mini2.dir/src/Scenes/WinScene.cpp.i: cmake_force
@@ -626,6 +640,7 @@ Mini2_OBJECTS = \
 "CMakeFiles/Mini2.dir/src/Scenes/LoseScene.cpp.obj" \
 "CMakeFiles/Mini2.dir/src/Scenes/MainScene.cpp.obj" \
 "CMakeFiles/Mini2.dir/src/Scenes/PlayScene.cpp.obj" \
+"CMakeFiles/Mini2.dir/src/Scenes/SettingScene.cpp.obj" \
 "CMakeFiles/Mini2.dir/src/Scenes/StageSelectScene.cpp.obj" \
 "CMakeFiles/Mini2.dir/src/Scenes/WinScene.cpp.obj"
 
@@ -668,6 +683,7 @@ Mini2_EXTERNAL_OBJECTS =
 ../game/Mini2.exe: CMakeFiles/Mini2.dir/src/Scenes/LoseScene.cpp.obj
 ../game/Mini2.exe: CMakeFiles/Mini2.dir/src/Scenes/MainScene.cpp.obj
 ../game/Mini2.exe: CMakeFiles/Mini2.dir/src/Scenes/PlayScene.cpp.obj
+../game/Mini2.exe: CMakeFiles/Mini2.dir/src/Scenes/SettingScene.cpp.obj
 ../game/Mini2.exe: CMakeFiles/Mini2.dir/src/Scenes/StageSelectScene.cpp.obj
 ../game/Mini2.exe: CMakeFiles/Mini2.dir/src/Scenes/WinScene.cpp.obj
 ../game/Mini2.exe: CMakeFiles/Mini2.dir/build.make
@@ -675,7 +691,7 @@ Mini2_EXTERNAL_OBJECTS =
 ../game/Mini2.exe: CMakeFiles/Mini2.dir/linklibs.rsp
 ../game/Mini2.exe: CMakeFiles/Mini2.dir/objects1.rsp
 ../game/Mini2.exe: CMakeFiles/Mini2.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir="D:\Documents\I2P 2\Mini2\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_39) "Linking CXX executable ..\game\Mini2.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir="D:\Documents\I2P 2\Mini2\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_40) "Linking CXX executable ..\game\Mini2.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\Mini2.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

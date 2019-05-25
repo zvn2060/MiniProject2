@@ -10,8 +10,12 @@ private:
 public:
 	explicit MainScene() = default;
 	void Initialize() override;
-	void PlayOnClick(int stage);
-
+	
+	void SettingOnClick( int stage );
+	
+	void BackOnclick( int stage );
+	
+	void PlayOnclick( int stage );
 };
 
 #endif //MAINSCENE_HPP

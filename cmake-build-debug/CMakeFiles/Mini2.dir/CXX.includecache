@@ -616,6 +616,14 @@ Label.hpp
 Turret.hpp
 ../include/Scenes/Turret.hpp
 
+../include/Scenes/SettingScene.hpp
+GameEngine.hpp
+../include/Scenes/GameEngine.hpp
+IScene.hpp
+../include/Scenes/IScene.hpp
+ImageButton.hpp
+../include/Scenes/ImageButton.hpp
+
 ../include/Slider.hpp
 ImageButton.hpp
 ../include/ImageButton.hpp
@@ -643,6 +651,8 @@ Bullet.hpp
 D:/Documents/I2P 2/Mini2/src/Scenes/MainScene.cpp
 Scenes/MainScene.hpp
 D:/Documents/I2P 2/Mini2/src/Scenes/Scenes/MainScene.hpp
+Scenes/SettingScene.hpp
+D:/Documents/I2P 2/Mini2/src/Scenes/Scenes/SettingScene.hpp
 Scenes/PlayScene.hpp
 D:/Documents/I2P 2/Mini2/src/Scenes/Scenes/PlayScene.hpp
 AudioHelper.hpp
