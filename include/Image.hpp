@@ -1,10 +1,8 @@
 #ifndef IMAGE_HPP
 #define IMAGE_HPP
-
-#include <allegro5/bitmap.h>
-#include <memory>
 #include <string>
-
+#include <memory>
+#include <allegro5/allegro.h>
 #include "IObject.hpp"
 
 namespace Engine {

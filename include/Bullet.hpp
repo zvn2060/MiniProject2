@@ -1,18 +1,15 @@
 #ifndef BULLET_HPP
 #define BULLET_HPP
-
-#include <string>
-
 #include "Sprite.hpp"
-
-class Enemy;
+#include "Collider.hpp"
+#include "Enemy.hpp"
+#include "Turret.hpp"
+#include <random>
 
 class PlayScene;
-class Turret;
-namespace Engine{
-	struct Point;
-}  // namespace Engine
 
+class Enemy;
+class Turret;
 class Bullet : public Engine::Sprite {
 protected:
 	float speed;

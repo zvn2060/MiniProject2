@@ -1,12 +1,6 @@
 #ifndef DIRTYEFFECT_HPP
 #define DIRTYEFFECT_HPP
-
-#include <string>
-
 #include "Sprite.hpp"
-
-class PlayScene;
-
 class DirtyEffect : public Engine::Sprite {
 protected:
 	float timeSpan;

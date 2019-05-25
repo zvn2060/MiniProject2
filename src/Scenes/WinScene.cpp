@@ -1,13 +1,7 @@
-#include <functional>
-#include <string>
-
-#include "AudioHelper.hpp"
-#include "GameEngine.hpp"
-#include "ImageButton.hpp"
-#include "Label.hpp"
-#include "PlayScene.hpp"
-#include "Point.hpp"
 #include "WinScene.hpp"
+#include "Label.hpp"
+#include "AudioHelper.hpp"
+#include "PlayScene.hpp"
 
 void WinScene::Initialize() {
 	ticks = 0;
@@ -33,5 +27,5 @@ void WinScene::Update(float deltaTime) {
 }
 void WinScene::BackOnClick(int stage) {
 	// Change to select scene.
-	Engine::GameEngine::GetInstance().ChangeScene("stage-select");
+	Engine::GameEngine::GetInstance().ChangeScene( "main" );
 }

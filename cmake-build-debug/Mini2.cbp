@@ -92,16 +92,13 @@
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="D:/Documents/I2P 2/Mini2/include/Scenes/MainScene.hpp">
-			<Option target="Mini2"/>
-		</Unit>
 		<Unit filename="D:/Documents/I2P 2/Mini2/src/Allegro5Exception.cpp">
 			<Option target="Mini2"/>
 		</Unit>
 		<Unit filename="D:/Documents/I2P 2/Mini2/src/AudioHelper.cpp">
 			<Option target="Mini2"/>
 		</Unit>
-		<Unit filename="D:/Documents/I2P 2/Mini2/src/Bullet/Bullet.cpp">
+		<Unit filename="D:/Documents/I2P 2/Mini2/src/Bullet.cpp">
 			<Option target="Mini2"/>
 		</Unit>
 		<Unit filename="D:/Documents/I2P 2/Mini2/src/Bullet/FireBullet.cpp">
@@ -113,13 +110,16 @@
 		<Unit filename="D:/Documents/I2P 2/Mini2/src/Bullet/MissileBullet.cpp">
 			<Option target="Mini2"/>
 		</Unit>
+		<Unit filename="D:/Documents/I2P 2/Mini2/src/Bullet/StickyBullet.cpp">
+			<Option target="Mini2"/>
+		</Unit>
 		<Unit filename="D:/Documents/I2P 2/Mini2/src/Collider.cpp">
 			<Option target="Mini2"/>
 		</Unit>
 		<Unit filename="D:/Documents/I2P 2/Mini2/src/DirtyEffect.cpp">
 			<Option target="Mini2"/>
 		</Unit>
-		<Unit filename="D:/Documents/I2P 2/Mini2/src/Enemy/Enemy.cpp">
+		<Unit filename="D:/Documents/I2P 2/Mini2/src/Enemy.cpp">
 			<Option target="Mini2"/>
 		</Unit>
 		<Unit filename="D:/Documents/I2P 2/Mini2/src/Enemy/PlaneEnemy.cpp">
@@ -194,6 +194,9 @@
 		<Unit filename="D:/Documents/I2P 2/Mini2/src/Sprite.cpp">
 			<Option target="Mini2"/>
 		</Unit>
+		<Unit filename="D:/Documents/I2P 2/Mini2/src/Turret.cpp">
+			<Option target="Mini2"/>
+		</Unit>
 		<Unit filename="D:/Documents/I2P 2/Mini2/src/Turret/LaserTurret.cpp">
 			<Option target="Mini2"/>
 		</Unit>
@@ -201,9 +204,6 @@
 			<Option target="Mini2"/>
 		</Unit>
 		<Unit filename="D:/Documents/I2P 2/Mini2/src/Turret/MissileTurret.cpp">
-			<Option target="Mini2"/>
-		</Unit>
-		<Unit filename="D:/Documents/I2P 2/Mini2/src/Turret/Turret.cpp">
 			<Option target="Mini2"/>
 		</Unit>
 		<Unit filename="D:/Documents/I2P 2/Mini2/src/TurretButton.cpp">

@@ -1,15 +1,5 @@
-#include <allegro5/base.h>
-#include <random>
-#include <string>
-
-#include "DirtyEffect.hpp"
-#include "Enemy.hpp"
-#include "Group.hpp"
 #include "LaserBullet.hpp"
-#include "PlayScene.hpp"
-#include "Point.hpp"
-
-class Turret;
+#include "DirtyEffect.hpp"
 
 LaserBullet::LaserBullet(Engine::Point position, Engine::Point forwardDirection, float rotation, Turret* parent) :
 	Bullet("play/bullet-2.png", 800, 2, position, forwardDirection, rotation - ALLEGRO_PI / 2, parent) {

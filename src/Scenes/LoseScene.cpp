@@ -1,12 +1,6 @@
-#include <functional>
-#include <string>
-
-#include "AudioHelper.hpp"
-#include "GameEngine.hpp"
-#include "ImageButton.hpp"
-#include "Label.hpp"
 #include "LoseScene.hpp"
-#include "Point.hpp"
+#include "Label.hpp"
+#include "AudioHelper.hpp"
 
 void LoseScene::Initialize() {
 	// TODO 1 (2/2): You can imitate the 2 files: 'LoseScene.hpp', 'LoseScene.cpp' to implement your start scene.
@@ -24,5 +18,5 @@ void LoseScene::Initialize() {
 }
 void LoseScene::BackOnClick(int stage) {
 	// Change to select scene.
-	Engine::GameEngine::GetInstance().ChangeScene("stage-select");
+	Engine::GameEngine::GetInstance().ChangeScene( "main" );
 }

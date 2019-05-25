@@ -1,13 +1,7 @@
-#include <allegro5/base.h>
-#include <cmath>
-#include <string>
-
-#include "AudioHelper.hpp"
-#include "Group.hpp"
+#include "PlayScene.hpp"
 #include "LaserBullet.hpp"
 #include "LaserTurret.hpp"
-#include "PlayScene.hpp"
-#include "Point.hpp"
+#include "AudioHelper.hpp"
 
 const int LaserTurret::Price = 200;
 LaserTurret::LaserTurret(float x, float y) :

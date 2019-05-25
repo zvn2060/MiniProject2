@@ -34,7 +34,10 @@ void SettingScene::Initialize(){
 							   0.5 ) );
 	
 	// Not a safe way, however we only free while change scene, so it's fine.
-	AudioHelper::PlayBGM( "select.ogg" );
+	bgmInstance = al_create_sample_instance( Engine::Resources::GetInstance().GetSample( "select.ogg" ).get() );
+	al_set_sample_instance_playmode( bgmInstance, ALLEGRO_PLAYMODE_LOOP );
+	al_attach_sample_instance_to_mixer( bgmInstance, al_get_default_mixer() );
+	al_play_sample_instance( bgmInstance );
 	sliderBGM->SetValue( AudioHelper::BGMVolume );
 	sliderSFX->SetValue( AudioHelper::SFXVolume );
 };
@@ -45,6 +48,7 @@ void SettingScene::BackOnClick( int stage ){
 }
 
 void SettingScene::BGMSlideOnValueChanged( float value ){
+	al_set_sample_instance_gain( bgmInstance, value );
 	AudioHelper::BGMVolume = value;
 }
 

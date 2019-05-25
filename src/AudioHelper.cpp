@@ -1,18 +1,16 @@
-#include <allegro5/allegro_audio.h>
-#include <memory>
-
-#include "AudioHelper.hpp"
 #include "LOG.hpp"
+#include "AudioHelper.hpp"
 #include "Resources.hpp"
 
 float AudioHelper::BGMVolume = 1.0;
 float AudioHelper::SFXVolume = 1.0;
-ALLEGRO_SAMPLE_ID AudioHelper::PlayAudio( const std::string& audio) {
+
+ALLEGRO_SAMPLE_ID AudioHelper::PlayAudio( const std::string & audio ){
 	// Not a safe way, however we only free while change scene, so it's fine.
-	ALLEGRO_SAMPLE* sample = Engine::Resources::GetInstance().GetSample( audio).get();
+	ALLEGRO_SAMPLE * sample = Engine::Resources::GetInstance().GetSample( audio ).get();
 	ALLEGRO_SAMPLE_ID id;
-	if (!al_play_sample( sample, SFXVolume, 0.0, 1.0, ALLEGRO_PLAYMODE_ONCE, &id))
-		Engine::LOG( Engine::INFO) << "failed to play audio (once)";
+	if ( !al_play_sample( sample, SFXVolume, 0.0, 1.0, ALLEGRO_PLAYMODE_ONCE, &id ) )
+		Engine::LOG( Engine::INFO ) << "failed to play audio (once)";
 	else
 		Engine::LOG(Engine::VERBOSE) << "played audio (once)";
 	return id;

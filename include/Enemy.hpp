@@ -1,19 +1,17 @@
 #ifndef ENEMY_HPP
 #define ENEMY_HPP
 
-#include <list>
-#include <vector>
-#include <string>
-
+#include "GameEngine.hpp"
+#include "PlayScene.hpp"
 #include "Point.hpp"
 #include "Sprite.hpp"
-
-class Bullet;
-
-class PlayScene;
+#include "Turret.hpp"
 
 class Turret;
 
+class PlayScene;
+
+class Bullet;
 class Enemy : public Engine::Sprite {
 protected:
  	std::vector<Engine::Point> path;

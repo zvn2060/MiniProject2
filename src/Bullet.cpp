@@ -1,13 +1,10 @@
-#include "Bullet.hpp"
+#include "Sprite.hpp"
 #include "Collider.hpp"
 #include "Enemy.hpp"
-#include "GameEngine.hpp"
-#include "Group.hpp"
-#include "IObject.hpp"
-#include "IScene.hpp"
-#include "PlayScene.hpp"
-#include "Point.hpp"
-#include "Sprite.hpp"
+#include "Turret.hpp"
+#include "Bullet.hpp"
+#include "LOG.hpp"
+#include "DirtyEffect.hpp"
 
 PlayScene* Bullet::getPlayScene() {
 	return dynamic_cast<PlayScene*>(Engine::GameEngine::GetInstance().GetActiveScene());

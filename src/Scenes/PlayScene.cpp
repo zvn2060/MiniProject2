@@ -1,38 +1,30 @@
-#include <allegro5/allegro.h>
-#include <cmath>
-#include <fstream>
-#include <functional>
+#include <string>
 #include <queue>
-#include <string>
-#include <memory>
-#include <string>
-
-#include "AudioHelper.hpp"
-#include "DirtyEffect.hpp"
-#include "Enemy.hpp"
-#include "GameEngine.hpp"
-#include "Group.hpp"
-#include "IObject.hpp"
+#include <fstream>
 #include "Image.hpp"
 #include "Label.hpp"
-#include "LaserTurret.hpp"
-#include "MachineGunTurret.hpp"
-#include "MissileTurret.hpp"
-#include "Plane.hpp"
-#include "PlaneEnemy.hpp"
+#include "ImageButton.hpp"
 #include "PlayScene.hpp"
+#include "LOG.hpp"
+#include "Enemy.hpp"
+#include "PlaneEnemy.hpp"
 #include "SoldierEnemy.hpp"
-#include "Sprite.hpp"
 #include "TankEnemy.hpp"
-#include "Turret.hpp"
+#include "MachineGunTurret.hpp"
+#include "LaserTurret.hpp"
+#include "MissileTurret.hpp"
 #include "TurretButton.hpp"
+#include "Plane.hpp"
+#include "DirtyEffect.hpp"
+#include "AudioHelper.hpp"
 
 bool PlayScene::DebugMode = false;
-const std::vector<Engine::Point> PlayScene::directions = { Engine::Point( -1, 0), Engine::Point( 0, -1), Engine::Point( 1, 0), Engine::Point( 0, 1) };
+const std::vector < Engine::Point > PlayScene::directions = { Engine::Point( -1, 0 ), Engine::Point( 0, -1 ),
+															  Engine::Point( 1, 0 ), Engine::Point( 0, 1 ) };
 const int PlayScene::MapWidth = 20, PlayScene::MapHeight = 13;
 const int PlayScene::BlockSize = 64;
-const Engine::Point PlayScene::SpawnGridPoint = Engine::Point( -1, 0);
-const Engine::Point PlayScene::EndGridPoint = Engine::Point( MapWidth, MapHeight - 1);
+const Engine::Point PlayScene::SpawnGridPoint = Engine::Point( -1, 0 );
+const Engine::Point PlayScene::EndGridPoint = Engine::Point( MapWidth, MapHeight - 1 );
 const std::vector<int> PlayScene::code = { ALLEGRO_KEY_UP, ALLEGRO_KEY_UP, ALLEGRO_KEY_DOWN, ALLEGRO_KEY_DOWN,
 										   ALLEGRO_KEY_LEFT, ALLEGRO_KEY_RIGHT, ALLEGRO_KEY_LEFT, ALLEGRO_KEY_RIGHT,
 										   ALLEGRO_KEY_B, ALLEGRO_KEY_A, ALLEGRO_KEYMOD_SHIFT, ALLEGRO_KEY_ENTER };
@@ -50,92 +42,105 @@ void PlayScene::Initialize() {
 	SpeedMult = 1;
 	// Add groups from bottom to top.
 	AddNewObject(TileMapGroup = new Group());
-	AddNewObject( GroundEffectGroup = new Group());
-	AddNewObject( DebugIndicatorGroup = new Group());
-	AddNewObject( TowerGroup = new Group());
-	AddNewObject( EnemyGroup = new Group());
-	AddNewObject( BulletGroup = new Group());
-	AddNewObject( EffectGroup = new Group());
+	AddNewObject( GroundEffectGroup = new Group() );
+	AddNewObject( DebugIndicatorGroup = new Group() );
+	AddNewObject( TowerGroup = new Group() );
+	AddNewObject( EnemyGroup = new Group() );
+	AddNewObject( BulletGroup = new Group() );
+	AddNewObject( EffectGroup = new Group() );
 	// Should support buttons.
-	AddNewControlObject( UIGroup = new Group());
+	AddNewControlObject( UIGroup = new Group() );
 	ReadMap();
 	ReadEnemyWave();
 	mapDistance = CalculateBFSDistance();
 	ConstructUI();
-	imgTarget = new Engine::Image( "play/target.png", 0, 0);
+	imgTarget = new Engine::Image( "play/target.png", 0, 0 );
 	imgTarget->Visible = false;
-	preview = nullptr;
-	UIGroup->AddNewObject( imgTarget);
-	AudioHelper::PlayBGM( "play.ogg");
+	UIGroup->AddNewObject( imgTarget );
+	AudioHelper::PlayBGM( "play.ogg" );
 }
-void PlayScene::Update( float deltaTime) {
+
+void PlayScene::Update( float deltaTime ){
+	// Fake speed up.
+	deltaTime *= SpeedMult;
 	// If we use deltaTime directly, then we might have Bullet-through-paper problem.
 	// Reference: Bullet-Through-Paper
-	for ( int i = 0 ; i < SpeedMult ; i++ ) {
-		IScene::Update( deltaTime);
-		// Check if we should create new enemy.
-		ticks += deltaTime;
-		if ( enemyWaveData.empty() ) {
-			if ( EnemyGroup->GetObjects().empty() ) {
-				// Free resources.
-				delete TileMapGroup;
-				delete GroundEffectGroup;
-				delete DebugIndicatorGroup;
-				delete TowerGroup;
-				delete EnemyGroup;
-				delete BulletGroup;
-				delete EffectGroup;
-				delete UIGroup;
-				delete imgTarget;
-				// Win.
-				Engine::GameEngine::GetInstance().ChangeScene( "win-scene" );
-			}
-			continue;
-		}
-		auto current = enemyWaveData.front();
-		if ( ticks < current.second )
-			continue;
-		ticks -= current.second;
-		enemyWaveData.pop_front();
-		const Engine::Point SpawnCoordinate = Engine::Point( SpawnGridPoint.x * BlockSize + BlockSize / 2,
-															 SpawnGridPoint.y * BlockSize + BlockSize / 2 );
-		Enemy * enemy;
-		switch ( current.first ) {
-			case 1:
-				EnemyGroup->AddNewObject( enemy = new SoldierEnemy( SpawnCoordinate.x, SpawnCoordinate.y ) );
-				break;
-			case 2:
-				EnemyGroup->AddNewObject( enemy = new PlaneEnemy( SpawnCoordinate.x, SpawnCoordinate.y ) );
-				break;
-			case 3:
-				EnemyGroup->AddNewObject( enemy = new TankEnemy( SpawnCoordinate.x, SpawnCoordinate.y ) );
-				break;
-				// TODO 2 (7/8): You need to modify 'resources/enemy1.txt', or 'resources/enemy2.txt' to spawn the 4th enemy.
-				//         The format is "[EnemyId] [TimeDelay] [Repeat]".
-				// TODO 2 (8/8): Enable the creation of the 4th enemy.
-			default:
-				continue;
-		}
-		enemy->UpdatePath( mapDistance );
-		// Compensate the time lost.
-		enemy->Update( ticks );
+	if ( deltaTime < 3 ) {
+		IScene::Update( deltaTime );
+	} else if ( deltaTime < 6 ) {
+		IScene::Update( deltaTime / 2 );
+		IScene::Update( deltaTime / 2 );
+	} else if ( deltaTime < 9 ) {
+		IScene::Update( deltaTime / 3 );
+		IScene::Update( deltaTime / 3 );
+		IScene::Update( deltaTime / 3 );
+	} else {
+		IScene::Update( deltaTime / 4 );
+		IScene::Update( deltaTime / 4 );
+		IScene::Update( deltaTime / 4 );
+		IScene::Update( deltaTime / 4 );
 	}
 	if ( preview ) {
 		preview->Position = Engine::GameEngine::GetInstance().GetMousePosition();
-		// To keep responding when paused.
-		preview->Update( deltaTime );
 	}
+	// Check if we should create new enemy.
+	ticks += deltaTime;
+	if ( enemyWaveData.empty() ) {
+		if ( EnemyGroup->GetObjects().empty() ) {
+			// Free resources.
+			delete TileMapGroup;
+			delete GroundEffectGroup;
+			delete DebugIndicatorGroup;
+			delete TowerGroup;
+			delete EnemyGroup;
+			delete BulletGroup;
+			delete EffectGroup;
+			delete UIGroup;
+			delete imgTarget;
+			// Win.
+			Engine::GameEngine::GetInstance().ChangeScene( "win-scene" );
+		}
+		return;
+	}
+	auto current = enemyWaveData.front();
+	if ( ticks < current.second )
+		return;
+	ticks -= current.second;
+	enemyWaveData.pop_front();
+	const Engine::Point SpawnCoordinate = Engine::Point( SpawnGridPoint.x * BlockSize + BlockSize / 2,
+														 SpawnGridPoint.y * BlockSize + BlockSize / 2 );
+	Enemy * enemy;
+	switch ( current.first ) {
+		case 1:
+			EnemyGroup->AddNewObject( enemy = new SoldierEnemy( SpawnCoordinate.x, SpawnCoordinate.y ) );
+			break;
+		case 2:
+			EnemyGroup->AddNewObject( enemy = new PlaneEnemy( SpawnCoordinate.x, SpawnCoordinate.y ) );
+			break;
+		case 3:
+			EnemyGroup->AddNewObject( enemy = new TankEnemy( SpawnCoordinate.x, SpawnCoordinate.y ) );
+			break;
+			// TODO 2 (7/8): You need to modify 'resources/enemy1.txt', or 'resources/enemy2.txt' to spawn the 4th enemy.
+			//         The format is "[EnemyId] [TimeDelay] [Repeat]".
+			// TODO 2 (8/8): Enable the creation of the 4th enemy.
+		default:
+			return;
+	}
+	enemy->UpdatePath( mapDistance );
+	// Compensate the time lost.
+	enemy->Update( ticks );
 }
 void PlayScene::Draw() const {
 	IScene::Draw();
 	if (DebugMode) {
 		// Draw reverse BFS distance on all reachable blocks.
-		for ( int i = 0; i < MapHeight; i++) {
-			for ( int j = 0; j < MapWidth; j++) {
-				if ( mapDistance[i][j] != -1) {
+		for ( int i = 0 ; i < MapHeight ; i++ ) {
+			for ( int j = 0 ; j < MapWidth ; j++ ) {
+				if ( mapDistance[ i ][ j ] != -1 ) {
 					// Not elegant nor efficient, but it's quite enough for debugging.
-					Engine::Label label( std::to_string( mapDistance[i][j]), "pirulen.ttf", 32, ( j + 0.5) * BlockSize, ( i + 0.5) * BlockSize);
-					label.Anchor = Engine::Point( 0.5, 0.5);
+					Engine::Label label( std::to_string( mapDistance[ i ][ j ] ), "pirulen.ttf", 32,
+										 ( j + 0.5 ) * BlockSize, ( i + 0.5 ) * BlockSize );
+					label.Anchor = Engine::Point( 0.5, 0.5 );
 					label.Draw();
 				}
 			}
@@ -180,39 +185,39 @@ void PlayScene::OnMouseUp(int button, int mx, int my) {
 				return;
 			}
 			// Purchase.
-			EarnMoney( -preview->GetPrice());
+			EarnMoney( -preview->GetPrice() );
 			// Remove Preview.
 			preview->GetObjectIterator()->first = false;
-			UIGroup->RemoveObject( preview->GetObjectIterator());
+			UIGroup->RemoveObject( preview->GetObjectIterator() );
 			// Construct real turret.
 			preview->Position.x = x * BlockSize + BlockSize / 2;
 			preview->Position.y = y * BlockSize + BlockSize / 2;
 			preview->Enabled = true;
 			preview->Preview = false;
-			preview->Tint = al_map_rgba( 255, 255, 255, 255);
-			TowerGroup->AddNewObject( preview);
-			// To keep responding when paused.
-			preview->Update( 0 );
+			preview->Tint = al_map_rgba( 255, 255, 255, 255 );
+			TowerGroup->AddNewObject( preview );
 			// Remove Preview.
 			preview = nullptr;
-			
+
 			mapState[y][x] = TILE_OCCUPIED;
-			OnMouseMove( mx, my);
+			OnMouseMove( mx, my );
 		}
 	}
 }
-void PlayScene::OnKeyDown( int keyCode) {
-	IScene::OnKeyDown( keyCode);
-	if ( keyCode == ALLEGRO_KEY_TAB) {
+
+void PlayScene::OnKeyDown( int keyCode ){
+	IScene::OnKeyDown( keyCode );
+	if ( keyCode == ALLEGRO_KEY_TAB ) {
 		DebugMode = !DebugMode;
 	} else {
-		keyStrokes.push_back( keyCode);
-		if ( keyStrokes.size() > code.size())
+		keyStrokes.push_back( keyCode );
+		if ( keyStrokes.size() > code.size() )
 			keyStrokes.pop_front();
-		if ( keyCode == ALLEGRO_KEY_ENTER && keyStrokes.size() == code.size()) {
+		if ( keyCode == ALLEGRO_KEY_ENTER && keyStrokes.size() == code.size() ) {
 			auto it = keyStrokes.begin();
 			for (int c : code) {
-				if ( *it != c && (c == ALLEGRO_KEYMOD_SHIFT && *it != ALLEGRO_KEY_LSHIFT && *it != ALLEGRO_KEY_RSHIFT))
+				if ( *it != c &&
+					 ( c == ALLEGRO_KEYMOD_SHIFT && *it != ALLEGRO_KEY_LSHIFT && *it != ALLEGRO_KEY_RSHIFT ) )
 					return;
 				++it;
 			}
@@ -223,10 +228,10 @@ void PlayScene::OnKeyDown( int keyCode) {
 	if (keyCode == ALLEGRO_KEY_Q) {
 		// Hotkey for MachineGunTurret.
 		UIBtnClicked(0);
-	} else if (keyCode == ALLEGRO_KEY_W) {
+	} else if ( keyCode == ALLEGRO_KEY_W ) {
 		// Hotkey for LaserTurret.
 		UIBtnClicked(1);
-	} else if (keyCode == ALLEGRO_KEY_E) {
+	} else if ( keyCode == ALLEGRO_KEY_E ) {
 		// Hotkey for MissileTurret.
 		UIBtnClicked(2);
 	}
@@ -258,14 +263,19 @@ void PlayScene::ReadMap() {
 	std::ifstream fin(filename);
 	while (fin >> c) {
 		switch (c) {
-			case '0': mapData.push_back(false); break;
-			case '1': mapData.push_back(true); break;
+			case '0':
+				mapData.push_back( false );
+				break;
+			case '1':
+				mapData.push_back( true );
+				break;
 			case '\n':
 			case '\r':
-				if (static_cast<int>(mapData.size()) / MapWidth != 0)
-					throw std::ios_base::failure("Map data is corrupted.");
+				if ( static_cast<int>(mapData.size()) / MapWidth != 0 )
+					throw std::ios_base::failure( "Map data is corrupted." );
 				break;
-			default: throw std::ios_base::failure("Map data is corrupted.");
+			default:
+				throw std::ios_base::failure( "Map data is corrupted." );
 		}
 	}
 	fin.close();
@@ -274,8 +284,8 @@ void PlayScene::ReadMap() {
 		throw std::ios_base::failure("Map data is corrupted.");
 	// Store map in 2d array.
 	mapState = std::vector<std::vector<TileType>>(MapHeight, std::vector<TileType>(MapWidth));
-	for ( int i = 0; i < MapHeight; i++) {
-		for ( int j = 0; j < MapWidth; j++) {
+	for ( int i = 0 ; i < MapHeight ; i++ ) {
+		for ( int j = 0 ; j < MapWidth ; j++ ) {
 			const int num = mapData[i * MapWidth + j];
 			mapState[i][j] = num ? TILE_FLOOR : TILE_DIRT;
 			if (num)
@@ -292,7 +302,7 @@ void PlayScene::ReadEnemyWave() {
 	enemyWaveData.clear();
 	std::ifstream fin(filename);
 	while (fin >> type && fin >> wait && fin >> repeat) {
-		for ( int i = 0; i < repeat; i++)
+		for ( int i = 0 ; i < repeat ; i++ )
 			enemyWaveData.emplace_back(type, wait);
 	}
 	fin.close();
@@ -306,19 +316,25 @@ void PlayScene::ConstructUI() {
 	UIGroup->AddNewObject(UILives = new Engine::Label(std::string("Life ") + std::to_string(lives), "pirulen.ttf", 24, 1294, 88));
 	TurretButton* btn;
 	// Button 1
-	btn = new TurretButton( "play/floor.png", "play/dirt.png", Engine::Sprite("play/tower-base.png", 1294, 136, 0, 0, 0, 0),
-							Engine::Sprite("play/turret-1.png", 1294, 136 - 8, 0, 0, 0, 0), 1294, 136, MachineGunTurret::Price);
+	btn = new TurretButton( "play/floor.png", "play/dirt.png",
+							Engine::Sprite( "play/tower-base.png", 1294, 136, 0, 0, 0, 0 ),
+							Engine::Sprite( "play/turret-1.png", 1294, 136 - 8, 0, 0, 0, 0 ), 1294, 136,
+							MachineGunTurret::Price );
 	// Reference: Class Member Function Pointer and std::bind.
 	btn->SetOnClickCallback(std::bind(&PlayScene::UIBtnClicked, this, 0));
 	UIGroup->AddNewControlObject(btn);
 	// Button 2
-	btn = new TurretButton( "play/floor.png", "play/dirt.png", Engine::Sprite("play/tower-base.png", 1370, 136, 0, 0, 0, 0),
-							Engine::Sprite("play/turret-2.png", 1370, 136 - 8, 0, 0, 0, 0), 1370, 136, LaserTurret::Price);
+	btn = new TurretButton( "play/floor.png", "play/dirt.png",
+							Engine::Sprite( "play/tower-base.png", 1370, 136, 0, 0, 0, 0 ),
+							Engine::Sprite( "play/turret-2.png", 1370, 136 - 8, 0, 0, 0, 0 ), 1370, 136,
+							LaserTurret::Price );
 	btn->SetOnClickCallback(std::bind(&PlayScene::UIBtnClicked, this, 1));
 	UIGroup->AddNewControlObject(btn);
 	// Button 3
-	btn = new TurretButton( "play/floor.png", "play/dirt.png", Engine::Sprite("play/tower-base.png", 1446, 136, 0, 0, 0, 0),
-							Engine::Sprite("play/turret-3.png", 1446, 136, 0, 0, 0, 0), 1446, 136, MissileTurret::Price);
+	btn = new TurretButton( "play/floor.png", "play/dirt.png",
+							Engine::Sprite( "play/tower-base.png", 1446, 136, 0, 0, 0, 0 ),
+							Engine::Sprite( "play/turret-3.png", 1446, 136, 0, 0, 0, 0 ), 1446, 136,
+							MissileTurret::Price );
 	btn->SetOnClickCallback(std::bind(&PlayScene::UIBtnClicked, this, 2));
 	UIGroup->AddNewControlObject(btn);
 	// TODO 2 (3/8): Create a button to support constructing the 4th tower.
@@ -371,24 +387,49 @@ bool PlayScene::CheckSpaceValid(int x, int y) {
 }
 std::vector<std::vector<int>> PlayScene::CalculateBFSDistance() {
 	// Reverse BFS to find path.
-	std::vector<std::vector<int>> map( MapHeight, std::vector<int>( std::vector<int>( MapWidth, -1)));
+	std::vector < std::vector < int>> map( MapHeight, std::vector < int >( std::vector < int >( MapWidth, -1 ) ) );
 	std::queue<Engine::Point> que;
 	// Push end point.
 	// BFS from end point.
-	if ( mapState[ MapHeight - 1][ MapWidth - 1] != TILE_DIRT)
+	if ( mapState[ MapHeight - 1 ][ MapWidth - 1 ] != TILE_DIRT )
 		return map;
-	que.push( Engine::Point( MapWidth - 1, MapHeight - 1));
-	map[ MapHeight - 1][ MapWidth - 1] = 0;
+	que.push( Engine::Point( MapWidth - 1, MapHeight - 1 ) );
+	map[ MapHeight - 1 ][ MapWidth - 1 ] = 0;
+	int last = -1;
 	while (!que.empty()) {
 		Engine::Point p = que.front();
 		que.pop();
-		// TODO 3
-		//  (1/1): Implement a BFS starting from the most right-bottom block in the map.
-		//  For each step you should assign the corresponding distance to the most right-bottom block.
-		//  mapState[y][x] is TILE_DIRT if it is empty.
-		//  throw std::logic_error("CalculateBFSDistance is not implemented yet.");
-		
-		
+		// TODO 3 (1/1): Implement a BFS starting from the most right-bottom block in the map.
+		//               For each step you should assign the corresponding distance to the most right-bottom block.
+		//               mapState[y][x] is TILE_DIRT if it is empty.
+		//std::cout<<p.x<<" , "<<p.y<<std::endl;
+		if ( p.x >= 0 && p.x < MapWidth && p.y >= 0 && p.y < MapHeight ) {
+			if ( mapState[ p.y ][ p.x ] == TILE_DIRT ) {
+				mapState[ p.y ][ p.x ] = TILE_OCCUPIED;
+				map[ p.y ][ p.x ] = last;
+				
+				que.push( Engine::Point( p.x - 1, p.y ) );
+				que.push( Engine::Point( p.x + 1, p.y ) );
+				que.push( Engine::Point( p.x, p.y - 1 ) );
+				que.push( Engine::Point( p.x, p.y + 1 ) );
+				
+			}
+		}
 	}
+	
+	for ( auto h = 0 ; h < MapHeight ; h++ ) {
+		for ( auto w = 0 ; w < MapWidth ; w++ ) {
+			std::cout << map[ h ][ w ] << ' ';
+		}
+		std::cout << std::endl;
+	}
+	
+	for ( auto h = 0 ; h < MapHeight ; h++ ) {
+		for ( auto w = 0 ; w < MapWidth ; w++ ) {
+			std::cout << mapState[ h ][ w ] << ' ';
+		}
+		std::cout << std::endl;
+	}
+	
 	return map;
 }

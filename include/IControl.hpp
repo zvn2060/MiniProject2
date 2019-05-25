@@ -1,7 +1,6 @@
 #ifndef ICONTROL_HPP
 #define ICONTROL_HPP
 #include <list>
-#include <utility>
 
 namespace Engine {
 	/// <summary>

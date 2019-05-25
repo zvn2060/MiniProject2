@@ -13,6 +13,7 @@ aux_source_directory(${CMAKE_SOURCE_DIR}/src/Bullet/ SOURCE_FILES)
 aux_source_directory(${CMAKE_SOURCE_DIR}/src/Turret/ SOURCE_FILES)
 aux_source_directory(${CMAKE_SOURCE_DIR}/src/Enemy/ SOURCE_FILES)
 
+
 INCLUDE_DIRECTORIES(
         ${CMAKE_SOURCE_DIR}/allegro5/include/
         ${CMAKE_SOURCE_DIR}/include/
@@ -25,6 +26,6 @@ LINK_DIRECTORIES(
         ${CMAKE_SOURCE_DIR}/allegro5/lib/
 )
 
-add_executable(Mini2 ${SOURCE_FILES} include/Scenes/MainScene.hpp)
+add_executable(Mini2 ${SOURCE_FILES})
 
 TARGET_LINK_LIBRARIES(Mini2 ${CMAKE_SOURCE_DIR}/liballegro_monolith-debug.dll.a)

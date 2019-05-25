@@ -1,16 +1,14 @@
 #ifndef GAMEENGINE_HPP
 #define GAMEENGINE_HPP
-#include <allegro5/allegro.h>
 #include <unordered_map>
-#include <string>
-
+#include <allegro5/allegro.h>
+#include "IScene.hpp"
 #include "Point.hpp"
 
 /// <summary>
 /// All general classes are under this namespace for clarity.
 /// </summary>
 namespace Engine {
-	class IScene;
 	/// <summary>
 	/// The one and only GameEngine for the entire program. Responsible for low-level initialization and window events.
 	/// </summary>
@@ -25,6 +23,8 @@ namespace Engine {
 		IScene* activeScene{};
 		// Allegro5 display for window creation.
 		ALLEGRO_DISPLAY* display{};
+		// Allegro5 display mode for window creation.
+		ALLEGRO_DISPLAY_MODE displayMode;
 		// Allegro5 event queue.
 		ALLEGRO_EVENT_QUEUE* event_queue{};
 		// Allegro5 timer to inject update & draw event into the event queue.
@@ -138,6 +138,18 @@ namespace Engine {
 		/// </summary>
 		/// <returns>Get mouse position.</returns>
 		Point GetMousePosition() const;
+		
+		/// <summary>
+		/// Get monitor width.
+		/// </summary>
+		/// <returns>monitor width.</returns>
+		int GetScreenFullWidth() const;
+		
+		/// <summary>
+		/// Get monitor height.
+		/// </summary>
+		/// <returns>monitor height.</returns>
+		int GetScreenFullHeight() const;
 		/// <summary>
 		/// Get key state.
 		/// </summary>

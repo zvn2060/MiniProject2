@@ -1,13 +1,7 @@
-#include <allegro5/base.h>
-#include <cmath>
-#include <string>
-
-#include "AudioHelper.hpp"
-#include "FireBullet.hpp"
-#include "Group.hpp"
-#include "MachineGunTurret.hpp"
 #include "PlayScene.hpp"
-#include "Point.hpp"
+#include "MachineGunTurret.hpp"
+#include "FireBullet.hpp"
+#include "AudioHelper.hpp"
 
 const int MachineGunTurret::Price = 50;
 MachineGunTurret::MachineGunTurret(float x, float y) :

@@ -1,25 +1,19 @@
-#include <allegro5/color.h>
 #include <allegro5/allegro_primitives.h>
-#include <cmath>
-#include <utility>
-
-#include "Enemy.hpp"
 #include "GameEngine.hpp"
-#include "Group.hpp"
-#include "IObject.hpp"
-#include "IScene.hpp"
 #include "PlayScene.hpp"
-#include "Point.hpp"
 #include "Turret.hpp"
 
 PlayScene* Turret::getPlayScene() {
 	return dynamic_cast<PlayScene*>(Engine::GameEngine::GetInstance().GetActiveScene());
 }
-Turret::Turret( std::string imgBase, std::string imgTurret, float x, float y, float radius, int price, float coolDown) : Sprite( imgTurret, x, y), price( price), coolDown( coolDown), imgBase( imgBase, x, y) {
+
+Turret::Turret( std::string imgBase, std::string imgTurret, float x, float y, float radius, int price, float coolDown )
+		: Sprite( imgTurret, x, y ), price( price ), coolDown( coolDown ), imgBase( imgBase, x, y ){
 	CollisionRadius = radius;
 }
-void Turret::Update( float deltaTime) {
-	Sprite::Update( deltaTime);
+
+void Turret::Update( float deltaTime ){
+	Sprite::Update( deltaTime );
 	PlayScene* scene = getPlayScene();
 	imgBase.Position = Position;
 	imgBase.Tint = Tint;

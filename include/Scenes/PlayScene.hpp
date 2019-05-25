@@ -1,21 +1,10 @@
 #ifndef PLAYSCENE_HPP
 #define PLAYSCENE_HPP
-
-#include <list>
-#include <utility>
 #include <vector>
-
 #include "IScene.hpp"
-#include "Point.hpp"
-
-class Turret;
-namespace Engine{
-	class Group;
-	
-	class Image;
-	
-	class Label;
-}  // namespace Engine
+#include "Sprite.hpp"
+#include "Label.hpp"
+#include "Turret.hpp"
 
 class PlayScene final : public Engine::IScene {
 private:

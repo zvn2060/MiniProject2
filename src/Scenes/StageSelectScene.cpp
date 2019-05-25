@@ -1,15 +1,8 @@
-#include <functional>
-#include <memory>
-#include <string>
-#include "AudioHelper.hpp"
-#include "GameEngine.hpp"
-#include "ImageButton.hpp"
-#include "Label.hpp"
-#include "PlayScene.hpp"
-#include "Point.hpp"
-#include "Resources.hpp"
-#include "Slider.hpp"
 #include "StageSelectScene.hpp"
+#include "PlayScene.hpp"
+#include "AudioHelper.hpp"
+#include "Slider.hpp"
+#include "LOG.hpp"
 
 void StageSelectScene::Initialize() {
 	int w = Engine::GameEngine::GetInstance().GetScreenSize().x;

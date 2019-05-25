@@ -1,12 +1,7 @@
-#include <allegro5/base.h>
-#include <allegro5/color.h>
-#include <random>
-
-#include "DirtyEffect.hpp"
 #include "GameEngine.hpp"
-#include "Group.hpp"
-#include "IScene.hpp"
 #include "PlayScene.hpp"
+#include "DirtyEffect.hpp"
+#include <random>
 
 PlayScene* DirtyEffect::getPlayScene() {
 	return dynamic_cast<PlayScene*>(Engine::GameEngine::GetInstance().GetActiveScene());

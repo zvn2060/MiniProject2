@@ -29,6 +29,7 @@ void MainScene::Initialize() {
 								   100 );
 	btn->SetOnClickCallback( std::bind( &MainScene::PlayOnclick, this, 1 ) );
 	AddNewControlObject( btn );
+	AddNewObject( new Engine::Label( "Battle !", "pirulen.ttf", 48, halfW, halfH + 250, 255, 0, 0, 255, 0.5, 0.5 ) );
 	AudioHelper::PlayBGM( "select.ogg" );
 }
 

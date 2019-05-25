@@ -1,10 +1,11 @@
-#include <allegro5/allegro_font.h>
+#include <string>
 #include <memory>
-
+#include <allegro5/allegro.h>
+#include <allegro5/allegro_font.h>
 #include "IObject.hpp"
-#include "Label.hpp"
 #include "Point.hpp"
 #include "Resources.hpp"
+#include "Label.hpp"
 
 namespace Engine {
 	Label::Label(const std::string& text, const std::string& font, int fontSize, float x, float y, unsigned char r, unsigned char g, unsigned char b, unsigned char a, float anchorX, float anchorY) :

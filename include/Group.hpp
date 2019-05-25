@@ -1,10 +1,8 @@
 #ifndef GROUP_HPP
 #define GROUP_HPP
 #include <list>
-#include <utility>
-
-#include "IControl.hpp"
 #include "IObject.hpp"
+#include "IControl.hpp"
 
 namespace Engine {
 	/// <summary>

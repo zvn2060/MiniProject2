@@ -1,13 +1,7 @@
-#include <allegro5/base.h>
-#include <cmath>
-#include <string>
-
-#include "AudioHelper.hpp"
-#include "Group.hpp"
-#include "MissileBullet.hpp"
-#include "MissileTurret.hpp"
 #include "PlayScene.hpp"
-#include "Point.hpp"
+#include "MissileTurret.hpp"
+#include "MissileBullet.hpp"
+#include "AudioHelper.hpp"
 
 const int MissileTurret::Price = 300;
 MissileTurret::MissileTurret(float x, float y) :

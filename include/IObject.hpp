@@ -1,8 +1,6 @@
 #ifndef IOBJECT_HPP
 #define IOBJECT_HPP
 #include <list>
-#include <utility>
-
 #include "Point.hpp"
 
 namespace Engine {

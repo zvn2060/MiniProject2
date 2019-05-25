@@ -1,9 +1,5 @@
-#include <allegro5/base.h>
-#include <random>
-#include <string>
-
-#include "Point.hpp"
 #include "TankEnemy.hpp"
+#include <random>
 
 TankEnemy::TankEnemy(int x, int y) : Enemy("play/enemy-3.png", x, y, 20, 20, 100, 50),
 head("play/enemy-3-head.png", x, y), targetRotation(0) {

@@ -1,13 +1,9 @@
 #ifndef RESOURCES_HPP
 #define RESOURCES_HPP
-
-#include <allegro5/bitmap.h>
-#include <allegro5/allegro_audio.h>
-#include <allegro5/allegro_font.h>
 #include <memory>
 #include <unordered_map>
-#include <string>
-
+#include <allegro5/allegro_font.h>
+#include <allegro5/allegro_acodec.h>
 
 namespace Engine {
 	/// <summary>

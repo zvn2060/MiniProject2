@@ -1,7 +1,7 @@
 #ifndef ALLEGRO5EXCEPTION_HPP
 #define ALLEGRO5EXCEPTION_HPP
-#include <stdexcept>
 #include <string>
+#include <stdexcept>
 
 namespace Engine {
 	/// <summary>

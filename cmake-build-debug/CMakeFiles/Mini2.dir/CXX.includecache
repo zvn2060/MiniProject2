@@ -88,6 +88,12 @@ allegro5/utf8.h
 allegro5/alcompat.h
 ../allegro5/include/allegro5/allegro5/alcompat.h
 
+../allegro5/include/allegro5/allegro_acodec.h
+allegro5/allegro.h
+../allegro5/include/allegro5/allegro5/allegro.h
+allegro5/allegro_audio.h
+../allegro5/include/allegro5/allegro5/allegro_audio.h
+
 ../allegro5/include/allegro5/allegro_audio.h
 allegro5/allegro.h
 ../allegro5/include/allegro5/allegro5/allegro.h
@@ -459,18 +465,64 @@ allegro5/base.h
 ../allegro5/include/allegro5/allegro5/base.h
 
 ../include/AudioHelper.hpp
-allegro5/allegro_audio.h
--
-string
+allegro5/allegro_acodec.h
 -
 
-../include/GameEngine.hpp
-allegro5/allegro.h
+../include/Bullet.hpp
+Sprite.hpp
+../include/Sprite.hpp
+Collider.hpp
+../include/Collider.hpp
+Enemy.hpp
+../include/Enemy.hpp
+Turret.hpp
+../include/Turret.hpp
+random
 -
+
+../include/Collider.hpp
+memory
+-
+allegro5/bitmap.h
+-
+Point.hpp
+../include/Point.hpp
+
+../include/DirtyEffect.hpp
+Sprite.hpp
+../include/Sprite.hpp
+
+../include/Enemy.hpp
+GameEngine.hpp
+../include/GameEngine.hpp
+PlayScene.hpp
+../include/PlayScene.hpp
+Point.hpp
+../include/Point.hpp
+Sprite.hpp
+../include/Sprite.hpp
+Turret.hpp
+../include/Turret.hpp
+
+../include/Enemy/PlaneEnemy.hpp
+Enemy.hpp
+../include/Enemy/Enemy.hpp
+
+../include/Enemy/SoldierEnemy.hpp
+Enemy.hpp
+../include/Enemy/Enemy.hpp
+
+../include/Enemy/TankEnemy.hpp
+Enemy.hpp
+../include/Enemy/Enemy.hpp
+
+../include/GameEngine.hpp
 unordered_map
 -
-string
+allegro5/allegro.h
 -
+IScene.hpp
+../include/IScene.hpp
 Point.hpp
 ../include/Point.hpp
 
@@ -513,108 +565,164 @@ IObject.hpp
 ../include/IObject.hpp
 
 ../include/ImageButton.hpp
-allegro5/bitmap.h
+memory
 -
 functional
 -
-memory
--
-string
+allegro5/allegro.h
 -
 IControl.hpp
 ../include/IControl.hpp
 Image.hpp
 ../include/Image.hpp
+Collider.hpp
+../include/Collider.hpp
+GameEngine.hpp
+../include/GameEngine.hpp
+Resources.hpp
+../include/Resources.hpp
+
+../include/LOG.hpp
+iostream
+-
+fstream
+-
 
 ../include/Label.hpp
-allegro5/allegro_font.h
--
-allegro5/color.h
+string
 -
 memory
 -
-string
+allegro5/allegro.h
+-
+allegro5/allegro_font.h
 -
 IObject.hpp
 ../include/IObject.hpp
+Point.hpp
+../include/Point.hpp
+Resources.hpp
+../include/Resources.hpp
+
+../include/Plane.hpp
+Sprite.hpp
+../include/Sprite.hpp
+PlayScene.hpp
+../include/PlayScene.hpp
 
 ../include/Point.hpp
 
 ../include/Resources.hpp
-allegro5/bitmap.h
--
-allegro5/allegro_audio.h
--
-allegro5/allegro_font.h
--
 memory
 -
 unordered_map
 -
-string
+allegro5/allegro_font.h
 -
-
-../include/Scenes/MainScene.hpp
-allegro5/allegro_audio.h
+allegro5/allegro_acodec.h
 -
-IScene.hpp
-../include/Scenes/IScene.hpp
 
 ../include/Scenes/PlayScene.hpp
-list
--
-utility
--
 vector
 -
 IScene.hpp
 ../include/Scenes/IScene.hpp
-Point.hpp
-../include/Scenes/Point.hpp
+Sprite.hpp
+../include/Scenes/Sprite.hpp
+Label.hpp
+../include/Scenes/Label.hpp
+Turret.hpp
+../include/Scenes/Turret.hpp
 
-../include/Scenes/SettingScene.hpp
-allegro5/allegro_audio.h
--
-IScene.hpp
-../include/Scenes/IScene.hpp
-GameEngine.hpp
-../include/Scenes/GameEngine.hpp
-ImageButton.hpp
-../include/Scenes/ImageButton.hpp
-
-../include/Slider.hpp
-functional
--
-Image.hpp
-../include/Image.hpp
-ImageButton.hpp
-../include/ImageButton.hpp
-
-D:/Documents/I2P 2/Mini2/src/Scenes/MainScene.cpp
-functional
--
-memory
--
+../include/Sprite.hpp
 string
 -
-AudioHelper.hpp
-D:/Documents/I2P 2/Mini2/src/Scenes/AudioHelper.hpp
-GameEngine.hpp
-D:/Documents/I2P 2/Mini2/src/Scenes/GameEngine.hpp
+allegro5/allegro.h
+-
+Point.hpp
+../include/Point.hpp
+Image.hpp
+../include/Image.hpp
+
+../include/Turret.hpp
+Sprite.hpp
+../include/Sprite.hpp
+PlayScene.hpp
+../include/PlayScene.hpp
+Enemy.hpp
+../include/Enemy.hpp
+Bullet.hpp
+../include/Bullet.hpp
+
+../include/Turret/LaserTurret.hpp
+PlayScene.hpp
+../include/Turret/PlayScene.hpp
+Bullet.hpp
+../include/Turret/Bullet.hpp
+Turret.hpp
+../include/Turret/Turret.hpp
+
+../include/Turret/MachineGunTurret.hpp
+PlayScene.hpp
+../include/Turret/PlayScene.hpp
+Bullet.hpp
+../include/Turret/Bullet.hpp
+Turret.hpp
+../include/Turret/Turret.hpp
+
+../include/Turret/MissileTurret.hpp
+PlayScene.hpp
+../include/Turret/PlayScene.hpp
+Bullet.hpp
+../include/Turret/Bullet.hpp
+Turret.hpp
+../include/Turret/Turret.hpp
+
+../include/TurretButton.hpp
 ImageButton.hpp
-D:/Documents/I2P 2/Mini2/src/Scenes/ImageButton.hpp
+../include/ImageButton.hpp
+Sprite.hpp
+../include/Sprite.hpp
+PlayScene.hpp
+../include/PlayScene.hpp
+
+D:/Documents/I2P 2/Mini2/src/Scenes/PlayScene.cpp
+string
+-
+queue
+-
+fstream
+-
+Image.hpp
+D:/Documents/I2P 2/Mini2/src/Scenes/Image.hpp
 Label.hpp
 D:/Documents/I2P 2/Mini2/src/Scenes/Label.hpp
-Point.hpp
-D:/Documents/I2P 2/Mini2/src/Scenes/Point.hpp
-Resources.hpp
-D:/Documents/I2P 2/Mini2/src/Scenes/Resources.hpp
-Slider.hpp
-D:/Documents/I2P 2/Mini2/src/Scenes/Slider.hpp
+ImageButton.hpp
+D:/Documents/I2P 2/Mini2/src/Scenes/ImageButton.hpp
 PlayScene.hpp
 D:/Documents/I2P 2/Mini2/src/Scenes/PlayScene.hpp
-MainScene.hpp
-D:/Documents/I2P 2/Mini2/src/Scenes/MainScene.hpp
-SettingScene.hpp
-D:/Documents/I2P 2/Mini2/src/Scenes/SettingScene.hpp
+LOG.hpp
+D:/Documents/I2P 2/Mini2/src/Scenes/LOG.hpp
+Enemy.hpp
+D:/Documents/I2P 2/Mini2/src/Scenes/Enemy.hpp
+PlaneEnemy.hpp
+D:/Documents/I2P 2/Mini2/src/Scenes/PlaneEnemy.hpp
+SoldierEnemy.hpp
+D:/Documents/I2P 2/Mini2/src/Scenes/SoldierEnemy.hpp
+TankEnemy.hpp
+D:/Documents/I2P 2/Mini2/src/Scenes/TankEnemy.hpp
+MachineGunTurret.hpp
+D:/Documents/I2P 2/Mini2/src/Scenes/MachineGunTurret.hpp
+LaserTurret.hpp
+D:/Documents/I2P 2/Mini2/src/Scenes/LaserTurret.hpp
+MissileTurret.hpp
+D:/Documents/I2P 2/Mini2/src/Scenes/MissileTurret.hpp
+TurretButton.hpp
+D:/Documents/I2P 2/Mini2/src/Scenes/TurretButton.hpp
+Plane.hpp
+D:/Documents/I2P 2/Mini2/src/Scenes/Plane.hpp
+DirtyEffect.hpp
+D:/Documents/I2P 2/Mini2/src/Scenes/DirtyEffect.hpp
+AudioHelper.hpp
+D:/Documents/I2P 2/Mini2/src/Scenes/AudioHelper.hpp
 
