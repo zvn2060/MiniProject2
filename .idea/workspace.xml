@@ -12,93 +12,30 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="645d7a3b-8542-42ca-9672-82de958230aa" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/include/Bullet/StickyBullet.hpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Bullet/StickyBullet.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeCache.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeCache.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.13.4/CMakeDetermineCompilerABI_C.bin" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.13.4/CMakeDetermineCompilerABI_C.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.13.4/CMakeDetermineCompilerABI_CXX.bin" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.13.4/CMakeDetermineCompilerABI_CXX.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeDirectoryInformation.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeDirectoryInformation.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeOutput.log" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeOutput.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile.cmake" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Mini2.dir/CXX.includecache" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Mini2.dir/CXX.includecache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Mini2.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Mini2.dir/DependInfo.cmake" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Mini2.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Mini2.dir/build.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Mini2.dir/cmake_clean.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Mini2.dir/cmake_clean.cmake" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Mini2.dir/depend.internal" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Mini2.dir/depend.internal" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Mini2.dir/depend.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Mini2.dir/depend.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Mini2.dir/objects1.rsp" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Mini2.dir/objects1.rsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Mini2.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Mini2.dir/progress.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/progress.marks" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/progress.marks" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Mini2.dir/includes_CXX.rsp" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Mini2.dir/includes_CXX.rsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Mini2.dir/linklibs.rsp" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Mini2.dir/linklibs.rsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/TargetDirectories.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/TargetDirectories.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-log.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-log.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/feature_tests.bin" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/feature_tests.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Makefile" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/Mini2.cbp" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Mini2.cbp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/drawboard.pptx" beforeDir="false" afterPath="$PROJECT_DIR$/drawboard.pptx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/cmake_install.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/cmake_install.cmake" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/game/allegro.log" beforeDir="false" afterPath="$PROJECT_DIR$/game/allegro.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/game/log.txt" beforeDir="false" afterPath="$PROJECT_DIR$/game/log.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/include/Allegro5Exception.hpp" beforeDir="false" afterPath="$PROJECT_DIR$/include/Allegro5Exception.hpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/include/AudioHelper.hpp" beforeDir="false" afterPath="$PROJECT_DIR$/include/AudioHelper.hpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/include/Bullet/Bullet.hpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/include/Bullet/FireBullet.hpp" beforeDir="false" afterPath="$PROJECT_DIR$/include/Bullet/FireBullet.hpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/include/Bullet/LaserBullet.hpp" beforeDir="false" afterPath="$PROJECT_DIR$/include/Bullet/LaserBullet.hpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/include/Bullet/MissileBullet.hpp" beforeDir="false" afterPath="$PROJECT_DIR$/include/Bullet/MissileBullet.hpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/include/Collider.hpp" beforeDir="false" afterPath="$PROJECT_DIR$/include/Collider.hpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/include/DirtyEffect.hpp" beforeDir="false" afterPath="$PROJECT_DIR$/include/DirtyEffect.hpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/include/Enemy/Enemy.hpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/include/Enemy/TankEnemy.hpp" beforeDir="false" afterPath="$PROJECT_DIR$/include/Enemy/TankEnemy.hpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/include/ExplosionEffect.hpp" beforeDir="false" afterPath="$PROJECT_DIR$/include/ExplosionEffect.hpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/include/GameEngine.hpp" beforeDir="false" afterPath="$PROJECT_DIR$/include/GameEngine.hpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/include/Group.hpp" beforeDir="false" afterPath="$PROJECT_DIR$/include/Group.hpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/include/IControl.hpp" beforeDir="false" afterPath="$PROJECT_DIR$/include/IControl.hpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/include/IObject.hpp" beforeDir="false" afterPath="$PROJECT_DIR$/include/IObject.hpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/include/IScene.hpp" beforeDir="false" afterPath="$PROJECT_DIR$/include/IScene.hpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/include/Image.hpp" beforeDir="false" afterPath="$PROJECT_DIR$/include/Image.hpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/include/ImageButton.hpp" beforeDir="false" afterPath="$PROJECT_DIR$/include/ImageButton.hpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/include/LOG.hpp" beforeDir="false" afterPath="$PROJECT_DIR$/include/LOG.hpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/include/Label.hpp" beforeDir="false" afterPath="$PROJECT_DIR$/include/Label.hpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/include/Plane.hpp" beforeDir="false" afterPath="$PROJECT_DIR$/include/Plane.hpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/include/Resources.hpp" beforeDir="false" afterPath="$PROJECT_DIR$/include/Resources.hpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/include/Scenes/LoseScene.hpp" beforeDir="false" afterPath="$PROJECT_DIR$/include/Scenes/LoseScene.hpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/include/Scenes/PlayScene.hpp" beforeDir="false" afterPath="$PROJECT_DIR$/include/Scenes/PlayScene.hpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/include/Scenes/StageSelectScene.hpp" beforeDir="false" afterPath="$PROJECT_DIR$/include/Scenes/StageSelectScene.hpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/include/Scenes/WinScene.hpp" beforeDir="false" afterPath="$PROJECT_DIR$/include/Scenes/WinScene.hpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/include/Slider.hpp" beforeDir="false" afterPath="$PROJECT_DIR$/include/Slider.hpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/include/Sprite.hpp" beforeDir="false" afterPath="$PROJECT_DIR$/include/Sprite.hpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/include/Turret/LaserTurret.hpp" beforeDir="false" afterPath="$PROJECT_DIR$/include/Turret/LaserTurret.hpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/include/Turret/MachineGunTurret.hpp" beforeDir="false" afterPath="$PROJECT_DIR$/include/Turret/MachineGunTurret.hpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/include/Turret/MissileTurret.hpp" beforeDir="false" afterPath="$PROJECT_DIR$/include/Turret/MissileTurret.hpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/include/Turret/Turret.hpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/include/TurretButton.hpp" beforeDir="false" afterPath="$PROJECT_DIR$/include/TurretButton.hpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Allegro5Exception.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/Allegro5Exception.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/AudioHelper.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/AudioHelper.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Bullet/Bullet.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Bullet/FireBullet.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/Bullet/FireBullet.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Bullet/LaserBullet.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/Bullet/LaserBullet.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Bullet/MissileBullet.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/Bullet/MissileBullet.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Collider.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/Collider.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/DirtyEffect.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/DirtyEffect.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Enemy/Enemy.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Enemy/PlaneEnemy.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/Enemy/PlaneEnemy.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Enemy/SoldierEnemy.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/Enemy/SoldierEnemy.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Enemy/TankEnemy.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/Enemy/TankEnemy.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ExplosionEffect.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/ExplosionEffect.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/GameEngine.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/GameEngine.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Group.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/Group.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/IScene.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/IScene.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Image.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/Image.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ImageButton.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/ImageButton.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Label.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/Label.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Plane.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/Plane.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Resources.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/Resources.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Scenes/LoseScene.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/Scenes/LoseScene.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Scenes/MainScene.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/Scenes/MainScene.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Scenes/PlayScene.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/Scenes/PlayScene.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Scenes/SettingScene.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/Scenes/SettingScene.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Scenes/StageSelectScene.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/Scenes/StageSelectScene.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Scenes/WinScene.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/Scenes/WinScene.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Slider.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/Slider.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Sprite.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/Sprite.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Turret/LaserTurret.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/Turret/LaserTurret.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Turret/MachineGunTurret.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/Turret/MachineGunTurret.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Turret/MissileTurret.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/Turret/MissileTurret.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Turret/Turret.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/TurretButton.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/TurretButton.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main.cpp" afterDir="false" />
     </list>
     <list id="435e3693-0f09-4663-827b-76498fe803b3" name="Revert &quot;md&quot;" comment="Revert &quot;md&quot;&#10;&#10;This reverts commit 36f9ff41" />
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
@@ -117,7 +54,7 @@
       <file pinned="true" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="203">
+            <state relative-caret-position="812">
               <caret line="28" column="37" selection-start-line="28" selection-start-column="37" selection-end-line="28" selection-end-column="37" />
             </state>
           </provider>
@@ -126,17 +63,17 @@
       <file pinned="true" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="286">
+            <state relative-caret-position="841">
               <caret line="29" column="17" selection-start-line="29" selection-start-column="17" selection-end-line="29" selection-end-column="17" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Scenes/PlayScene.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="249">
-              <caret line="400" column="41" lean-forward="true" selection-start-line="400" selection-start-column="41" selection-end-line="400" selection-end-column="41" />
+            <state relative-caret-position="421">
+              <caret line="401" column="18" selection-start-line="401" selection-start-column="18" selection-end-line="401" selection-end-column="18" />
             </state>
           </provider>
         </entry>
@@ -144,10 +81,19 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Scenes/MainScene.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-89">
-              <caret line="30" column="31" selection-start-line="30" selection-start-column="31" selection-end-line="30" selection-end-column="31" />
+            <state relative-caret-position="261">
+              <caret line="32" column="58" selection-start-line="32" selection-start-column="58" selection-end-line="32" selection-end-column="58" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/Label.cpp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="203">
+              <caret line="13" column="30" selection-start-line="13" selection-start-column="30" selection-end-line="13" selection-end-column="30" />
               <folding>
-                <element signature="e#0#21#0" expanded="true" />
+                <element signature="e#0#17#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -156,7 +102,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Scenes/StageSelectScene.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="87">
+            <state relative-caret-position="377">
               <caret line="13" column="80" selection-start-line="13" selection-start-column="80" selection-end-line="13" selection-end-column="80" />
             </state>
           </provider>
@@ -165,8 +111,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Enemy.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="280">
-              <caret line="42" column="60" selection-start-line="42" selection-start-column="60" selection-end-line="42" selection-end-column="60" />
+            <state relative-caret-position="1363">
+              <caret line="47" column="61" selection-start-line="47" selection-start-column="61" selection-end-line="47" selection-end-column="61" />
             </state>
           </provider>
         </entry>
@@ -184,7 +130,7 @@
         <entry file="file://$PROJECT_DIR$/src/Scenes/WinScene.cpp">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="841">
-              <caret line="29" column="55" selection-start-line="29" selection-start-column="55" selection-end-line="29" selection-end-column="55" />
+              <caret line="29" column="56" selection-start-line="29" selection-start-column="56" selection-end-line="29" selection-end-column="56" />
             </state>
           </provider>
         </entry>
@@ -232,9 +178,10 @@
         <option value="$PROJECT_DIR$/src/Slider.cpp" />
         <option value="$PROJECT_DIR$/src/Scenes/WinScene.cpp" />
         <option value="$PROJECT_DIR$/src/Scenes/LoseScene.cpp" />
-        <option value="$PROJECT_DIR$/src/Scenes/MainScene.cpp" />
         <option value="$PROJECT_DIR$/CMakeLists.txt" />
         <option value="$PROJECT_DIR$/src/Scenes/PlayScene.cpp" />
+        <option value="$PROJECT_DIR$/src/Scenes/MainScene.cpp" />
+        <option value="$PROJECT_DIR$/src/Label.cpp" />
       </list>
     </option>
   </component>
@@ -259,6 +206,24 @@
             <path>
               <item name="Mini2" type="b2602c69:ProjectViewProjectNode" />
               <item name="Mini2" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Mini2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Mini2" type="462c0819:PsiDirectoryNode" />
+              <item name="game" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Mini2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Mini2" type="462c0819:PsiDirectoryNode" />
+              <item name="game" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Mini2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Mini2" type="462c0819:PsiDirectoryNode" />
+              <item name="game" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="fonts" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Mini2" type="b2602c69:ProjectViewProjectNode" />
@@ -300,7 +265,7 @@
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
     <property name="settings.editor.selected.configurable" value="settings.github" />
-    <property name="two.files.diff.last.used.folder" value="$PROJECT_DIR$/../../TowerDefense" />
+    <property name="two.files.diff.last.used.folder" value="D:/TowerDefense" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -354,6 +319,9 @@
       <workItem from="1558784591151" duration="9524000" />
       <workItem from="1558794682078" duration="2659000" />
       <workItem from="1558798538424" duration="7615000" />
+      <workItem from="1558806332753" duration="144000" />
+      <workItem from="1559056035084" duration="158000" />
+      <workItem from="1559057173379" duration="546000" />
     </task>
     <task id="LOCAL-00001" summary="initalize project and ready to dev">
       <created>1558685980454</created>
@@ -425,11 +393,18 @@
       <option name="project" value="LOCAL" />
       <updated>1558776280007</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="Complete TODO 3 (BFS)">
+      <created>1558806457208</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1558806457208</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="63522000" />
+    <option name="totallyTimeSpent" value="64370000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -443,7 +418,7 @@
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="784" extended-state="6" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.16111952" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.16792738" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -499,7 +474,8 @@
     <MESSAGE value="try a main scene" />
     <MESSAGE value="Design mainscene, settingscene&#10;define two width-height mode" />
     <MESSAGE value="Complete TODO 1 (New Scenes) TODO 3 (Slide)" />
-    <option name="LAST_COMMIT_MESSAGE" value="Complete TODO 1 (New Scenes) TODO 3 (Slide)" />
+    <MESSAGE value="Complete TODO 3 (BFS)" />
+    <option name="LAST_COMMIT_MESSAGE" value="Complete TODO 3 (BFS)" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
@@ -516,7 +492,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/include/Plane.hpp" />
     <entry file="file://$PROJECT_DIR$/include/TurretButton.hpp" />
     <entry file="file://$PROJECT_DIR$/include/Turret/Turret.hpp" />
     <entry file="file://$PROJECT_DIR$/include/DirtyEffect.hpp" />
@@ -787,6 +762,34 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="812">
+          <caret line="28" column="37" selection-start-line="28" selection-start-column="37" selection-end-line="28" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="841">
+          <caret line="29" column="17" selection-start-line="29" selection-start-column="17" selection-end-line="29" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Scenes/StageSelectScene.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="377">
+          <caret line="13" column="80" selection-start-line="13" selection-start-column="80" selection-end-line="13" selection-end-column="80" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Enemy.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1363">
+          <caret line="47" column="61" selection-start-line="47" selection-start-column="61" selection-end-line="47" selection-end-column="61" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/Scenes/LoseScene.cpp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="145">
@@ -797,52 +800,31 @@
     <entry file="file://$PROJECT_DIR$/src/Scenes/WinScene.cpp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="841">
-          <caret line="29" column="55" selection-start-line="29" selection-start-column="55" selection-end-line="29" selection-end-column="55" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Enemy.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="280">
-          <caret line="42" column="60" selection-start-line="42" selection-start-column="60" selection-end-line="42" selection-end-column="60" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Scenes/StageSelectScene.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="87">
-          <caret line="13" column="80" selection-start-line="13" selection-start-column="80" selection-end-line="13" selection-end-column="80" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Scenes/MainScene.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-89">
-          <caret line="30" column="31" selection-start-line="30" selection-start-column="31" selection-end-line="30" selection-end-column="31" />
-          <folding>
-            <element signature="e#0#21#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="203">
-          <caret line="28" column="37" selection-start-line="28" selection-start-column="37" selection-end-line="28" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="286">
-          <caret line="29" column="17" selection-start-line="29" selection-start-column="17" selection-end-line="29" selection-end-column="17" />
+          <caret line="29" column="56" selection-start-line="29" selection-start-column="56" selection-end-line="29" selection-end-column="56" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Scenes/PlayScene.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="249">
-          <caret line="400" column="41" lean-forward="true" selection-start-line="400" selection-start-column="41" selection-end-line="400" selection-end-column="41" />
+        <state relative-caret-position="421">
+          <caret line="401" column="18" selection-start-line="401" selection-start-column="18" selection-end-line="401" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Scenes/MainScene.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="261">
+          <caret line="32" column="58" selection-start-line="32" selection-start-column="58" selection-end-line="32" selection-end-column="58" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Label.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="203">
+          <caret line="13" column="30" selection-start-line="13" selection-start-column="30" selection-end-line="13" selection-end-column="30" />
+          <folding>
+            <element signature="e#0#17#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
