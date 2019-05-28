@@ -36,6 +36,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/Mini2.dir/src/Turret/LaserTurret.cpp.obj"
   "CMakeFiles/Mini2.dir/src/Turret/MachineGunTurret.cpp.obj"
   "CMakeFiles/Mini2.dir/src/Turret/MissileTurret.cpp.obj"
+  "CMakeFiles/Mini2.dir/src/Turret/SlimeTurret.cpp.obj"
+  "CMakeFiles/Mini2.dir/src/Enemy/AegisEnemy.cpp.obj"
   "CMakeFiles/Mini2.dir/src/Enemy/PlaneEnemy.cpp.obj"
   "CMakeFiles/Mini2.dir/src/Enemy/SoldierEnemy.cpp.obj"
   "CMakeFiles/Mini2.dir/src/Enemy/TankEnemy.cpp.obj"

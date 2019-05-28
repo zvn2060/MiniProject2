@@ -34,7 +34,6 @@ void MainScene::Initialize() {
 }
 
 void MainScene::SettingOnClick( int stage ){
-	SettingScene * scene = dynamic_cast<SettingScene *>(Engine::GameEngine::GetInstance().GetScene( "setting" ));
 	Engine::GameEngine::GetInstance().ChangeScene( "setting" );
 }
 
@@ -45,5 +44,5 @@ void MainScene::BackOnclick( int stage ){
 void MainScene::PlayOnclick( int stage ){
 	PlayScene* scene = dynamic_cast<PlayScene*>(Engine::GameEngine::GetInstance().GetScene("play"));
 	scene->MapId = stage;
-	Engine::GameEngine::GetInstance().ChangeScene("play");
+	Engine::GameEngine::GetInstance().ChangeScene("stage-select");
 }

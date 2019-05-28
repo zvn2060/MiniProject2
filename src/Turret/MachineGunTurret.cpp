@@ -5,7 +5,6 @@
 
 const int MachineGunTurret::Price = 50;
 MachineGunTurret::MachineGunTurret(float x, float y) :
-	// TODO 2 (2/8): You can imitate the 2 files: 'MachineGunTurret.hpp', 'MachineGunTurret.cpp' to create a new turret.
 	Turret("play/tower-base.png", "play/turret-1.png", x, y, 200, Price, 0.5) {
 	// Move center downward, since we the turret head is slightly biased upward.
 	Anchor.y += 8.0f / GetBitmapHeight();

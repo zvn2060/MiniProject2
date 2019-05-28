@@ -19,8 +19,7 @@ int main( int argc, char ** argv ){
 	Engine::GameEngine& game = Engine::GameEngine::GetInstance();
 	CreateScenes();
 	
-	// TODO 1 (1/2): Add a New Scene here and change the start scene below.
-	game.Start( "main", 60, game.GetScreenFullWidth(), game.GetScreenFullHeight() );
+	game.Start( "main", 60, 1600, 832 );
 	return 0;
 }
 

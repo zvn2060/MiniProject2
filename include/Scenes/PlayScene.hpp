@@ -60,6 +60,7 @@ public:
 	void ReadEnemyWave();
 	void ConstructUI();
 	void UIBtnClicked(int id);
+	void BackOnclick();
 	bool CheckSpaceValid(int x, int y);
 	std::vector<std::vector<int>> CalculateBFSDistance();
 	// void ModifyReadMapTiles();

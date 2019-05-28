@@ -8,211 +8,217 @@
 		<Option virtualFolders="CMake Files\;"/>
 		<Build>
 			<Target title="all">
-				<Option working_dir="D:/Documents/I2P 2/Mini2/cmake-build-debug"/>
+				<Option working_dir="D:/document/MiniProject2/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/Documents/I2P 2/Mini2/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
-					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/Documents/I2P 2/Mini2/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/Documents/I2P 2/Mini2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/Documents/I2P 2/Mini2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/document/MiniProject2/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/document/MiniProject2/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/document/MiniProject2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/document/MiniProject2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="edit_cache">
-				<Option working_dir="D:/Documents/I2P 2/Mini2/cmake-build-debug"/>
+				<Option working_dir="D:/document/MiniProject2/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/Documents/I2P 2/Mini2/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
-					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/Documents/I2P 2/Mini2/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/Documents/I2P 2/Mini2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/Documents/I2P 2/Mini2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/document/MiniProject2/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/document/MiniProject2/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/document/MiniProject2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/document/MiniProject2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="Mini2">
-				<Option output="D:/Documents/I2P 2/Mini2/game/Mini2.exe" prefix_auto="0" extension_auto="0"/>
+				<Option output="D:/document/MiniProject2/game/Mini2.exe" prefix_auto="0" extension_auto="0"/>
 				<Option working_dir="../game/"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="D:/Documents/I2P 2/Mini2/allegro5/include"/>
-					<Add directory="D:/Documents/I2P 2/Mini2/include"/>
-					<Add directory="D:/Documents/I2P 2/Mini2/include/Scenes"/>
-					<Add directory="D:/Documents/I2P 2/Mini2/include/Bullet"/>
-					<Add directory="D:/Documents/I2P 2/Mini2/include/Turret"/>
-					<Add directory="D:/Documents/I2P 2/Mini2/include/Enemy"/>
-					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include/c++"/>
-					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include/c++/mingw32"/>
-					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include/c++/backward"/>
-					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include"/>
-					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/../../../../include"/>
-					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include-fixed"/>
+					<Add directory="D:/document/MiniProject2/allegro5/include"/>
+					<Add directory="D:/document/MiniProject2/include"/>
+					<Add directory="D:/document/MiniProject2/include/Scenes"/>
+					<Add directory="D:/document/MiniProject2/include/Bullet"/>
+					<Add directory="D:/document/MiniProject2/include/Turret"/>
+					<Add directory="D:/document/MiniProject2/include/Enemy"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/8.2.0/include/c++"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/8.2.0/include/c++/mingw32"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/8.2.0/include/c++/backward"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/8.2.0/include"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/8.2.0/../../../../include"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/8.2.0/include-fixed"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/Documents/I2P 2/Mini2/cmake-build-debug/Makefile&quot;  VERBOSE=1 Mini2"/>
-					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/Documents/I2P 2/Mini2/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/Documents/I2P 2/Mini2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/Documents/I2P 2/Mini2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/document/MiniProject2/cmake-build-debug/Makefile&quot;  VERBOSE=1 Mini2"/>
+					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/document/MiniProject2/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/document/MiniProject2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/document/MiniProject2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="Mini2/fast">
-				<Option output="D:/Documents/I2P 2/Mini2/game/Mini2.exe" prefix_auto="0" extension_auto="0"/>
+				<Option output="D:/document/MiniProject2/game/Mini2.exe" prefix_auto="0" extension_auto="0"/>
 				<Option working_dir="../game/"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="D:/Documents/I2P 2/Mini2/allegro5/include"/>
-					<Add directory="D:/Documents/I2P 2/Mini2/include"/>
-					<Add directory="D:/Documents/I2P 2/Mini2/include/Scenes"/>
-					<Add directory="D:/Documents/I2P 2/Mini2/include/Bullet"/>
-					<Add directory="D:/Documents/I2P 2/Mini2/include/Turret"/>
-					<Add directory="D:/Documents/I2P 2/Mini2/include/Enemy"/>
-					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include/c++"/>
-					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include/c++/mingw32"/>
-					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include/c++/backward"/>
-					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include"/>
-					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/../../../../include"/>
-					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include-fixed"/>
+					<Add directory="D:/document/MiniProject2/allegro5/include"/>
+					<Add directory="D:/document/MiniProject2/include"/>
+					<Add directory="D:/document/MiniProject2/include/Scenes"/>
+					<Add directory="D:/document/MiniProject2/include/Bullet"/>
+					<Add directory="D:/document/MiniProject2/include/Turret"/>
+					<Add directory="D:/document/MiniProject2/include/Enemy"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/8.2.0/include/c++"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/8.2.0/include/c++/mingw32"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/8.2.0/include/c++/backward"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/8.2.0/include"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/8.2.0/../../../../include"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/8.2.0/include-fixed"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/Documents/I2P 2/Mini2/cmake-build-debug/Makefile&quot;  VERBOSE=1 Mini2/fast"/>
-					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/Documents/I2P 2/Mini2/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/Documents/I2P 2/Mini2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/Documents/I2P 2/Mini2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/document/MiniProject2/cmake-build-debug/Makefile&quot;  VERBOSE=1 Mini2/fast"/>
+					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/document/MiniProject2/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/document/MiniProject2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/document/MiniProject2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="rebuild_cache">
-				<Option working_dir="D:/Documents/I2P 2/Mini2/cmake-build-debug"/>
+				<Option working_dir="D:/document/MiniProject2/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/Documents/I2P 2/Mini2/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
-					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/Documents/I2P 2/Mini2/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/Documents/I2P 2/Mini2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/Documents/I2P 2/Mini2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/document/MiniProject2/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/document/MiniProject2/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/document/MiniProject2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/document/MiniProject2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="D:/Documents/I2P 2/Mini2/src/Allegro5Exception.cpp">
+		<Unit filename="D:/document/MiniProject2/src/Allegro5Exception.cpp">
 			<Option target="Mini2"/>
 		</Unit>
-		<Unit filename="D:/Documents/I2P 2/Mini2/src/AudioHelper.cpp">
+		<Unit filename="D:/document/MiniProject2/src/AudioHelper.cpp">
 			<Option target="Mini2"/>
 		</Unit>
-		<Unit filename="D:/Documents/I2P 2/Mini2/src/Bullet.cpp">
+		<Unit filename="D:/document/MiniProject2/src/Bullet.cpp">
 			<Option target="Mini2"/>
 		</Unit>
-		<Unit filename="D:/Documents/I2P 2/Mini2/src/Bullet/FireBullet.cpp">
+		<Unit filename="D:/document/MiniProject2/src/Bullet/FireBullet.cpp">
 			<Option target="Mini2"/>
 		</Unit>
-		<Unit filename="D:/Documents/I2P 2/Mini2/src/Bullet/LaserBullet.cpp">
+		<Unit filename="D:/document/MiniProject2/src/Bullet/LaserBullet.cpp">
 			<Option target="Mini2"/>
 		</Unit>
-		<Unit filename="D:/Documents/I2P 2/Mini2/src/Bullet/MissileBullet.cpp">
+		<Unit filename="D:/document/MiniProject2/src/Bullet/MissileBullet.cpp">
 			<Option target="Mini2"/>
 		</Unit>
-		<Unit filename="D:/Documents/I2P 2/Mini2/src/Bullet/StickyBullet.cpp">
+		<Unit filename="D:/document/MiniProject2/src/Bullet/StickyBullet.cpp">
 			<Option target="Mini2"/>
 		</Unit>
-		<Unit filename="D:/Documents/I2P 2/Mini2/src/Collider.cpp">
+		<Unit filename="D:/document/MiniProject2/src/Collider.cpp">
 			<Option target="Mini2"/>
 		</Unit>
-		<Unit filename="D:/Documents/I2P 2/Mini2/src/DirtyEffect.cpp">
+		<Unit filename="D:/document/MiniProject2/src/DirtyEffect.cpp">
 			<Option target="Mini2"/>
 		</Unit>
-		<Unit filename="D:/Documents/I2P 2/Mini2/src/Enemy.cpp">
+		<Unit filename="D:/document/MiniProject2/src/Enemy.cpp">
 			<Option target="Mini2"/>
 		</Unit>
-		<Unit filename="D:/Documents/I2P 2/Mini2/src/Enemy/PlaneEnemy.cpp">
+		<Unit filename="D:/document/MiniProject2/src/Enemy/AegisEnemy.cpp">
 			<Option target="Mini2"/>
 		</Unit>
-		<Unit filename="D:/Documents/I2P 2/Mini2/src/Enemy/SoldierEnemy.cpp">
+		<Unit filename="D:/document/MiniProject2/src/Enemy/PlaneEnemy.cpp">
 			<Option target="Mini2"/>
 		</Unit>
-		<Unit filename="D:/Documents/I2P 2/Mini2/src/Enemy/TankEnemy.cpp">
+		<Unit filename="D:/document/MiniProject2/src/Enemy/SoldierEnemy.cpp">
 			<Option target="Mini2"/>
 		</Unit>
-		<Unit filename="D:/Documents/I2P 2/Mini2/src/ExplosionEffect.cpp">
+		<Unit filename="D:/document/MiniProject2/src/Enemy/TankEnemy.cpp">
 			<Option target="Mini2"/>
 		</Unit>
-		<Unit filename="D:/Documents/I2P 2/Mini2/src/GameEngine.cpp">
+		<Unit filename="D:/document/MiniProject2/src/ExplosionEffect.cpp">
 			<Option target="Mini2"/>
 		</Unit>
-		<Unit filename="D:/Documents/I2P 2/Mini2/src/Group.cpp">
+		<Unit filename="D:/document/MiniProject2/src/GameEngine.cpp">
 			<Option target="Mini2"/>
 		</Unit>
-		<Unit filename="D:/Documents/I2P 2/Mini2/src/IControl.cpp">
+		<Unit filename="D:/document/MiniProject2/src/Group.cpp">
 			<Option target="Mini2"/>
 		</Unit>
-		<Unit filename="D:/Documents/I2P 2/Mini2/src/IObject.cpp">
+		<Unit filename="D:/document/MiniProject2/src/IControl.cpp">
 			<Option target="Mini2"/>
 		</Unit>
-		<Unit filename="D:/Documents/I2P 2/Mini2/src/IScene.cpp">
+		<Unit filename="D:/document/MiniProject2/src/IObject.cpp">
 			<Option target="Mini2"/>
 		</Unit>
-		<Unit filename="D:/Documents/I2P 2/Mini2/src/Image.cpp">
+		<Unit filename="D:/document/MiniProject2/src/IScene.cpp">
 			<Option target="Mini2"/>
 		</Unit>
-		<Unit filename="D:/Documents/I2P 2/Mini2/src/ImageButton.cpp">
+		<Unit filename="D:/document/MiniProject2/src/Image.cpp">
 			<Option target="Mini2"/>
 		</Unit>
-		<Unit filename="D:/Documents/I2P 2/Mini2/src/LOG.cpp">
+		<Unit filename="D:/document/MiniProject2/src/ImageButton.cpp">
 			<Option target="Mini2"/>
 		</Unit>
-		<Unit filename="D:/Documents/I2P 2/Mini2/src/Label.cpp">
+		<Unit filename="D:/document/MiniProject2/src/LOG.cpp">
 			<Option target="Mini2"/>
 		</Unit>
-		<Unit filename="D:/Documents/I2P 2/Mini2/src/Plane.cpp">
+		<Unit filename="D:/document/MiniProject2/src/Label.cpp">
 			<Option target="Mini2"/>
 		</Unit>
-		<Unit filename="D:/Documents/I2P 2/Mini2/src/Point.cpp">
+		<Unit filename="D:/document/MiniProject2/src/Plane.cpp">
 			<Option target="Mini2"/>
 		</Unit>
-		<Unit filename="D:/Documents/I2P 2/Mini2/src/Resources.cpp">
+		<Unit filename="D:/document/MiniProject2/src/Point.cpp">
 			<Option target="Mini2"/>
 		</Unit>
-		<Unit filename="D:/Documents/I2P 2/Mini2/src/Scenes/LoseScene.cpp">
+		<Unit filename="D:/document/MiniProject2/src/Resources.cpp">
 			<Option target="Mini2"/>
 		</Unit>
-		<Unit filename="D:/Documents/I2P 2/Mini2/src/Scenes/MainScene.cpp">
+		<Unit filename="D:/document/MiniProject2/src/Scenes/LoseScene.cpp">
 			<Option target="Mini2"/>
 		</Unit>
-		<Unit filename="D:/Documents/I2P 2/Mini2/src/Scenes/PlayScene.cpp">
+		<Unit filename="D:/document/MiniProject2/src/Scenes/MainScene.cpp">
 			<Option target="Mini2"/>
 		</Unit>
-		<Unit filename="D:/Documents/I2P 2/Mini2/src/Scenes/SettingScene.cpp">
+		<Unit filename="D:/document/MiniProject2/src/Scenes/PlayScene.cpp">
 			<Option target="Mini2"/>
 		</Unit>
-		<Unit filename="D:/Documents/I2P 2/Mini2/src/Scenes/StageSelectScene.cpp">
+		<Unit filename="D:/document/MiniProject2/src/Scenes/SettingScene.cpp">
 			<Option target="Mini2"/>
 		</Unit>
-		<Unit filename="D:/Documents/I2P 2/Mini2/src/Scenes/WinScene.cpp">
+		<Unit filename="D:/document/MiniProject2/src/Scenes/StageSelectScene.cpp">
 			<Option target="Mini2"/>
 		</Unit>
-		<Unit filename="D:/Documents/I2P 2/Mini2/src/Slider.cpp">
+		<Unit filename="D:/document/MiniProject2/src/Scenes/WinScene.cpp">
 			<Option target="Mini2"/>
 		</Unit>
-		<Unit filename="D:/Documents/I2P 2/Mini2/src/Sprite.cpp">
+		<Unit filename="D:/document/MiniProject2/src/Slider.cpp">
 			<Option target="Mini2"/>
 		</Unit>
-		<Unit filename="D:/Documents/I2P 2/Mini2/src/Turret.cpp">
+		<Unit filename="D:/document/MiniProject2/src/Sprite.cpp">
 			<Option target="Mini2"/>
 		</Unit>
-		<Unit filename="D:/Documents/I2P 2/Mini2/src/Turret/LaserTurret.cpp">
+		<Unit filename="D:/document/MiniProject2/src/Turret.cpp">
 			<Option target="Mini2"/>
 		</Unit>
-		<Unit filename="D:/Documents/I2P 2/Mini2/src/Turret/MachineGunTurret.cpp">
+		<Unit filename="D:/document/MiniProject2/src/Turret/LaserTurret.cpp">
 			<Option target="Mini2"/>
 		</Unit>
-		<Unit filename="D:/Documents/I2P 2/Mini2/src/Turret/MissileTurret.cpp">
+		<Unit filename="D:/document/MiniProject2/src/Turret/MachineGunTurret.cpp">
 			<Option target="Mini2"/>
 		</Unit>
-		<Unit filename="D:/Documents/I2P 2/Mini2/src/TurretButton.cpp">
+		<Unit filename="D:/document/MiniProject2/src/Turret/MissileTurret.cpp">
 			<Option target="Mini2"/>
 		</Unit>
-		<Unit filename="D:/Documents/I2P 2/Mini2/src/main.cpp">
+		<Unit filename="D:/document/MiniProject2/src/Turret/SlimeTurret.cpp">
 			<Option target="Mini2"/>
 		</Unit>
-		<Unit filename="D:/Documents/I2P 2/Mini2/CMakeLists.txt">
+		<Unit filename="D:/document/MiniProject2/src/TurretButton.cpp">
+			<Option target="Mini2"/>
+		</Unit>
+		<Unit filename="D:/document/MiniProject2/src/main.cpp">
+			<Option target="Mini2"/>
+		</Unit>
+		<Unit filename="D:/document/MiniProject2/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>
 	</Project>

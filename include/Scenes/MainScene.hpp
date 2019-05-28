@@ -8,6 +8,7 @@
 class MainScene final : public Engine::IScene{
 private:
 	ALLEGRO_SAMPLE_INSTANCE* bgmInstance;
+
 public:
 	explicit MainScene() = default;
 	void Initialize() override;

@@ -1,4 +1,4 @@
-# Install script for directory: D:/Documents/I2P 2/Mini2
+# Install script for directory: D:/document/MiniProject2
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -40,5 +40,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "D:/Documents/I2P 2/Mini2/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "D:/document/MiniProject2/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")
