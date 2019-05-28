@@ -11,8 +11,7 @@ public:
 	explicit StageSelectScene() = default;
 	void Initialize() override;
 	void PlayOnClick(int stage);
-	void BGMSlideOnValueChanged(float value);
-	void SFXSlideOnValueChanged(float value);
+	void ConstructStageList();
 };
 
 #endif // STAGESELECTSCENE_HPP
