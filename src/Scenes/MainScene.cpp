@@ -1,6 +1,7 @@
 #include <functional>
 #include <memory>
 #include <string>
+#include <iostream>
 #include "AudioHelper.hpp"
 #include "GameEngine.hpp"
 #include "ImageButton.hpp"
@@ -29,8 +30,7 @@ void MainScene::Initialize() {
 								   100 );
 	btn->SetOnClickCallback( std::bind( &MainScene::PlayOnclick, this, 1 ) );
 	AddNewControlObject( btn );
-	
-	AddNewObject( new Engine::Label( "戰鬥 !", "SoukouMincho.ttf", 48, halfW, halfH + 250, 255, 0, 0, 255, 0.5, 0.5 ) );
+	AddNewObject( new Engine::Label( "다국어 폰트 테스트 !", "NanumSquare_acR.ttf", 48, halfW, halfH + 250, 255, 0, 0, 255, 0.5, 0.5 ) );
 	AudioHelper::PlayBGM( "select.ogg" );
 }
 
